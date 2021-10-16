@@ -35,10 +35,14 @@ events = []
 
 # Our main
 def run_sim():
+
     for string in sphere_strings:
         sphere_list.append(Sphere(string))
-
+        
     print("Sphere list: ", sphere_list)
+
+def report_event(event):
+    print("event report")
 
 
 def report_event(event):
@@ -73,3 +77,4 @@ print("Here are the events:")
 
 for event in events:
     report_event(event)
+
