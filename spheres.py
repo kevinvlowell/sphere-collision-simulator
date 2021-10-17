@@ -114,21 +114,75 @@ def compute_reflection_time(sphere,radius):
 
 # get collsion results
 def compute_collision(sphere_a, sphere_b):
+	# compile variables
+	m1 = sphere_a.mass
+	m2 = sphere_b.mass
+
+	r1 = sphere_a.radius
+	r2 = sphere_b.radius
+
+	pos1_x = sphere_a.pos_x
+	pos1_y = sphere_a.pos_y
+	pos1_z = sphere_a.pos_z
+	pos2_x = sphere_b.pos_x
+	pos2_y = sphere_b.pos_y
+	pos2_z = sphere_b.pos_z
+
 	v1_x = sphere_a.vel_x
 	v1_y = sphere_a.vel_y
 	v1_z = sphere_a.vel_z
 	v1_x = sphere_b.vel_x
 	v1_y = sphere_b.vel_y
 	v1_z = sphere_b.vel_z
+	
+	# compute inbetween values
+	dot_product_1_top = (v1_x-v2_x)*(pos1_x-pos2_x) + (v1_y-v2_y)*(pos1_y-pos2_y) + (v1_z-v2_z)*(pos1_z-pos2_z)
+	dot_product_1_bottom = (pos1_x-pos2_x)**2 + (pos1_y-pos2_y)**2 + (pos1_z-pos2_z)**2
+	
+	dot_product_2_top = (v2_x-v1_x)*(pos2_x-pos1_x) + (v2_y-v1_y)*(pos2_y-pos1_y) + (v2_z-v1_z)*(pos2_z-pos1_z)
+	dot_product_2_bottom = (pos2_x-pos1_x)**2 + (pos2_y-pos1_y)**2 + (pos2_z-pos1_z)**2
 
-	v1_x_prime = 0
+	# compute 
+	v1_x_prime = v1_x - (2*m2*dot_product_1_top*(pos1_x-pos2_x)) / ((m1+m2)*dot_product_1_bottom) 
+	v1_y_prime = v1_y - (2*m2*dot_product_1_top*(pos1_y-pos2_y)) / ((m1+m2)*dot_product_1_bottom)
+	v1_z_prime = v1_z - (2*m2*dot_product_1_top*(pos1_z-pos2_z)) / ((m1+m2)*dot_product_1_bottom)
 
-	pass
+	v2_x_prime = v2_x - (2*m1*dot_product_2_top*(pos2_x-pos1_x)) / ((m1+m2)*dot_product_2_bottom)
+	v2_y_prime = v2_y - (2*m1*dot_product_2_top*(pos2_y-pos1_y)) / ((m1+m2)*dot_product_2_bottom)
+	v2_z_prime = v2_z - (2*m1*dot_product_2_top*(pos2_z-pos1_z)) / ((m1+m2)*dot_product_2_bottom)
+
+	sphere_a.vel_x = v1_x_prime
+	sphere_a.vel_y = v1_y_prime
+	sphere_a.vel_z = v1_z_prime
+
+	sphere_b.vel_x = v2_x_prime
+	sphere_b.vel_y = v2_y_prime
+	sphere_b.vel_z = v2_z_prime
 
 
+# get reflection results
 def compute_reflection(sphere):
 	pass
 
+
+def compute_energy(sphere_list, energy):
+	sum_energy = 0
+	for sphere in sphere_list:
+		sum_energy = sum_energy + ((1/2)*sphere.mass*(sphere.vel_x**2+sphere.vel_y**2+sphere.vel_z**2))
+	energy = sum_energy
+
+
+def compute_momentum(sphere_list, momentum):
+	curr_mass = 0
+	momentum_x = 0
+	momentum_y = 0
+	momentum_z = 0
+	for sphere in sphere_list:
+		momentum_x = momentum_x + (sphere.mass*sphere.vel_x)
+		momentum_y = momentum_y + (sphere.mass*sphere.vel_y)
+		momentum_z = momentum_z + (sphere.mass*sphere.vel_z)
+		
+	momentum = [momentum_x,momentum_y,momentum_z]
 
 # Our main
 def run_sim(radius, duration):
