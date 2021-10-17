@@ -32,7 +32,7 @@ class Sphere:
 # EVENT CLASS
 class Event:
 
-    def __init__(self,log,sphere_a,sphere_b,spheres):
+    def __init__(self,log,sphere_a,sphere_b,spheres,momentum):
         taken_spheres = {sphere_a.name}
         log_other_spheres = []
 
@@ -52,7 +52,7 @@ class Event:
                 log_other_spheres.append(sphere)
 
         self.energy = log[4]
-        self.momentum  = log[5]
+        self.momentum  = momentum
 
 
 
@@ -95,7 +95,7 @@ def run_sim(radius, duration):
     print("\nHere are the initial conditions.")
     print("universe radius " + str(radius))
     print("end simulation " + str(int(duration)))
-    
+
     for sphere in sphere_list:
         print(sphere.name, "m="+str(sphere.mass), "R="+str(sphere.radius),\
         "p=(" + str(int(sphere.pos_x)) + "," + str(int(sphere.pos_y)) + "," + str(int(sphere.pos_z)) + ")",\
@@ -188,10 +188,28 @@ def run_sim(radius, duration):
 
     #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
     print("\nnearest_event_time:", nearest_event_time)
+    # end simulation once nearest event is past the existence of the universe
+    if(nearest_event_time > sim_duration):
+         sys.exit()
+
 
     if next_event_type == "reflecting":
+        # Compute event changes
+
+
+        # Populate log and create event
+        event_log = [str(nearest_event_time), next_event_type, next_reflecting_sphere.name, "", str(int(energy))]
+        current_event = Event(event_log, next_reflecting_sphere, None, sphere_list,momentum)
         pass
     elif next_event_type == "colliding":
+        # Compute event changes
+        
+        
+        # Populate log and create event
+        event_log = [str(nearest_event_time), next_event_type, sphere_list[next_colliding_pair_indices[0]].name, 
+                    sphere_list[next_colliding_pair_indices[1]].name, str(int(energy))]
+        current_event = Event(event_log, next_event_type, sphere_list[next_colliding_pair_indices[0]],
+                    sphere_list[next_colliding_pair_indices[1]], sphere_list, momentum)
         pass
     else:
         pass
