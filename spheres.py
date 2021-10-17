@@ -35,27 +35,21 @@ class Sphere:
 # EVENT CLASS
 class Event:
 
-    def __init__(self,log,sphere_a,sphere_b,spheres,momentum):
-        taken_spheres = {sphere_a.name}
-        log_other_spheres = []
+    #assumes we would pass the list of spheres after adjusting the velocities in the simulation code according to the event
+    #would also calculate new energy and momentum for arguments immediately prior to creating event
+    def __init__(self, event_time, event_type, sphere_a, sphere_b, all_spheres, energy, momentum):
 
-        self.timestamp = float(log[0])
-        self.type = log[1]
+        self.sphere_names_involved = [sphere_a.name]
+        self.new_sphere_statuses = all_spheres #can (hopefully) index this list to get saved attributes of all spheres at the time of the event
 
-        if(self.type == "colliding"):
-            self.colliding = {log[2], log[3]}
-            self.colliding_1 = sphere_a
-            self.colliding_2 = sphere_b
-            taken_spheres.append(sphere_b.name)
-        elif(self.type == "reflecting"):
-            self.colliding_1 = sphere_a
+        self.timestamp = float(event_time)
+        self.type = event_type
 
-        for sphere in spheres:
-            if sphere.name not in taken_spheres:
-                log_other_spheres.append(sphere)
+        if self.type == "colliding":
+            self.spheres_names_involved.append(sphere_b.name)
 
-        self.energy = log[4]
-        self.momentum  = momentum
+        self.energy = energy
+        self.momentum = momentum
 
 
 ######################################################################################################
@@ -111,7 +105,7 @@ def run_sim(radius, duration):
     print("momentum: (" + str(int(momentum[0])) + "," + str(int(momentum[1])) + "," + str(int(momentum[2])) + ")")
 
     #begin simulation
-    ##determine the time of the first event by evaluating all possible collision times from starting 
+    ##determine the time of the first event by evaluating all possible collision times from starting
     # positions, and choosing event that happens soonest
     nearest_event_time = -1
     next_colliding_pair_indices = []
@@ -160,7 +154,7 @@ def run_sim(radius, duration):
             #increment j to look at next possible sphere pair
             j += 1
 
-    #check sphere-to-wall collision times - WILL NEED TESTING ONCE VELOCITIES ARE BEING ADJUSTED; 
+    #check sphere-to-wall collision times - WILL NEED TESTING ONCE VELOCITIES ARE BEING ADJUSTED;
     # Notes (3.4)on assignment says objects are never initially in a overlapping or colliding state
     for sphere in sphere_list:
 
@@ -188,27 +182,28 @@ def run_sim(radius, duration):
     print("\nnearest_event_time:", nearest_event_time)
     # end simulation once nearest event is past the existence of the universe
     if(nearest_event_time > sim_duration):
-         sys.exit()
+         sys.exit(0)
 
 
     if next_event_type == "reflecting":
-        # Compute event changes
+        # Compute new velocities, system energy, and system momentum
 
 
-        # Populate log and create event
-        event_log = [str(nearest_event_time), next_event_type, next_reflecting_sphere.name, "", str(int(energy))]
-        current_event = Event(event_log, next_reflecting_sphere, None, sphere_list,momentum)
-        pass
+        #create an event and append to event list
+        current_event = Event(nearest_event_time, next_event_type, next_reflecting_sphere, None, sphere_list, energy, momentum)
+        event_list.append(current_event)
+
     elif next_event_type == "colliding":
-        # Compute event changes
+        # Compute new velocities, system energy, and system momentum
+        colliding_sphere1 = sphere_list[next_colliding_pair_indices[0]]
+        colliding_sphere2 = sphere_list[next_colliding_pair_indices[1]]
 
-        
-        # Populate log and create event
-        event_log = [str(nearest_event_time), next_event_type, sphere_list[next_colliding_pair_indices[0]].name, 
-                    sphere_list[next_colliding_pair_indices[1]].name, str(int(energy))]
-        current_event = Event(event_log, next_event_type, sphere_list[next_colliding_pair_indices[0]],
-                    sphere_list[next_colliding_pair_indices[1]], sphere_list, momentum)
-        pass
+
+
+        # create an event and append to event list
+        current_event = Event(nearest_event_time, next_event_type, colliding_sphere1, colliding_sphere2, sphere_list, energy, momentum)
+        event_list.append(current_event)
+
     else:
         pass
 
