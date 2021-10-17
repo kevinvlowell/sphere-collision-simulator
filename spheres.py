@@ -4,6 +4,9 @@
 
 import sys, math
 
+######################################################################################################
+######################################################################################################
+######################################################################################################
 class Sphere:
 
     def __init__(self, attributes_string):
@@ -55,7 +58,9 @@ class Event:
         self.momentum  = momentum
 
 
-
+######################################################################################################
+######################################################################################################
+######################################################################################################
 
 def minimum_pos_quadratic_soln(a, b, c):
     #returns the smallest positive value that solves the quadratic equation
@@ -74,13 +79,6 @@ def minimum_pos_quadratic_soln(a, b, c):
         return t2
     else:
         raise Exception("Error: no positive collision times.")
-
-
-
-
-sphere_strings = []
-sphere_list = []
-events = []
 
 # Our main
 
@@ -203,7 +201,7 @@ def run_sim(radius, duration):
         pass
     elif next_event_type == "colliding":
         # Compute event changes
-        
+
         
         # Populate log and create event
         event_log = [str(nearest_event_time), next_event_type, sphere_list[next_colliding_pair_indices[0]].name, 
@@ -224,6 +222,14 @@ def run_sim(radius, duration):
 def report_event(event):
     print("event report")
 
+######################################################################################################
+######################################################################################################
+######################################################################################################
+
+
+sphere_strings = []
+sphere_list = []
+events = []
 
 
 initial_conditions = sys.argv
