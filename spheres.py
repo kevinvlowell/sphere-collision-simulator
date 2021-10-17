@@ -7,6 +7,9 @@ import sys, math
 ######################################################################################################
 ######################################################################################################
 ######################################################################################################
+
+
+# Sphere Class
 class Sphere:
 
     def __init__(self, attributes_string):
@@ -31,8 +34,7 @@ class Sphere:
             raise Exception("Attributes not properly specified for sphere creation. Please check input and try again.")
 
 
-
-# EVENT CLASS
+# Event Class
 class Event:
 
     #assumes we would pass the list of spheres after adjusting the velocities in the simulation code according to the event
@@ -46,7 +48,7 @@ class Event:
         self.type = event_type
 
         if self.type == "colliding":
-            self.spheres_names_involved.append(sphere_b.name)
+            self.sphere_names_involved.append(sphere_b.name)
 
         self.energy = energy
         self.momentum = momentum
@@ -55,6 +57,7 @@ class Event:
 ######################################################################################################
 ######################################################################################################
 ######################################################################################################
+
 
 def minimum_pos_quadratic_soln(a, b, c):
     #returns the smallest positive value that solves the quadratic equation
@@ -74,8 +77,60 @@ def minimum_pos_quadratic_soln(a, b, c):
     else:
         raise Exception("Error: no positive collision times.")
 
-# Our main
 
+def compute_collision_time(s1, s2):
+	#only consider sphere pairs that are approaching each other, aka if <(r1-r2),(v1-v2)> less than 0
+	pos_diff_x = s1.pos_x-s2.pos_x
+	pos_diff_y = s1.pos_y-s2.pos_y
+	pos_diff_z = s1.pos_z-s2.pos_z
+
+	vel_diff_x = s1.vel_x-s2.vel_x
+	vel_diff_y = s1.vel_y-s2.vel_y
+	vel_diff_z = s1.vel_z-s2.vel_z
+
+	if (pos_diff_x*vel_diff_x + pos_diff_y*vel_diff_y + pos_diff_z*vel_diff_z) < 0:
+		#calculate quadratic equation coefficients based on current sphere pair
+		## a = <v1,v1> - 2<v1,v2> + <v2,v2>
+		a = (s1.vel_x**2 + s1.vel_y**2 + s1.vel_z**2) - 2*(s1.vel_x*s2.vel_x + s1.vel_y*s2.vel_y + s1.vel_z*s2.vel_z) + (s2.vel_x**2 + s2.vel_y**2 + s2.vel_z**2)
+		## b = <p1,v1> - <p1,v2> - <p2,v1> + <p2,v2>
+		b = (s1.pos_x*s1.vel_x + s1.pos_y*s1.vel_y + s1.pos_z*s1.vel_z) - (s1.pos_x*s2.vel_x + s1.pos_y*s2.vel_y + s2.pos_z*s1.vel_z) - (s2.pos_x*s1.vel_x + s2.pos_y*s1.vel_y + s2.pos_z*s1.vel_z) + (s2.pos_x*s2.vel_x + s2.pos_y*s2.vel_y + s2.pos_z*s2.vel_z)
+		## c = <p1,p1> - 2<p1,p2> + <p2,p2> - (R1 + R2)**2
+		c = (s1.pos_x**2 + s1.pos_y**2 + s1.pos_z**2) - 2*(s1.pos_x*s2.pos_x + s1.pos_y*s2.pos_y + s1.pos_z*s2.pos_z) + (s2.pos_x**2 + s2.pos_y**2 + s2.pos_z**2) - (s1.radius + s2.radius)**2
+
+		return minimum_pos_quadratic_soln(a,b,c)
+	return -2
+
+
+def compute_reflection_time(sphere,radius):
+	#check when each sphere would hit the wall if moving and not blocked
+	##checking to see if sphere is moving
+	if not(sphere.vel_x == 0 and sphere.vel_y == 0 and sphere.vel_z == 0):
+		a = sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2
+		b = (2*sphere.pos_x)*sphere.vel_x + (2*sphere.pos_y)*sphere.vel_y + (2*sphere.pos_z)*sphere.vel_z
+		c = sphere.pos_x**2 + sphere.pos_y**2 + sphere.pos_z**2 - (radius - sphere.radius)**2
+		return minimum_pos_quadratic_soln(a,b,c)
+	return -2
+
+
+# get collsion results
+def compute_collision(sphere_a, sphere_b):
+	v1_x = sphere_a.vel_x
+	v1_y = sphere_a.vel_y
+	v1_z = sphere_a.vel_z
+	v1_x = sphere_b.vel_x
+	v1_y = sphere_b.vel_y
+	v1_z = sphere_b.vel_z
+
+	v1_x_prime = 0
+
+	pass
+
+
+def compute_reflection(sphere):
+	pass
+
+
+# Our main
 def run_sim(radius, duration):
     for string in sphere_strings:
         sphere_list.append(Sphere(string))
@@ -104,75 +159,37 @@ def run_sim(radius, duration):
     print("energy:", str(int(energy)))
     print("momentum: (" + str(int(momentum[0])) + "," + str(int(momentum[1])) + "," + str(int(momentum[2])) + ")")
 
-    #begin simulation
-    ##determine the time of the first event by evaluating all possible collision times from starting
+    # begin simulation
+    ## determine the time of the first event by evaluating all possible collision times from starting
     # positions, and choosing event that happens soonest
     nearest_event_time = -1
     next_colliding_pair_indices = []
 
-    #check sphere-to-sphere collision times
+    # check sphere-to-sphere collision times
     for i in range(len(sphere_list)-1):
-
         s1 = sphere_list[i]
         j = i+1
 
         while j < len(sphere_list):
-
             s2 = sphere_list[j]
-
-            #only consider sphere pairs that are approaching each other, aka if <(r1-r2),(v1-v2)> less than 0
-            pos_diff_x = s1.pos_x-s2.pos_x
-            pos_diff_y = s1.pos_y-s2.pos_y
-            pos_diff_z = s1.pos_z-s2.pos_z
-
-            vel_diff_x = s1.vel_x-s2.vel_x
-            vel_diff_y = s1.vel_y-s2.vel_y
-            vel_diff_z = s1.vel_z-s2.vel_z
-
-            if (pos_diff_x*vel_diff_x + pos_diff_y*vel_diff_y + pos_diff_z*vel_diff_z) < 0:
-
-                #calculate quadratic equation coefficients based on current sphere pair
-
-                ## a = <v1,v1> - 2<v1,v2> + <v2,v2>
-                a = (s1.vel_x**2 + s1.vel_y**2 + s1.vel_z**2) - 2*(s1.vel_x*s2.vel_x + s1.vel_y*s2.vel_y + s1.vel_z*s2.vel_z) + (s2.vel_x**2 + s2.vel_y**2 + s2.vel_z**2)
-
-                ## b = <p1,v1> - <p1,v2> - <p2,v1> + <p2,v2>
-                b = (s1.pos_x*s1.vel_x + s1.pos_y*s1.vel_y + s1.pos_z*s1.vel_z) - (s1.pos_x*s2.vel_x + s1.pos_y*s2.vel_y + s2.pos_z*s1.vel_z) - (s2.pos_x*s1.vel_x + s2.pos_y*s1.vel_y + s2.pos_z*s1.vel_z) + (s2.pos_x*s2.vel_x + s2.pos_y*s2.vel_y + s2.pos_z*s2.vel_z)
-
-                ## c = <p1,p1> - 2<p1,p2> + <p2,p2> - (R1 + R2)**2
-                c = (s1.pos_x**2 + s1.pos_y**2 + s1.pos_z**2) - 2*(s1.pos_x*s2.pos_x + s1.pos_y*s2.pos_y + s1.pos_z*s2.pos_z) + (s2.pos_x**2 + s2.pos_y**2 + s2.pos_z**2) - (s1.radius + s2.radius)**2
-
-                # solve quadratic equation to find collision times for current sphere pair
-                current_event_time = minimum_pos_quadratic_soln(a,b,c)
-
-                #compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
-                if current_event_time < nearest_event_time or nearest_event_time == -1:
-                    nearest_event_time = current_event_time
-                    next_event_type = "colliding"
-                    next_colliding_pair_indices = [i, j]
-
-            #increment j to look at next possible sphere pair
+            current_event_time = compute_collision_time(s1,s2)
+            # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
+            if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2:
+                nearest_event_time = current_event_time
+                next_event_type = "colliding"
+                next_colliding_pair_indices = [i, j]
+            # increment j to look at next possible sphere pair
             j += 1
 
-    #check sphere-to-wall collision times - WILL NEED TESTING ONCE VELOCITIES ARE BEING ADJUSTED;
+    # check sphere-to-wall collision times - WILL NEED TESTING ONCE VELOCITIES ARE BEING ADJUSTED;
     # Notes (3.4)on assignment says objects are never initially in a overlapping or colliding state
     for sphere in sphere_list:
-
-            #check when each sphere would hit the wall if moving and not blocked
-
-            ##checking to see if sphere is moving
+            # check when each sphere would hit the wall if moving and not blocked
+            ## checking to see if sphere is moving
             if not(sphere.vel_x == 0 and sphere.vel_y == 0 and sphere.vel_z == 0):
-
-                a = sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2
-
-                b = (2*sphere.pos_x)*sphere.vel_x + (2*sphere.pos_y)*sphere.vel_y + (2*sphere.pos_z)*sphere.vel_z
-
-                c = sphere.pos_x**2 + sphere.pos_y**2 + sphere.pos_z**2 - (radius - sphere.radius)**2
-
-                current_event_time = minimum_pos_quadratic_soln(a,b,c)
-
-                #compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
-                if current_event_time < nearest_event_time or nearest_event_time == -1:
+                current_event_time = compute_reflection_time(sphere,radius)
+                # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
+                if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2:
                     nearest_event_time = current_event_time
                     next_event_type = "reflecting"
                     next_reflecting_sphere = sphere
@@ -210,21 +227,23 @@ def run_sim(radius, duration):
 
     print("\nHere are the events:")
 
-    for event in events:
+    for event in event_list:
         report_event(event)
 
 
 def report_event(event):
     print("event report")
 
+
 ######################################################################################################
 ######################################################################################################
 ######################################################################################################
 
 
+# Script starts here
 sphere_strings = []
 sphere_list = []
-events = []
+event_list = []
 
 
 initial_conditions = sys.argv
