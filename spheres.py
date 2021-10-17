@@ -28,7 +28,32 @@ class Sphere:
             raise Exception("Attributes not properly specified for sphere creation. Please check input and try again.")
 
 
-#SHOULD CONSIDER MAKING EVENT CLASS
+
+# EVENT CLASS
+class Event:
+
+    def __init__(self,log,sphere_a,sphere_b,spheres):
+        taken_spheres = {sphere_a.name}
+        log_other_spheres = []
+
+        self.timestamp = float(log[0])
+        self.type = log[1]
+
+        if(self.type == "colliding"):
+            self.colliding = {log[2], log[3]}
+            self.colliding_1 = sphere_a
+            self.colliding_2 = sphere_b
+            taken_spheres.append(sphere_b.name)
+        elif(self.type == "reflecting"):
+            self.colliding_1 = sphere_a
+
+        for sphere in spheres:
+            if sphere.name not in taken_spheres:
+                log_other_spheres.append(sphere)
+
+        self.energy = log[4]
+        self.momentum  = log[5]
+
 
 
 
@@ -69,11 +94,12 @@ def run_sim(radius, duration):
     #print out all initial conditions
     print("\nHere are the initial conditions.")
     print("universe radius " + str(radius))
-    print("end simulation " + str(duration))
+    print("end simulation " + str(int(duration)))
+    
     for sphere in sphere_list:
         print(sphere.name, "m="+str(sphere.mass), "R="+str(sphere.radius),\
-        "p=(" + str(sphere.pos_x) + "," + str(sphere.pos_y) + "," + str(sphere.pos_z) + ")",\
-        "v=(" + str(sphere.vel_x) + "," + str(sphere.vel_y) + "," + str(sphere.vel_z) + ")")
+        "p=(" + str(int(sphere.pos_x)) + "," + str(int(sphere.pos_y)) + "," + str(int(sphere.pos_z)) + ")",\
+        "v=(" + str(int(sphere.vel_x)) + "," + str(int(sphere.vel_y)) + "," + str(int(sphere.vel_z)) + ")")
 
         #calculate initial energy (0.5mv^2, summed over spheres) and momentum (mv vector)
         velocity_magnitude = (sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2)
@@ -83,12 +109,12 @@ def run_sim(radius, duration):
         momentum[1] += sphere.mass * sphere.vel_y
         momentum[2] += sphere.mass * sphere.vel_z
 
-    print("energy:", str(energy))
-    print("momentum: (" + str(momentum[0]) + "," + str(momentum[1]) + "," + str(momentum[2]) + ")")
+    print("energy:", str(int(energy)))
+    print("momentum: (" + str(int(momentum[0])) + "," + str(int(momentum[1])) + "," + str(int(momentum[2])) + ")")
 
     #begin simulation
-
-    ##determine the time of the first event by evaluating all possible collision times from starting positions, and choosing event that happens soonest
+    ##determine the time of the first event by evaluating all possible collision times from starting 
+    # positions, and choosing event that happens soonest
     nearest_event_time = -1
     next_colliding_pair_indices = []
 
@@ -136,7 +162,8 @@ def run_sim(radius, duration):
             #increment j to look at next possible sphere pair
             j += 1
 
-    #check sphere-to-wall collision times - WILL NEED TESTING ONCE VELOCITIES ARE BEING ADJUSTED; ALSO NEED TO ADD HANDLING FOR EDGE CASE OF SPHERE STARTING ON WALL
+    #check sphere-to-wall collision times - WILL NEED TESTING ONCE VELOCITIES ARE BEING ADJUSTED; 
+    # Notes (3.4)on assignment says objects are never initially in a overlapping or colliding state
     for sphere in sphere_list:
 
             #check when each sphere would hit the wall if moving and not blocked
