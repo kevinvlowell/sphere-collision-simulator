@@ -1,0 +1,30 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial conditions.
+universe radius 200.0
+end simulation 200.0
+zmover m=20 R=1 p=(0,0,10) v=(0,0,1.5)
+ymover m=20 R=2 p=(0,10,0) v=(0,2,0)
+xmover m=20 R=3 p=(10,0,0) v=(0.5,0,0)
+energy: 65
+momentum: (10,40,30)
+
+Here are the events.
+
+time of event: 94
+reflecting ymover
+zmover m=20 R=1 p=(0,0,151) v=(0,0,1.5)
+ymover m=20 R=2 p=(0,198,0) v=(0,-2,0)
+xmover m=20 R=3 p=(57,0,0) v=(0.5,0,0)
+energy: 65
+momentum: (10,-40,30)
+
+time of event: 126
+reflecting zmover
+zmover m=20 R=1 p=(0,0,199) v=(0,0,-1.5)
+ymover m=20 R=2 p=(0,134,0) v=(0,-2,0)
+xmover m=20 R=3 p=(73,0,0) v=(0.5,0,0)
+energy: 65
+momentum: (10,-40,-30)

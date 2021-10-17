@@ -1,0 +1,84 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial conditions.
+universe radius 2000.0
+end simulation 200.0
+pool m=1 R=5 p=(10,1000,4) v=(0,-10,0)
+one m=2 R=6 p=(10,500,4) v=(0,0,0)
+two m=3 R=7 p=(10,400,4) v=(0,0,0)
+thr m=4 R=8 p=(10,300,4) v=(0,0,0)
+fou m=5 R=9 p=(10,200,5) v=(0,0,0)
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0)
+six m=7 R=2 p=(10,0,7) v=(0,0,0)
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
+energy: 50
+momentum: (0,-10,0)
+
+Here are the events.
+
+time of event: 48.9
+colliding pool one
+pool m=1 R=5 p=(10,511,4) v=(0,3.33333,0)
+one m=2 R=6 p=(10,500,4) v=(0,-6.66667,0)
+two m=3 R=7 p=(10,400,4) v=(0,0,0)
+thr m=4 R=8 p=(10,300,4) v=(0,0,0)
+fou m=5 R=9 p=(10,200,5) v=(0,0,0)
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0)
+six m=7 R=2 p=(10,0,7) v=(0,0,0)
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
+energy: 50
+momentum: (0,-10,0)
+
+time of event: 61.95
+colliding one two
+pool m=1 R=5 p=(10,554.5,4) v=(0,3.33333,0)
+one m=2 R=6 p=(10,413,4) v=(0,1.33333,0)
+two m=3 R=7 p=(10,400,4) v=(0,-5.33333,0)
+thr m=4 R=8 p=(10,300,4) v=(0,0,0)
+fou m=5 R=9 p=(10,200,5) v=(0,0,0)
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0)
+six m=7 R=2 p=(10,0,7) v=(0,0,0)
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
+energy: 50
+momentum: (0,-10,0)
+
+time of event: 77.8875
+colliding two thr
+pool m=1 R=5 p=(10,607.625,4) v=(0,3.33333,0)
+one m=2 R=6 p=(10,434.25,4) v=(0,1.33333,0)
+two m=3 R=7 p=(10,315,4) v=(0,0.761905,0)
+thr m=4 R=8 p=(10,300,4) v=(0,-4.57143,0)
+fou m=5 R=9 p=(10,200,5) v=(0,0,0)
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0)
+six m=7 R=2 p=(10,0,7) v=(0,0,0)
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
+energy: 50
+momentum: (0,-10,0)
+
+time of event: 96.0502
+colliding thr fou
+pool m=1 R=5 p=(10,668.167,4) v=(0,3.33333,0)
+one m=2 R=6 p=(10,458.467,4) v=(0,1.33333,0)
+two m=3 R=7 p=(10,328.838,4) v=(0,0.761905,0)
+thr m=4 R=8 p=(10,216.971,4) v=(0,0.490361,-0.298269)
+fou m=5 R=9 p=(10,200,5) v=(0,-4.04943,0.238615)
+fiv m=6 R=1 p=(10,100,6) v=(0,0,0)
+six m=7 R=2 p=(10,0,7) v=(0,0,0)
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
+energy: 50
+momentum: (0,-10,0)
+
+time of event: 118.523
+colliding fou fiv
+pool m=1 R=5 p=(10,743.076,4) v=(0,3.33333,0)
+one m=2 R=6 p=(10,488.431,4) v=(0,1.33333,0)
+two m=3 R=7 p=(10,345.96,4) v=(0,0.761905,0)
+thr m=4 R=8 p=(10,227.99,-2.70291) v=(0,0.490361,-0.298269)
+fou m=5 R=9 p=(10,108.998,10.3623) v=(0,-0.574706,1.92313)
+fiv m=6 R=1 p=(10,100,6) v=(0,-2.8956,-1.40377)
+six m=7 R=2 p=(10,0,7) v=(0,0,0)
+sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
+energy: 50
+momentum: (0,-10,0)

@@ -1,0 +1,55 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial conditions.
+universe radius 40.0
+end simulation 200.0
+one m=1 R=5 p=(0,0,0) v=(0,0,0)
+other m=1 R=5 p=(20,10,0) v=(1,0,0)
+energy: 0.5
+momentum: (1,0,0)
+
+Here are the events.
+
+time of event: 13.541
+reflecting other
+one m=1 R=5 p=(0,0,0) v=(0,0,0)
+other m=1 R=5 p=(33.541,10,0) v=(-0.836735,-0.547608,0)
+energy: 0.5
+momentum: (-0.836735,-0.547608,0)
+
+time of event: 47.082
+colliding one other
+one m=1 R=5 p=(0,0,0) v=(-2.6112e-08,3.98986e-08,0)
+other m=1 R=5 p=(5.47609,-8.36735,0) v=(-0.836735,-0.547609,0)
+energy: 0.5
+momentum: (-0.836735,-0.547608,0)
+
+time of event: 80.6231
+reflecting other
+one m=1 R=5 p=(-8.75823e-07,1.33824e-06,0) v=(-2.6112e-08,3.98986e-08,0)
+other m=1 R=5 p=(-22.5888,-26.7347,0) v=(0.40025,0.916406,0)
+energy: 0.5
+momentum: (0.40025,0.916406,0)
+
+time of event: 114.157
+colliding one other
+one m=1 R=5 p=(-1.75146e-06,2.67619e-06,0) v=(0.000670667,-0.000292308,0)
+other m=1 R=5 p=(-9.16699,3.9958,0) v=(0.399579,0.916698,0)
+energy: 0.5
+momentum: (0.40025,0.916406,0)
+
+time of event: 147.698
+reflecting other
+one m=1 R=5 p=(0.0224931,-0.00980163,0) v=(0.000670667,-0.000292308,0)
+other m=1 R=5 p=(4.23531,34.7428,0) v=(0.16765,-0.985846,0)
+energy: 0.5
+momentum: (0.168321,-0.986139,0)
+
+time of event: 180.366
+colliding one other
+one m=1 R=5 p=(0.0444025,-0.0193508,0) v=(-0.0868345,-0.0234307,0)
+other m=1 R=5 p=(9.71213,2.53702,0) v=(0.255155,-0.962708,0)
+energy: 0.5
+momentum: (0.168321,-0.986139,0)

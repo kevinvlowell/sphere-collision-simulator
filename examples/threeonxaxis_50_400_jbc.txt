@@ -1,0 +1,310 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial conditions.
+universe radius 50.0
+end simulation 400.0
+one m=10 R=1 p=(0,0,0) v=(1,0,0)
+three m=30 R=2 p=(10,0,0) v=(0.2,0,0)
+two m=1 R=1 p=(20,0,0) v=(0,0,0)
+energy: 5.6
+momentum: (16,0,0)
+
+Here are the events.
+
+time of event: 8.75
+colliding one three
+one m=10 R=1 p=(8.75,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(11.75,0,0) v=(0.6,0,0)
+two m=1 R=1 p=(20,0,0) v=(0,0,0)
+energy: 5.6
+momentum: (16,0,0)
+
+time of event: 17.5
+colliding three two
+one m=10 R=1 p=(7,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(17,0,0) v=(0.56129,0,0)
+two m=1 R=1 p=(20,0,0) v=(1.16129,0,0)
+energy: 5.6
+momentum: (16,0,0)
+
+time of event: 42.4722
+reflecting two
+one m=10 R=1 p=(2.00556,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(31.0167,0,0) v=(0.56129,0,0)
+two m=1 R=1 p=(49,0,0) v=(-1.16129,0,0)
+energy: 5.6
+momentum: (13.6774,0,0)
+
+time of event: 51.1704
+colliding three two
+one m=10 R=1 p=(0.265918,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(35.8989,0,0) v=(0.450156,0,0)
+two m=1 R=1 p=(38.8989,0,0) v=(2.17274,0,0)
+energy: 5.6
+momentum: (13.6774,0,0)
+
+time of event: 55.8194
+reflecting two
+one m=10 R=1 p=(-0.663889,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(37.9917,0,0) v=(0.450156,0,0)
+two m=1 R=1 p=(49,0,0) v=(-2.17274,0,0)
+energy: 5.6
+momentum: (9.33195,0,0)
+
+time of event: 58.8727
+colliding three two
+one m=10 R=1 p=(-1.27454,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(39.3661,0,0) v=(0.280937,0,0)
+two m=1 R=1 p=(42.3661,0,0) v=(2.90383,0,0)
+energy: 5.6
+momentum: (9.33195,0,0)
+
+time of event: 61.1572
+reflecting two
+one m=10 R=1 p=(-1.73144,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(40.0079,0,0) v=(0.280937,0,0)
+two m=1 R=1 p=(49,0,0) v=(-2.90383,0,0)
+energy: 5.6
+momentum: (3.52429,0,0)
+
+time of event: 63.0387
+colliding three two
+one m=10 R=1 p=(-2.10774,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(40.5365,0,0) v=(0.0754683,0,0)
+two m=1 R=1 p=(43.5365,0,0) v=(3.26024,0,0)
+energy: 5.6
+momentum: (3.52429,0,0)
+
+time of event: 64.7145
+reflecting two
+one m=10 R=1 p=(-2.4429,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(40.663,0,0) v=(0.0754683,0,0)
+two m=1 R=1 p=(49,0,0) v=(-3.26024,0,0)
+energy: 5.6
+momentum: (-2.99619,0,0)
+
+time of event: 66.3145
+colliding three two
+one m=10 R=1 p=(-2.7629,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(40.7837,0,0) v=(-0.139738,0,0)
+two m=1 R=1 p=(43.7837,0,0) v=(3.19597,0,0)
+energy: 5.6
+momentum: (-2.99619,0,0)
+
+time of event: 67.9466
+reflecting two
+one m=10 R=1 p=(-3.08933,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(40.5556,0,0) v=(-0.139738,0,0)
+two m=1 R=1 p=(49,0,0) v=(-3.19597,0,0)
+energy: 5.6
+momentum: (-9.38812,0,0)
+
+time of event: 69.728
+colliding three two
+one m=10 R=1 p=(-3.44561,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(40.3067,0,0) v=(-0.336914,0,0)
+two m=1 R=1 p=(43.3067,0,0) v=(2.71931,0,0)
+energy: 5.6
+momentum: (-9.38812,0,0)
+
+time of event: 71.8217
+reflecting two
+one m=10 R=1 p=(-3.86434,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(39.6013,0,0) v=(-0.336914,0,0)
+two m=1 R=1 p=(49,0,0) v=(-2.71931,0,0)
+energy: 5.6
+momentum: (-14.8267,0,0)
+
+time of event: 74.5075
+colliding three two
+one m=10 R=1 p=(-4.4015,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(38.6964,0,0) v=(-0.490617,0,0)
+two m=1 R=1 p=(41.6964,0,0) v=(1.89178,0,0)
+energy: 5.6
+momentum: (-14.8267,0,0)
+
+time of event: 78.3682
+reflecting two
+one m=10 R=1 p=(-5.17363,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(36.8023,0,0) v=(-0.490617,0,0)
+two m=1 R=1 p=(49,0,0) v=(-1.89178,0,0)
+energy: 5.6
+momentum: (-18.6103,0,0)
+
+time of event: 84.9325
+colliding three two
+one m=10 R=1 p=(-6.4865,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(33.5818,0,0) v=(-0.581015,0,0)
+two m=1 R=1 p=(36.5818,0,0) v=(0.820149,0,0)
+energy: 5.6
+momentum: (-18.6103,0,0)
+
+time of event: 100.074
+reflecting two
+one m=10 R=1 p=(-9.51479,0,0) v=(-0.2,0,0)
+three m=30 R=2 p=(24.7843,0,0) v=(-0.581015,0,0)
+two m=1 R=1 p=(49,0,0) v=(-0.820149,0,0)
+energy: 5.6
+momentum: (-20.2506,0,0)
+
+time of event: 182.221
+colliding one three
+one m=10 R=1 p=(-25.9441,0,0) v=(-0.771523,0,0)
+three m=30 R=2 p=(-22.9441,0,0) v=(-0.390508,0,0)
+two m=1 R=1 p=(-18.3725,0,0) v=(-0.820149,0,0)
+energy: 5.6
+momentum: (-20.2506,0,0)
+
+time of event: 185.879
+colliding three two
+one m=10 R=1 p=(-28.7664,0,0) v=(-0.771523,0,0)
+three m=30 R=2 p=(-24.3726,0,0) v=(-0.418226,0,0)
+two m=1 R=1 p=(-21.3726,0,0) v=(0.0114147,0,0)
+energy: 5.6
+momentum: (-20.2506,0,0)
+
+time of event: 212.104
+reflecting one
+one m=10 R=1 p=(-49,0,0) v=(0.771523,0,0)
+three m=30 R=2 p=(-35.3408,0,0) v=(-0.418226,0,0)
+two m=1 R=1 p=(-21.0733,0,0) v=(0.0114147,0,0)
+energy: 5.6
+momentum: (-4.82015,0,0)
+
+time of event: 221.063
+colliding one three
+one m=10 R=1 p=(-42.0878,0,0) v=(-1.0131,0,0)
+three m=30 R=2 p=(-39.0878,0,0) v=(0.176648,0,0)
+two m=1 R=1 p=(-20.971,0,0) v=(0.0114147,0,0)
+energy: 5.6
+momentum: (-4.82015,0,0)
+
+time of event: 227.886
+reflecting one
+one m=10 R=1 p=(-49,0,0) v=(1.0131,0,0)
+three m=30 R=2 p=(-37.8826,0,0) v=(0.176648,0,0)
+two m=1 R=1 p=(-20.8931,0,0) v=(0.0114147,0,0)
+energy: 5.6
+momentum: (15.4419,0,0)
+
+time of event: 237.591
+colliding one three
+one m=10 R=1 p=(-39.1683,0,0) v=(-0.241578,0,0)
+three m=30 R=2 p=(-36.1683,0,0) v=(0.594874,0,0)
+two m=1 R=1 p=(-20.7823,0,0) v=(0.0114147,0,0)
+energy: 5.6
+momentum: (15.4419,0,0)
+
+time of event: 258.819
+colliding three two
+one m=10 R=1 p=(-44.2966,0,0) v=(-0.241578,0,0)
+three m=30 R=2 p=(-23.54,0,0) v=(0.557232,0,0)
+two m=1 R=1 p=(-20.54,0,0) v=(1.14069,0,0)
+energy: 5.6
+momentum: (15.4419,0,0)
+
+time of event: 278.289
+reflecting one
+one m=10 R=1 p=(-49,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(-12.691,0,0) v=(0.557232,0,0)
+two m=1 R=1 p=(1.66875,0,0) v=(1.14069,0,0)
+energy: 5.6
+momentum: (20.2734,0,0)
+
+time of event: 319.782
+reflecting two
+one m=10 R=1 p=(-38.9761,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(10.4305,0,0) v=(0.557232,0,0)
+two m=1 R=1 p=(49,0,0) v=(-1.14069,0,0)
+energy: 5.6
+momentum: (17.992,0,0)
+
+time of event: 340.731
+colliding three two
+one m=10 R=1 p=(-33.9153,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(22.1039,0,0) v=(0.447688,0,0)
+two m=1 R=1 p=(25.1039,0,0) v=(2.14561,0,0)
+energy: 5.6
+momentum: (17.992,0,0)
+
+time of event: 351.868
+reflecting two
+one m=10 R=1 p=(-31.2248,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(27.0899,0,0) v=(0.447688,0,0)
+two m=1 R=1 p=(49,0,0) v=(-2.14561,0,0)
+energy: 5.6
+momentum: (13.7008,0,0)
+
+time of event: 359.16
+colliding three two
+one m=10 R=1 p=(-29.4632,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(30.3544,0,0) v=(0.280379,0,0)
+two m=1 R=1 p=(33.3544,0,0) v=(2.87368,0,0)
+energy: 5.6
+momentum: (13.7008,0,0)
+
+time of event: 364.605
+reflecting two
+one m=10 R=1 p=(-28.148,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(31.8809,0,0) v=(0.280379,0,0)
+two m=1 R=1 p=(49,0,0) v=(-2.87368,0,0)
+energy: 5.6
+momentum: (7.95346,0,0)
+
+time of event: 369.081
+colliding three two
+one m=10 R=1 p=(-27.0666,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(33.136,0,0) v=(0.0768911,0,0)
+two m=1 R=1 p=(36.136,0,0) v=(3.23095,0,0)
+energy: 5.6
+momentum: (7.95346,0,0)
+
+time of event: 373.063
+reflecting two
+one m=10 R=1 p=(-26.1047,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(33.4421,0,0) v=(0.0768911,0,0)
+two m=1 R=1 p=(49,0,0) v=(-3.23095,0,0)
+energy: 5.6
+momentum: (1.49157,0,0)
+
+time of event: 376.859
+colliding three two
+one m=10 R=1 p=(-25.1876,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(33.734,0,0) v=(-0.136518,0,0)
+two m=1 R=1 p=(36.734,0,0) v=(3.17132,0,0)
+energy: 5.6
+momentum: (1.49157,0,0)
+
+time of event: 380.727
+reflecting two
+one m=10 R=1 p=(-24.2532,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(33.206,0,0) v=(-0.136518,0,0)
+two m=1 R=1 p=(49,0,0) v=(-3.17132,0,0)
+energy: 5.6
+momentum: (-4.85108,0,0)
+
+time of event: 384.943
+colliding three two
+one m=10 R=1 p=(-23.2348,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(32.6305,0,0) v=(-0.332312,0,0)
+two m=1 R=1 p=(35.6305,0,0) v=(2.70249,0,0)
+energy: 5.6
+momentum: (-4.85108,0,0)
+
+time of event: 389.89
+reflecting two
+one m=10 R=1 p=(-22.0397,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(30.9865,0,0) v=(-0.332312,0,0)
+two m=1 R=1 p=(49,0,0) v=(-2.70249,0,0)
+energy: 5.6
+momentum: (-10.2561,0,0)
+
+time of event: 396.224
+colliding three two
+one m=10 R=1 p=(-20.5094,0,0) v=(0.241578,0,0)
+three m=30 R=2 p=(28.8816,0,0) v=(-0.485227,0,0)
+two m=1 R=1 p=(31.8816,0,0) v=(1.88495,0,0)
+energy: 5.6
+momentum: (-10.2561,0,0)

@@ -1,0 +1,70 @@
+Please enter the mass, radius, x/y position, x/y velocity
+and name of each stone
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial conditions.
+universe radius 120.0
+end simulation 200.0
+one m=20 R=1 p=(0,0,0) v=(0,0,1)
+two m=2 R=5 p=(0,1,100) v=(0,0,0)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,0,20)
+
+Here are the events.
+
+time of event: 94.0839
+colliding one two
+one m=20 R=1 p=(0,0,94.0839) v=(0,-0.0298792,0.823232)
+two m=2 R=5 p=(0,1,100) v=(0,0.298792,1.76768)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,0,20)
+
+time of event: 102.539
+reflecting two
+one m=20 R=1 p=(0,-0.252632,101.044) v=(0,-0.0298792,0.823232)
+two m=2 R=5 p=(0,3.52632,114.946) v=(0,0.189874,-1.78267)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,-0.217836,12.8993)
+
+time of event: 106.409
+colliding one two
+one m=20 R=1 p=(0,-0.368261,104.23) v=(0,-0.23865,0.651101)
+two m=2 R=5 p=(0,4.26111,108.047) v=(0,2.27758,-0.0613537)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,-0.217836,12.8993)
+
+time of event: 123.009
+reflecting two
+one m=20 R=1 p=(0,-4.32992,115.039) v=(0,-0.23865,0.651101)
+two m=2 R=5 p=(0,42.0697,107.029) v=(0,1.70976,-1.50595)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,-1.35348,10.0101)
+
+time of event: 128.881
+reflecting one
+one m=20 R=1 p=(0,-5.73124,118.862) v=(0,-0.174899,-0.671041)
+two m=2 R=5 p=(0,52.1091,98.186) v=(0,1.70976,-1.50595)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,-0.0784737,-16.4327)
+
+time of event: 157.395
+reflecting two
+one m=20 R=1 p=(0,-10.7183,99.7279) v=(0,-0.174899,-0.671041)
+two m=2 R=5 p=(0,100.861,55.2457) v=(0,0.348414,-2.25161)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,-2.80116,-17.924)
+
+time of event: 191.781
+reflecting two
+one m=20 R=1 p=(0,-16.7323,76.6537) v=(0,-0.174899,-0.671041)
+two m=2 R=5 p=(0,112.841,-22.1775) v=(0,-1.17463,-1.95228)
+three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
+energy: 10
+momentum: (0,-5.84725,-17.3254)
