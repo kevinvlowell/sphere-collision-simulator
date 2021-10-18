@@ -67,11 +67,16 @@ def minimum_pos_quadratic_soln(a, b, c):
     t1 = (-b + math.sqrt(b**2 - 4*a*c))/(2*a)
     t2 = (-b - math.sqrt(b**2 - 4*a*c))/(2*a)
 
-    if t1 >= 0 and t2 >= 0:
+    if (abs(t1) < 10**-8):
+        t1 = 0
+    if (abs(t2) < 10**-8):
+        t2 = 0
+
+    if t1 > 0 and t2 > 0:
         return min(t1,t2)
-    elif t1 >= 0 and t2 < 0:
+    elif t1 > 0 and t2 <= 0:
         return t1
-    elif t1 < 0 and t2 >= 0:
+    elif t1 <= 0 and t2 > 0:
         return t2
     else:
         raise Exception("Error: no positive collision times.")
@@ -107,21 +112,14 @@ def compute_reflection_time(sphere, universe_radius):
     ##checking to see if sphere is moving
     if not(sphere.vel_x == 0 and sphere.vel_y == 0 and sphere.vel_z == 0):
 
-        #sphere is on border but moving away from border (toward origin) after recent reflection
-        if sphere.on_border and (sphere.pos_x*sphere.vel_x + sphere.pos_y*sphere.vel_y + sphere.pos_z*sphere.vel_z) < 0:
+        a = sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2
 
-            velocity_magnitude = math.sqrt(sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2)
-            #time to reach opposite border = (distance to opposite border)/v = (universe_radius-2*sphere.radius)/v
-            return (universe_radius - 2*sphere.radius)/velocity_magnitude
+        b = (2*sphere.pos_x)*sphere.vel_x + (2*sphere.pos_y)*sphere.vel_y + (2*sphere.pos_z)*sphere.vel_z
 
-        else:
-            a = sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2
+        c = sphere.pos_x**2 + sphere.pos_y**2 + sphere.pos_z**2 - (universe_radius - sphere.radius)**2
 
-            b = (2*sphere.pos_x)*sphere.vel_x + (2*sphere.pos_y)*sphere.vel_y + (2*sphere.pos_z)*sphere.vel_z
-
-            c = sphere.pos_x**2 + sphere.pos_y**2 + sphere.pos_z**2 - (universe_radius - sphere.radius)**2
-
-            return minimum_pos_quadratic_soln(a,b,c)
+        return minimum_pos_quadratic_soln(a,b,c)
+        
     return -2
 
 def compute_positions(sphere_list, event_time):
@@ -278,11 +276,10 @@ def run_sim(universe_radius, duration):
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
 
-            #print("sphere:",sphere.name) DEBUGGER
+            print("sphere:",sphere.name)
             current_event_time = compute_reflection_time(sphere,universe_radius)
-            print("current event time: " + str(current_event_time))
-            print("nearest event time: " + str(nearest_event_time))
-            #print("current event time:",current_event_time) DEBUGGER
+
+
 
             # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
             if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
@@ -294,9 +291,10 @@ def run_sim(universe_radius, duration):
 
         print("checked "+str(checked))
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
-        #print("\nnearest event time:",nearest_event_time) DEBUGGER
-        #print("nearest event type:",next_event_type) DEBUGGER
+        print("\nnearest event time:",nearest_event_time) #DEBUGGER
+        print("nearest event type:",next_event_type) #DEBUGGER
         time_elapsed += nearest_event_time
+
         if time_elapsed < duration:
             #compute new positions for each of the spheres based on event time
             compute_positions(sphere_list, nearest_event_time)
@@ -337,11 +335,13 @@ def run_sim(universe_radius, duration):
             else:
                 raise Exception("Error: no event type specified")
 
-            #DEBUGGER: ERASE AFTER 100% SUCCESSFULstr TESTING
-            #for sphere in sphere_list:
-            #    print(sphere.name, \
-            #    "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
-            #    "v=(" + str(round(float(sphere.vel_x),4)) + "," + str(round(float(sphere.vel_y),4)) + "," + str(round(float(sphere.vel_z),4)) + ")")
+
+            #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
+            for sphere in sphere_list:
+                print(sphere.name, \
+                "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
+                "v=(" + str(round(float(sphere.vel_x),4)) + "," + str(round(float(sphere.vel_y),4)) + "," + str(round(float(sphere.vel_z),4)) + ")")
+
             #print("\n")
 
     print("\nHere are the events.\n")
