@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 50
 end simulation 400
@@ -307,4 +306,3 @@ three m=30 R=2 p=(28.8816,0,0) v=(-0.485227,0,0)
 two m=1 R=1 p=(31.8816,0,0) v=(1.88495,0,0)
 energy: 5.6
 momentum: (-10.2561,0,0)
-
