@@ -13,1121 +13,1150 @@ zup m=60 R=10 p=(0,0,-100) v=(0,0,1)
 energy: 105
 momentum: (10,10,10)
 
-new sim
-T1= 110.0
-T2= 90.0
-difference between t: 20.0
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 110.0
-T2= 90.0
-difference between t: 20.0
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 114.14213562373095
-T2= 85.85786437626905
-difference between t: 28.284271247461902
-T1= 110.0
-T2= 90.0
-difference between t: 20.0
-T1= 2090.0
-T2= -1890.0
-difference between t: 200.0
-T1= 2090.0
-T2= -1890.0
-difference between t: 200.0
-T1= 2090.0
-T2= -1890.0
-difference between t: 200.0
-T1= 2090.0
-T2= -1890.0
-difference between t: 200.0
-T1= 2090.0
-T2= -1890.0
-difference between t: 200.0
-T1= 2090.0
-T2= -1890.0
-difference between t: 200.0
+current event time: 90.0
+nearest event time: -1
+current event time: 85.85786437626905
+nearest event time: 90.0
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 90.0
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 85.85786437626905
+nearest event time: 85.85786437626905
+current event time: 90.0
+nearest event time: 85.85786437626905
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 85.85786437626905
 nearest event type: colliding
-time_elapsed: 85.85786437626905
-dot 1 top: -28.284271247461902
-dot 1 bottom: 400.00000000000006
-dot 2 top: -28.284271247461902
-dot 2 bottom: 400.00000000000006
-v1_x= 0.4999999999999998
-v2_x= -0.5
-xdown p=(14.1421,0,0) v=(0.5,-1.5,0)
-xup p=(-14.1421,0,0) v=(1,0,0)
-ydown p=(0,14.1421,0) v=(-0.5,-0.5,0)
-yup p=(0,-14.1421,0) v=(0,1,0)
-zdown p=(0,0,14.1421) v=(0,0,-1)
-zup p=(0,0,-14.1421) v=(0,0,1)
-
-
-new sim
-T1= 8.70285269152674
-T2= 1.0931426704001542e-15
-difference between t: 8.702852691526738
-T1= 4.040610178208842
-T2= 4.060244204343431e-15
-difference between t: 4.040610178208838
-T1= 4.040610178208842
-T2= 4.060244204343431e-15
-difference between t: 4.040610178208838
-T1= 22.627416997969522
-T2= 0.0
-difference between t: 22.627416997969522
-T1= 28.284271247461902
-T2= 0.0
-difference between t: 28.284271247461902
-T1= 28.284271247461902
-T2= 0.0
-difference between t: 28.284271247461902
-T1= 28.284271247461902
-T2= 0.0
-difference between t: 28.284271247461902
-T1= 28.284271247461902
-T2= 5.656854249492381
-difference between t: 22.627416997969522
-T1= 28.284271247461902
-T2= 0.0
-difference between t: 28.284271247461902
-T1= 28.284271247461902
-T2= 0.0
-difference between t: 28.284271247461902
-T1= 28.284271247461902
-T2= 0.0
-difference between t: 28.284271247461902
-T1= 28.284271247461902
-T2= 0.0
-difference between t: 28.284271247461902
-T1= 24.14213562373095
-T2= 4.142135623730951
-difference between t: 20.0
-T1= 1255.7294777807058
-T2= -1261.386332030198
-difference between t: -5.6568542494921985
-T1= 2004.142135623731
-T2= -1975.857864376269
-difference between t: 28.28427124746213
-T1= 2828.3915915177886
-T2= -2800.1073202703265
-difference between t: 28.28427124746213
-T1= 2004.142135623731
-T2= -1975.857864376269
-difference between t: 28.28427124746213
-T1= 2004.142135623731
-T2= -1975.857864376269
-difference between t: 28.28427124746213
-T1= 2004.142135623731
-T2= -1975.857864376269
-difference between t: 28.28427124746213
+xdown p=(14.1421,0.0,0.0) v=(0.5,-1.5,0.0)
+xup p=(-14.1421,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(0.0,14.1421,0.0) v=(-0.5,-0.5,0.0)
+yup p=(0.0,-14.1421,0.0) v=(0.0,1.0,0.0)
+zdown p=(0.0,0.0,14.1421) v=(0.0,0.0,-1.0)
+zup p=(0.0,0.0,-14.1421) v=(0.0,0.0,1.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 8.70285269152674
+nearest event time: -1
+current event time: 4.040610178208842
+nearest event time: 8.70285269152674
+current event time: 4.040610178208842
+nearest event time: 4.040610178208842
+current event time: 22.627416997969522
+nearest event time: 4.040610178208842
+current event time: 28.284271247461902
+nearest event time: 4.040610178208842
+current event time: 28.284271247461902
+nearest event time: 4.040610178208842
+current event time: 28.284271247461902
+nearest event time: 4.040610178208842
+current event time: 5.656854249492381
+nearest event time: 4.040610178208842
+current event time: 28.284271247461902
+nearest event time: 4.040610178208842
+current event time: 28.284271247461902
+nearest event time: 4.040610178208842
+current event time: 28.284271247461902
+nearest event time: 4.040610178208842
+current event time: 28.284271247461902
+nearest event time: 4.040610178208842
+current event time: 4.142135623730951
+nearest event time: 4.040610178208842
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 4.040610178208842
 nearest event type: colliding
-time_elapsed: 89.89847455447789
-dot 1 top: 7.071067811865467
-dot 1 bottom: 399.9999999999999
-dot 2 top: 7.071067811865467
-dot 2 bottom: 399.9999999999999
-v1_x= 0.023809523809524114
-v2_x= 0.09523809523809514
-xdown p=(16.1624,-6.06092,0) v=(0.0238095,-1.32143,0.297619)
-xup p=(-10.1015,0,0) v=(1,0,0)
-ydown p=(-2.02031,12.1218,0) v=(-0.5,-0.5,0)
-yup p=(0,-10.1015,0) v=(0,1,0)
-zdown p=(0,0,10.1015) v=(0.0952381,-0.0357143,-1.05952)
-zup p=(0,0,-10.1015) v=(0,0,1)
-
-
-new sim
-T1= 6.646830312480578
-T2= -3.36282841465347
-difference between t: 3.2840018978271077
-T1= 4.040610178208848
-T2= -8.120488408686859e-15
-difference between t: 4.04061017820884
-T1= 18.586806819760678
-T2= -4.040610178208842
-difference between t: 14.546196641551836
-T1= 24.243661069253058
-T2= -4.040610178208842
-difference between t: 20.203050891044214
-T1= 24.540097721113526
-T2= -4.110046258259819
-difference between t: 20.430051462853704
-T1= 24.243661069253058
-T2= -4.040610178208842
-difference between t: 20.203050891044214
-T1= 24.243661069253058
-T2= 1.6162440712835378
-difference between t: 22.62741699796952
-T1= 21.85055126172957
-T2= -3.973338116875908
-difference between t: 17.877213144853663
-T1= 24.24366106925306
-T2= -4.040610178208843
-difference between t: 20.203050891044217
-T1= 23.057500608404435
-T2= -3.854600751570322
-difference between t: 19.202899856834115
-T1= 24.243661069253058
-T2= -4.040610178208842
-difference between t: 20.203050891044214
-T1= 19.472818537679785
-T2= 0.09859240483435046
-difference between t: 19.374226132845436
-T1= 1464.2960726601727
-T2= -1473.4431404581935
-difference between t: -9.147067798020771
-T1= 2000.1015254455222
-T2= -1979.8984745544778
-difference between t: 20.203050891044313
-T1= 2824.3509813395794
-T2= -2804.1479304485356
-difference between t: 20.20305089104386
-T1= 2000.1015254455222
-T2= -1979.8984745544778
-difference between t: 20.203050891044313
-T1= 1879.053590456835
-T2= -1860.1596689580301
-difference between t: 18.893921498804957
-T1= 2000.1015254455222
-T2= -1979.8984745544778
-difference between t: 20.203050891044313
+xdown p=(16.1624,-6.0609,0.0) v=(0.0238,-1.3214,0.2976)
+xup p=(-10.1015,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-2.0203,12.1218,0.0) v=(-0.5,-0.5,0.0)
+yup p=(0.0,-10.1015,0.0) v=(0.0,1.0,0.0)
+zdown p=(0.0,0.0,10.1015) v=(0.0952,-0.0357,-1.0595)
+zup p=(0.0,0.0,-10.1015) v=(0.0,0.0,1.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 6.646830312480578
+nearest event time: -1
+current event time: 4.040610178208848
+nearest event time: 6.646830312480578
+current event time: -2
+nearest event time: 4.040610178208848
+current event time: 18.586806819760678
+nearest event time: 4.040610178208848
+current event time: 24.243661069253058
+nearest event time: 4.040610178208848
+current event time: 24.540097721113526
+nearest event time: 4.040610178208848
+current event time: 24.243661069253058
+nearest event time: 4.040610178208848
+current event time: 1.6162440712835378
+nearest event time: 4.040610178208848
+current event time: 21.85055126172957
+nearest event time: 1.6162440712835378
+current event time: 24.24366106925306
+nearest event time: 1.6162440712835378
+current event time: 23.057500608404435
+nearest event time: 1.6162440712835378
+current event time: 24.243661069253058
+nearest event time: 1.6162440712835378
+current event time: 0.09859240483435046
+nearest event time: 1.6162440712835378
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 0.09859240483435046
 nearest event type: colliding
-time_elapsed: 89.99706695931224
-dot 1 top: -41.189450994729924
-dot 1 bottom: 400.00000000000006
-dot 2 top: -41.189450994729924
-dot 2 bottom: 400.00000000000006
-v1_x= 0.09629289186858268
-v2_x= -0.0008789971920729537
-xdown p=(16.1648,-6.1912,0.029343) v=(0.0238095,-1.32143,0.297619)
-xup p=(-10.0029,0,0) v=(1,0,0)
-ydown p=(-2.0696,12.0725,0) v=(-0.5,-0.5,0)
-yup p=(0,-10.0029,0) v=(0,1,0)
-zdown p=(0.00938975,-0.00352116,9.99706) v=(0.0962929,-0.0361098,1.18717)
-zup p=(0,0,-10.0029) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 6.548237907646229
-T2= -3.4614208194878198
-difference between t: 3.086817088158409
-T1= 18.48821441492633
-T2= -4.139202583043193
-difference between t: 14.349011831883136
-T1= 24.14506866441871
-T2= -4.139202583043193
-difference between t: 20.005866081375515
-T1= 11.404121032464095
-T2= -9.944106969557836
-difference between t: 1.460014062906259
-T1= 24.14506866441871
-T2= 1.517651666449187
-difference between t: 22.627416997969522
-T1= 11.405148352070313
-T2= -9.95686636774922
-difference between t: 1.4482819843210937
-T1= 1464.1974802553384
-T2= -1473.5417328630278
-difference between t: -9.344252607689441
-T1= 2000.0029330406878
-T2= -1979.9970669593122
-difference between t: 20.005866081375643
-T1= 2824.2523889347453
-T2= -2804.2465228533697
-difference between t: 20.005866081375643
-T1= 2000.0029330406878
-T2= -1979.9970669593122
-difference between t: 20.005866081375643
-T1= 1661.6374078960603
-T2= -1678.3552135368466
-difference between t: -16.71780564078631
-T1= 2269.9931403345954
-T2= -2292.929109834105
-difference between t: -22.93596949950961
+xdown p=(16.1648,-6.1912,0.0293) v=(0.0238,-1.3214,0.2976)
+xup p=(-10.0029,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-2.0696,12.0725,0.0) v=(-0.5,-0.5,0.0)
+yup p=(0.0,-10.0029,0.0) v=(0.0,1.0,0.0)
+zdown p=(0.0094,-0.0035,9.9971) v=(0.0963,-0.0361,1.1872)
+zup p=(0.0,0.0,-10.0029) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 6.548237907646229
+nearest event time: -1
+current event time: -2
+nearest event time: 6.548237907646229
+current event time: -2
+nearest event time: 6.548237907646229
+current event time: 18.48821441492633
+nearest event time: 6.548237907646229
+current event time: 24.14506866441871
+nearest event time: 6.548237907646229
+current event time: -2
+nearest event time: 6.548237907646229
+current event time: 11.404121032464095
+nearest event time: 6.548237907646229
+current event time: 1.517651666449187
+nearest event time: 6.548237907646229
+current event time: -2
+nearest event time: 1.517651666449187
+current event time: -2
+nearest event time: 1.517651666449187
+current event time: -2
+nearest event time: 1.517651666449187
+current event time: 11.405148352070313
+nearest event time: 1.517651666449187
+current event time: -2
+nearest event time: 1.517651666449187
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 1.517651666449187
 nearest event type: colliding
-time_elapsed: 91.51471862576142
-dot 1 top: -28.284271247461906
-dot 1 bottom: 400.0000000000001
-dot 2 top: -28.284271247461906
-dot 2 bottom: 400.0000000000001
-v1_x= -0.7285714285714285
-v2_x= 0.17142857142857137
-xdown p=(16.2009,-8.19667,0.481025) v=(0.0238095,-1.32143,0.297619)
-xup p=(-8.48528,0,0) v=(1,0,0)
-ydown p=(-2.82843,11.3137,0) v=(-0.728571,1.1,0)
-yup p=(0,-8.48528,0) v=(0.171429,-0.2,0)
-zdown p=(0.155529,-0.0583233,11.7988) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.00133401,0.000500254,-11.3267) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 12.070444360328615
-T2= -8.310036290288298
-difference between t: 3.7604080700403166
-T1= 27.49691097948777
-T2= -12.814513994850252
-difference between t: 14.682396984637517
-T1= 1462.6798285888892
-T2= -1475.059384529477
-difference between t: -12.379555940587807
-T1= 1998.4852813742386
-T2= -1981.5147186257614
-difference between t: 16.970562748477278
-T1= 1499.9257128725408
-T2= -1516.591216657974
-difference between t: -16.665503785433202
-T1= 7530.116531245223
-T2= -7579.0316826967155
-difference between t: -48.91515145149242
-T1= 1660.119756229611
-T2= -1679.872865203296
-difference between t: -19.753108973684903
-T1= 2268.4754886681458
-T2= -2294.446761500554
-difference between t: -25.97127283240843
+xdown p=(16.2009,-8.1967,0.481) v=(0.0238,-1.3214,0.2976)
+xup p=(-8.4853,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-2.8284,11.3137,0.0) v=(-0.7286,1.1,0.0)
+yup p=(0.0,-8.4853,0.0) v=(0.1714,-0.2,0.0)
+zdown p=(0.1555,-0.0583,11.7988) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.0013,0.0005,-11.3267) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 12.070444360328615
+nearest event time: -1
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: 27.49691097948777
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+current event time: -2
+nearest event time: 12.070444360328615
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 12.070444360328615
 nearest event type: colliding
-time_elapsed: 103.58516298609004
-dot 1 top: 13.939948372450012
-dot 1 bottom: 400.0
-dot 2 top: 13.939948372450012
-dot 2 bottom: 400.0
-v1_x= -0.7801962476173894
-v2_x= 0.37243001428529976
-xdown p=(16.4883,-24.1469,4.07342) v=(-0.780196,-0.582749,0.070486)
-xup p=(3.58516,0,0) v=(1,0,0)
-ydown p=(-11.6226,24.5912,0) v=(-0.728571,1.1,0)
-yup p=(2.06922,-10.8994,0) v=(0.37243,-0.38467,0.0567833)
-zdown p=(1.31783,-0.494185,26.1285) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.0119439,0.00447896,-21.8551) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616914
-T2= 0.0
-difference between t: 20.380480650616914
-T1= 2036.3993289642756
-T2= -2039.5350243899775
-difference between t: -3.135695425701897
-T1= 1986.4148370139098
-T2= -1993.5851629860902
-difference between t: -7.170325972180308
-T1= 1487.8552685122122
-T2= -1528.6616610183023
-difference between t: -40.806392506090106
-T1= 3678.8402343179287
-T2= -3713.0817632433605
-difference between t: -34.241528925431794
-T1= 1648.0493118692825
-T2= -1691.9433095636246
-difference between t: -43.89399769434203
-T1= 2256.4050443078177
-T2= -2306.5172058608828
-difference between t: -50.11216155306511
+xdown p=(16.4883,-24.1469,4.0734) v=(-0.7802,-0.5827,0.0705)
+xup p=(3.5852,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-11.6226,24.5912,0.0) v=(-0.7286,1.1,0.0)
+yup p=(2.0692,-10.8994,0.0) v=(0.3724,-0.3847,0.0568)
+zdown p=(1.3178,-0.4942,26.1285) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.0119,0.0045,-21.8551) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616914
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616914
 nearest event type: colliding
-time_elapsed: 123.96564363670696
-dot 1 top: 13.939948372450015
-dot 1 bottom: 400.00000000000017
-dot 2 top: 13.939948372450015
-dot 2 bottom: 400.00000000000017
-v1_x= -0.27434440395246584
-v2_x= 0.24596705336906888
-xdown p=(0.58754,-36.0236,5.50996) v=(-0.274344,0.38103,-0.172219)
-xup p=(23.9656,0,0) v=(1,0,0)
-ydown p=(-26.4712,47.0097,0) v=(-0.728571,1.1,0)
-yup p=(9.65952,-18.7391,1.15727) v=(0.245967,-0.625615,0.11746)
-zdown p=(3.28032,-1.23012,50.3236) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.0298583,0.0111969,-39.6319) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616917
-T2= 5.194137772495203e-15
-difference between t: 20.380480650616914
-T1= 4038.2350601673893
-T2= -3919.596879254728
-difference between t: 118.63818091266148
-T1= 1966.034356363293
-T2= -2013.965643636707
-difference between t: -47.931287273414
-T1= 1467.4747878615954
-T2= -1549.0421416689194
-difference between t: -81.56735380732403
-T1= 2885.5422239803283
-T2= -2946.6787008743386
-difference between t: -61.13647689401023
-T1= 1627.6688312186654
-T2= -1712.3237902142414
-difference between t: -84.65495899557595
-T1= 2236.0245636572004
-T2= -2326.8976865114996
-difference between t: -90.87312285429925
+xdown p=(0.5875,-36.0236,5.51) v=(-0.2743,0.381,-0.1722)
+xup p=(23.9656,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-26.4712,47.0097,0.0) v=(-0.7286,1.1,0.0)
+yup p=(9.6595,-18.7391,1.1573) v=(0.246,-0.6256,0.1175)
+zdown p=(3.2803,-1.2301,50.3236) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.0299,0.0112,-39.6319) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616917
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+current event time: -2
+nearest event time: 20.380480650616917
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616917
 nearest event type: colliding
-time_elapsed: 144.34612428732387
-dot 1 top: 13.93994837245002
-dot 1 bottom: 400.0000000000002
-dot 2 top: 13.93994837245002
-dot 2 bottom: 400.0000000000002
-v1_x= 0.8227953073575236
-v2_x= -0.028317874458428482
-xdown p=(-5.00373,-28.258,2.00005) v=(0.822795,0.200847,-0.0857301)
-xup p=(44.3461,0,0) v=(1,0,0)
-ydown p=(-41.3199,69.4283,0) v=(-0.728571,1.1,0)
-yup p=(14.6724,-31.4895,3.55115) v=(-0.0283179,-0.580569,0.0958373)
-zdown p=(5.24282,-1.96606,74.5188) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.0477727,0.0179148,-57.4088) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061692
-T2= 7.791206658742802e-15
-difference between t: 20.380480650616914
-T1= 2351.196300634182
-T2= -2323.6971890600744
-difference between t: 27.4991115741077
-T1= 1945.6538757126762
-T2= -2034.3461242873238
-difference between t: -88.69224857464769
-T1= 1447.0943072109783
-T2= -1569.4226223195362
-difference between t: -122.32831510855794
-T1= 3325.4209006525216
-T2= -3430.3441118493865
-difference between t: -104.92321119686494
-T1= 1607.2883505680486
-T2= -1732.7042708648585
-difference between t: -125.41592029680987
-T1= 2215.6440830065835
-T2= -2347.2781671621165
-difference between t: -131.63408415553295
+xdown p=(-5.0037,-28.258,2.0001) v=(0.8228,0.2008,-0.0857)
+xup p=(44.3461,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-41.3199,69.4283,0.0) v=(-0.7286,1.1,0.0)
+yup p=(14.6724,-31.4895,3.5512) v=(-0.0283,-0.5806,0.0958)
+zdown p=(5.2428,-1.9661,74.5188) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.0478,0.0179,-57.4088) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061692
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061692
 nearest event type: colliding
-time_elapsed: 164.7266049379408
-dot 1 top: 13.939948372450022
-dot 1 bottom: 400.00000000000017
-dot 2 top: 13.939948372450022
-dot 2 bottom: 400.00000000000017
-v1_x= 0.9527203027140868
-v2_x= -0.060799123297569285
-xdown p=(11.7652,-24.1647,0.252833) v=(0.95272,-0.867346,0.207094)
-xup p=(64.7266,0,0) v=(1,0,0)
-ydown p=(-56.1685,91.8468,0) v=(-0.728571,1.1,0)
-yup p=(14.0953,-43.3217,5.50436) v=(-0.0607991,-0.313521,0.0226313)
-zdown p=(7.20531,-2.70199,98.714) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.0656871,0.0246326,-75.1856) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061692
-T2= 6.492672215619004e-15
-difference between t: 20.380480650616914
-T1= 1506.0381314918652
-T2= -1543.8810685349897
-difference between t: -37.84293704312449
-T1= 1925.2733950620593
-T2= -2054.726604937941
-difference between t: -129.4532098758816
-T1= 1426.7138265603614
-T2= -1589.8031029701533
-difference between t: -163.08927640979186
-T1= 6089.849003116644
-T2= -6340.568074926251
-difference between t: -250.71907180960716
-T1= 1586.9078699174318
-T2= -1753.0847515154753
-difference between t: -166.17688159804356
-T1= 2195.2636023559667
-T2= -2367.6586478127333
-difference between t: -172.39504545676664
+xdown p=(11.7652,-24.1647,0.2528) v=(0.9527,-0.8673,0.2071)
+xup p=(64.7266,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-56.1685,91.8468,0.0) v=(-0.7286,1.1,0.0)
+yup p=(14.0953,-43.3217,5.5044) v=(-0.0608,-0.3135,0.0226)
+zdown p=(7.2053,-2.702,98.714) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.0657,0.0246,-75.1856) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061692
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061692
 nearest event type: colliding
-time_elapsed: 185.10708558855774
-dot 1 top: 13.939948372450026
-dot 1 bottom: 400.0000000000002
-dot 2 top: 13.939948372450026
-dot 2 bottom: 400.0000000000002
-v1_x= -0.06912972396763595
-v2_x= 0.1946633833728614
-xdown p=(31.1821,-41.8416,4.47351) v=(-0.0691297,-1.30617,0.290293)
-xup p=(85.1071,0,0) v=(1,0,0)
-ydown p=(-71.0172,114.265,0) v=(-0.728571,1.1,0)
-yup p=(12.8562,-49.7114,5.9656) v=(0.194663,-0.203816,0.00183163)
-zdown p=(9.16781,-3.43793,122.909) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.0836014,0.0313505,-92.9624) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061692
-T2= 7.791206658742802e-15
-difference between t: 20.380480650616914
-T1= 1455.0952019316053
-T2= -1515.0301192922273
-difference between t: -59.93491736062197
-T1= 1904.8929144114422
-T2= -2075.1070855885578
-difference between t: -170.21417117711553
-T1= 1406.3333459097444
-T2= -1610.1835836207702
-difference between t: -203.85023771102578
-T1= 6900.777582925061
-T2= -7219.152184900411
-difference between t: -318.37460197534983
-T1= 1566.5273892668147
-T2= -1773.4652321660924
-difference between t: -206.9378428992777
-T1= 2174.88312170535
-T2= -2388.0391284633506
-difference between t: -213.15600675800079
+xdown p=(31.1821,-41.8416,4.4735) v=(-0.0691,-1.3062,0.2903)
+xup p=(85.1071,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-71.0172,114.2653,0.0) v=(-0.7286,1.1,0.0)
+yup p=(12.8562,-49.7114,5.9656) v=(0.1947,-0.2038,0.0018)
+zdown p=(9.1678,-3.4379,122.9091) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.0836,0.0314,-92.9624) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061692
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061692
 nearest event type: colliding
-time_elapsed: 205.48756623917467
-dot 1 top: 13.93994837245003
-dot 1 bottom: 400.00000000000017
-dot 2 top: 13.93994837245003
-dot 2 bottom: 400.00000000000017
-v1_x= -0.791202258257067
-v2_x= 0.3751815169452192
-xdown p=(29.7732,-68.4619,10.3898) v=(-0.791202,-0.492262,0.0456808)
-xup p=(105.488,0,0) v=(1,0,0)
-ydown p=(-85.8658,136.684,0) v=(-0.728571,1.1,0)
-yup p=(16.8235,-53.8653,6.00293) v=(0.375182,-0.407292,0.0629846)
-zdown p=(11.1303,-4.17386,147.104) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.101516,0.0380684,-110.739) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061692
-T2= 6.492672215619e-15
-difference between t: 20.380480650616914
-T1= 2119.305820265993
-T2= -2143.706185168262
-difference between t: -24.400364902268848
-T1= 1884.5124337608254
-T2= -2095.4875662391746
-difference between t: -210.97513247834922
-T1= 1385.9528652591277
-T2= -1630.564064271387
-difference between t: -244.61119901225925
-T1= 3478.176569505869
-T2= -3662.513328353752
-difference between t: -184.33675884788317
-T1= 1546.1469086161978
-T2= -1793.8457128167092
-difference between t: -247.6988042005114
-T1= 2154.502641054733
-T2= -2408.4196091139675
-difference between t: -253.91696805923448
+xdown p=(29.7732,-68.4619,10.3898) v=(-0.7912,-0.4923,0.0457)
+xup p=(105.4876,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-85.8658,136.6838,0.0) v=(-0.7286,1.1,0.0)
+yup p=(16.8235,-53.8653,6.0029) v=(0.3752,-0.4073,0.063)
+zdown p=(11.1303,-4.1739,147.1043) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.1015,0.0381,-110.7392) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061692
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+current event time: -2
+nearest event time: 20.38048065061692
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061692
 nearest event type: colliding
-time_elapsed: 225.8680468897916
-dot 1 top: 13.939948372450031
-dot 1 bottom: 400.0000000000002
-dot 2 top: 13.939948372450031
-dot 2 bottom: 400.0000000000002
-v1_x= -0.18778298261126092
-v2_x= 0.22432669803376765
-xdown p=(13.6482,-78.4944,11.3208) v=(-0.187783,0.418202,-0.179267)
-xup p=(125.868,0,0) v=(1,0,0)
-ydown p=(-100.714,159.102,0) v=(-0.728571,1.1,0)
-yup p=(24.4699,-62.1661,7.28658) v=(0.224327,-0.634908,0.119221)
-zdown p=(13.0928,-4.9098,171.299) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.11943,0.0447863,-128.516) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616914
-T2= 7.791206658742797e-15
-difference between t: 20.380480650616907
-T1= 4196.891083539969
-T2= -3888.0170744225834
-difference between t: 308.87400911738587
-T1= 1864.1319531102085
-T2= -2115.8680468897915
-difference between t: -251.73609377958292
-T1= 1365.5723846085107
-T2= -1650.9445449220038
-difference between t: -285.37216031349317
-T1= 2812.009578741116
-T2= -3008.0035295418784
-difference between t: -195.99395080076238
-T1= 1525.7664279655808
-T2= -1814.226193467326
-difference between t: -288.4597655017453
-T1= 2134.1221604041157
-T2= -2428.8000897645843
-difference between t: -294.6779293604686
+xdown p=(13.6482,-78.4944,11.3208) v=(-0.1878,0.4182,-0.1793)
+xup p=(125.868,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-100.7144,159.1024,0.0) v=(-0.7286,1.1,0.0)
+yup p=(24.4699,-62.1661,7.2866) v=(0.2243,-0.6349,0.1192)
+zdown p=(13.0928,-4.9098,171.2995) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.1194,0.0448,-128.5161) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616914
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616914
 nearest event type: colliding
-time_elapsed: 246.2485275404085
-dot 1 top: 13.93994837245003
-dot 1 bottom: 400.0000000000001
-dot 2 top: 13.93994837245003
-dot 2 bottom: 400.0000000000001
-v1_x= 0.8839624289971921
-v2_x= -0.043609654868345615
-xdown p=(9.82104,-69.9713,7.66726) v=(0.883962,0.131901,-0.0650089)
-xup p=(146.249,0,0) v=(1,0,0)
-ydown p=(-115.563,181.521,0) v=(-0.728571,1.1,0)
-yup p=(29.0418,-75.1058,9.71637) v=(-0.0436097,-0.563332,0.090657)
-zdown p=(15.0553,-5.64574,195.495) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.137345,0.0515042,-146.293) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616914
-T2= 3.8956033293714e-15
-difference between t: 20.38048065061691
-T1= 2220.5955749992963
-T2= -2217.989755588448
-difference between t: 2.6058194108481985
-T1= 1843.7514724595915
-T2= -2136.2485275404083
-difference between t: -292.49705508081684
-T1= 1345.1919039578938
-T2= -1671.325025572621
-difference between t: -326.1331216147271
-T1= 3348.976667391661
-T2= -3605.0287280266307
-difference between t: -256.0520606349696
-T1= 1505.385947314964
-T2= -1834.6066741179432
-difference between t: -329.22072680297924
-T1= 2113.741679753499
-T2= -2449.180570415201
-difference between t: -335.4388906617023
+xdown p=(9.821,-69.9713,7.6673) v=(0.884,0.1319,-0.065)
+xup p=(146.2485,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-115.5631,181.5209,0.0) v=(-0.7286,1.1,0.0)
+yup p=(29.0418,-75.1058,9.7164) v=(-0.0436,-0.5633,0.0907)
+zdown p=(15.0553,-5.6457,195.4946) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.1373,0.0515,-146.2929) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616914
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616914
 nearest event type: colliding
-time_elapsed: 266.62900819102543
-dot 1 top: 13.939948372450027
-dot 1 bottom: 400.0000000000003
-dot 2 top: 13.939948372450027
-dot 2 bottom: 400.0000000000003
-v1_x= 0.9016043573202229
-v2_x= -0.04802013694910331
-xdown p=(27.8366,-67.2831,6.34235) v=(0.901604,-0.944472,0.226149)
-xup p=(166.629,0,0) v=(1,0,0)
-ydown p=(-130.412,203.939,0) v=(-0.728571,1.1,0)
-yup p=(28.153,-86.5868,11.564) v=(-0.0480201,-0.294239,0.0178674)
-zdown p=(17.0178,-6.38167,219.69) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.155259,0.0582221,-164.07) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616907
-T2= 1.0388275544990397e-14
-difference between t: 20.380480650616896
-T1= 1450.2675685452052
-T2= -1552.859557160991
-difference between t: -102.5919886157858
-T1= 1823.3709918089746
-T2= -2156.629008191025
-difference between t: -333.2580163820505
-T1= 1324.811423307277
-T2= -1691.7055062232375
-difference between t: -366.89408291596055
-T1= 6388.665678035346
-T2= -6934.213285224688
-difference between t: -545.5476071893418
-T1= 1485.0054666643473
-T2= -1854.9871547685598
-difference between t: -369.9816881042125
-T1= 2093.361199102882
-T2= -2469.5610510658184
-difference between t: -376.19985196293646
+xdown p=(27.8366,-67.2831,6.3424) v=(0.9016,-0.9445,0.2261)
+xup p=(166.629,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-130.4117,203.9394,0.0) v=(-0.7286,1.1,0.0)
+yup p=(28.153,-86.5868,11.564) v=(-0.048,-0.2942,0.0179)
+zdown p=(17.0178,-6.3817,219.6898) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.1553,0.0582,-164.0697) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616907
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+current event time: -2
+nearest event time: 20.380480650616907
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616907
 nearest event type: colliding
-time_elapsed: 287.00948884164234
-dot 1 top: 13.939948372450006
-dot 1 bottom: 400.00000000000006
-dot 2 top: 13.939948372450006
-dot 2 bottom: 400.00000000000006
-v1_x= -0.1599178080527347
-v2_x= 0.2173604043941361
-xdown p=(46.2118,-86.5318,10.9514) v=(-0.159918,-1.28191,0.280614)
-xup p=(187.009,0,0) v=(1,0,0)
-ydown p=(-145.26,226.358,0) v=(-0.728571,1.1,0)
-yup p=(27.1743,-92.5835,11.9282) v=(0.21736,-0.209879,0.00425134)
-zdown p=(18.9803,-7.11761,243.885) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.173173,0.06494,-181.847) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061688
-T2= 2.5970688862475997e-15
-difference between t: 20.380480650616878
-T1= 1443.705264229267
-T2= -1565.7105649663529
-difference between t: -122.00530073708592
-T1= 1802.9905111583578
-T2= -2177.0094888416425
-difference between t: -374.0189776832847
-T1= 1304.4309426566601
-T2= -1712.0859868738546
-difference between t: -407.6550442171945
-T1= 6305.445017931623
-T2= -6861.526330789266
-difference between t: -556.0813128576428
-T1= 1464.62498601373
-T2= -1875.367635419177
-difference between t: -410.7426494054471
-T1= 2072.980718452265
-T2= -2489.941531716435
-difference between t: -416.9608132641697
+xdown p=(46.2118,-86.5318,10.9514) v=(-0.1599,-1.2819,0.2806)
+xup p=(187.0095,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-145.2603,226.358,0.0) v=(-0.7286,1.1,0.0)
+yup p=(27.1743,-92.5835,11.9282) v=(0.2174,-0.2099,0.0043)
+zdown p=(18.9803,-7.1176,243.8849) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.1732,0.0649,-181.8465) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061688
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+current event time: -2
+nearest event time: 20.38048065061688
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061688
 nearest event type: colliding
-time_elapsed: 307.38996949225924
-dot 1 top: 13.93994837245
-dot 1 bottom: 399.9999999999999
-dot 2 top: 13.93994837245
-dot 2 bottom: 399.9999999999999
-v1_x= -0.7926967147340124
-v2_x= 0.3755551310644555
-xdown p=(42.9526,-112.658,16.6704) v=(-0.792697,-0.401082,0.0210166)
-xup p=(207.39,0,0) v=(1,0,0)
-ydown p=(-160.109,248.776,0) v=(-0.728571,1.1,0)
-yup p=(31.6043,-96.861,12.0148) v=(0.375555,-0.430087,0.0691506)
-zdown p=(20.9428,-7.85354,268.08) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.191088,0.0716579,-199.623) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616892
-T2= -3.8956033293714e-15
-difference between t: 20.38048065061689
-T1= 2220.6914493043632
-T2= -2249.7845025536762
-difference between t: -29.093053249313016
-T1= 1782.610030507741
-T2= -2197.3899694922593
-difference between t: -414.77993898451837
-T1= 1284.050462006043
-T2= -1732.4664675244717
-difference between t: -448.4160055184286
-T1= 3294.9431937669365
-T2= -3623.5944042744054
-difference between t: -328.65121050746893
-T1= 1444.2445053631134
-T2= -1895.7481160697937
-difference between t: -451.5036107066803
-T1= 2052.6002378016483
-T2= -2510.3220123670517
-difference between t: -457.7217745654034
+xdown p=(42.9526,-112.6578,16.6704) v=(-0.7927,-0.4011,0.021)
+xup p=(207.39,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-160.109,248.7765,0.0) v=(-0.7286,1.1,0.0)
+yup p=(31.6043,-96.861,12.0148) v=(0.3756,-0.4301,0.0692)
+zdown p=(20.9428,-7.8535,268.0801) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.1911,0.0717,-199.6234) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616892
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+current event time: -2
+nearest event time: 20.380480650616892
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616892
 nearest event type: colliding
-time_elapsed: 327.77045014287614
-dot 1 top: 13.939948372450017
-dot 1 bottom: 399.9999999999997
-dot 2 top: 13.939948372450017
-dot 2 bottom: 399.9999999999997
-v1_x= -0.09786091477293146
-v2_x= 0.20184618107418525
-xdown p=(26.797,-120.832,17.0988) v=(-0.0978609,0.446787,-0.18388)
-xup p=(227.77,0,0) v=(1,0,0)
-ydown p=(-174.958,271.195,0) v=(-0.728571,1.1,0)
-yup p=(39.2582,-105.626,13.4241) v=(0.201846,-0.642054,0.120375)
-zdown p=(22.9053,-8.58948,292.275) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.209002,0.0783758,-217.4) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616914
-T2= -1.0388275544990396e-14
-difference between t: 20.380480650616903
-T1= 4282.275866917076
-T2= -3790.4990895633237
-difference between t: 491.77677735375255
-T1= 1762.2295498571239
-T2= -2217.770450142876
-difference between t: -455.5409002857523
-T1= 1263.669981355426
-T2= -1752.8469481750885
-difference between t: -489.17696681966254
-T1= 2745.0605447447147
-T2= -3076.0278733811433
-difference between t: -330.96732863642865
-T1= 1423.8640247124965
-T2= -1916.1285967204105
-difference between t: -492.264572007914
-T1= 2032.2197571510314
-T2= -2530.702493017669
-difference between t: -498.48273586663754
+xdown p=(26.797,-120.8321,17.0988) v=(-0.0979,0.4468,-0.1839)
+xup p=(227.7705,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-174.9576,271.195,0.0) v=(-0.7286,1.1,0.0)
+yup p=(39.2582,-105.6263,13.4241) v=(0.2018,-0.6421,0.1204)
+zdown p=(22.9053,-8.5895,292.2753) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.209,0.0784,-217.4002) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616914
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616914
 nearest event type: colliding
-time_elapsed: 348.15093079349305
-dot 1 top: 13.939948372450035
-dot 1 bottom: 400.00000000000017
-dot 2 top: 13.939948372450035
-dot 2 bottom: 400.00000000000017
-v1_x= 0.9375654432623408
-v2_x= -0.057010408434632814
-xdown p=(24.8026,-111.726,13.3512) v=(0.937565,0.057285,-0.0430183)
-xup p=(248.151,0,0) v=(1,0,0)
-ydown p=(-189.806,293.614,0) v=(-0.728571,1.1,0)
-yup p=(43.372,-118.712,15.8774) v=(-0.0570104,-0.544678,0.0851593)
-zdown p=(24.8678,-9.32541,316.47) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.226917,0.0850937,-235.177) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616924
-T2= 6.492672215618997e-15
-difference between t: 20.380480650616917
-T1= 2094.4668561070303
-T2= -2131.291446418407
-difference between t: -36.824590311376596
-T1= 1741.849069206507
-T2= -2238.150930793493
-difference between t: -496.301861586986
-T1= 1243.2895007048094
-T2= -1773.2274288257054
-difference between t: -529.937928120896
-T1= 3382.285741964393
-T2= -3795.9833226828523
-difference between t: -413.69758071845945
-T1= 1403.4835440618795
-T2= -1936.5090773710274
-difference between t: -533.0255333091479
-T1= 2011.8392765004144
-T2= -2551.082973668286
-difference between t: -539.2436971678715
+xdown p=(24.8026,-111.7263,13.3512) v=(0.9376,0.0573,-0.043)
+xup p=(248.1509,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-189.8062,293.6135,0.0) v=(-0.7286,1.1,0.0)
+yup p=(43.372,-118.7117,15.8774) v=(-0.057,-0.5447,0.0852)
+zdown p=(24.8678,-9.3254,316.4704) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.2269,0.0851,-235.177) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616924
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616924
 nearest event type: colliding
-time_elapsed: 368.53141144410995
-dot 1 top: 13.93994837245003
-dot 1 bottom: 399.99999999999955
-dot 2 top: 13.93994837245003
-dot 2 bottom: 399.99999999999955
-v1_x= 0.8427444729214366
-v2_x= -0.033305165849406765
-xdown p=(43.9106,-110.559,12.4745) v=(0.842744,-1.0163,0.243506)
-xup p=(268.531,0,0) v=(1,0,0)
-ydown p=(-204.655,316.032,0) v=(-0.728571,1.1,0)
-yup p=(42.2101,-129.813,17.613) v=(-0.0333052,-0.276283,0.0135282)
-zdown p=(26.8303,-10.0614,340.666) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.244831,0.0918116,-252.954) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616935
-T2= -1.558241331748559e-14
-difference between t: 20.38048065061692
-T1= 1397.46000205161
-T2= -1566.5745450744917
-difference between t: -169.11454302288166
-T1= 1721.4685885558902
-T2= -2258.53141144411
-difference between t: -537.0628228882197
-T1= 1222.9090200541923
-T2= -1793.6079094763222
-difference between t: -570.6988894221299
-T1= 6692.458193000209
-T2= -7586.438606951254
-difference between t: -893.9804139510452
-T1= 1383.1030634112626
-T2= -1956.8895580216445
-difference between t: -573.7864946103819
-T1= 1991.4587958497975
-T2= -2571.4634543189027
-difference between t: -580.0046584691052
+xdown p=(43.9106,-110.5589,12.4745) v=(0.8427,-1.0163,0.2435)
+xup p=(268.5314,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-204.6549,316.0321,0.0) v=(-0.7286,1.1,0.0)
+yup p=(42.2101,-129.8125,17.613) v=(-0.0333,-0.2763,0.0135)
+zdown p=(26.8303,-10.0614,340.6656) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.2448,0.0918,-252.9538) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616935
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616935
 nearest event type: colliding
-time_elapsed: 388.9118920947269
-dot 1 top: 13.939948372450054
-dot 1 bottom: 400.0
-dot 2 top: 13.939948372450054
-dot 2 bottom: 400.0
-v1_x= -0.24762928714006605
-v2_x= 0.2392882741659689
-xdown p=(61.0861,-131.271,17.4372) v=(-0.247629,-1.24892,0.268681)
-xup p=(288.912,0,0) v=(1,0,0)
-ydown p=(-219.504,338.451,0) v=(-0.728571,1.1,0)
-yup p=(41.5313,-135.443,17.8887) v=(0.239288,-0.218128,0.00723447)
-zdown p=(28.7928,-10.7973,364.861) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.262745,0.0985295,-270.731) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061695
-T2= 0.0
-difference between t: 20.38048065061695
-T1= 1437.2001538823997
-T2= -1618.5089686951048
-difference between t: -181.30881481270512
-T1= 1701.0881079052733
-T2= -2278.9118920947267
-difference between t: -577.8237841894534
-T1= 1202.5285394035755
-T2= -1813.9883901269393
-difference between t: -611.4598507233638
-T1= 5762.607669485164
-T2= -6517.893344895898
-difference between t: -755.2856754107343
-T1= 1362.7225827606458
-T2= -1977.2700386722613
-difference between t: -614.5474559116155
-T1= 1971.0783151991807
-T2= -2591.8439349695195
-difference between t: -620.7656197703388
+xdown p=(61.0861,-131.2714,17.4372) v=(-0.2476,-1.2489,0.2687)
+xup p=(288.9119,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-219.5035,338.4506,0.0) v=(-0.7286,1.1,0.0)
+yup p=(41.5313,-135.4433,17.8887) v=(0.2393,-0.2181,0.0072)
+zdown p=(28.7928,-10.7973,364.8607) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.2627,0.0985,-270.7307) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061695
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061695
 nearest event type: colliding
-time_elapsed: 409.29237274534387
-dot 1 top: 13.939948372450061
-dot 1 bottom: 400.00000000000006
-dot 2 top: 13.939948372450061
-dot 2 bottom: 400.00000000000006
-v1_x= -0.7846643834218385
-v2_x= 0.37354704823641205
-xdown p=(56.0393,-156.725,22.9131) v=(-0.784664,-0.310139,-0.00325505)
-xup p=(309.292,0,0) v=(1,0,0)
-ydown p=(-234.352,360.869,0) v=(-0.728571,1.1,0)
-yup p=(46.4081,-139.889,18.0362) v=(0.373547,-0.452822,0.0752185)
-zdown p=(30.7553,-11.5332,389.056) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.28066,0.105247,-288.507) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061695
-T2= 1.2985344431237985e-15
-difference between t: 20.38048065061695
-T1= 2343.7330169044203
-T2= -2356.5433825773903
-difference between t: -12.810365672969965
-T1= 1680.7076272546562
-T2= -2299.2923727453435
-difference between t: -618.5847454906873
-T1= 1182.1480587529584
-T2= -1834.3688707775561
-difference between t: -652.2208120245978
-T1= 3127.1132591477194
-T2= -3595.570755824044
-difference between t: -468.4574966763248
-T1= 1342.3421021100287
-T2= -1997.6505193228784
-difference between t: -655.3084172128497
-T1= 1950.6978345485636
-T2= -2612.2244156201364
-difference between t: -661.5265810715728
+xdown p=(56.0393,-156.725,22.9131) v=(-0.7847,-0.3101,-0.0033)
+xup p=(309.2924,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-234.3521,360.8691,0.0) v=(-0.7286,1.1,0.0)
+yup p=(46.4081,-139.8889,18.0362) v=(0.3735,-0.4528,0.0752)
+zdown p=(30.7553,-11.5332,389.0559) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.2807,0.1052,-288.5075) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061695
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+current event time: -2
+nearest event time: 20.38048065061695
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061695
 nearest event type: colliding
-time_elapsed: 429.67285339596083
-dot 1 top: 13.939948372450067
-dot 1 bottom: 400.0000000000003
-dot 2 top: 13.939948372450067
-dot 2 bottom: 400.0000000000003
-v1_x= -0.005494814073610632
-v2_x= 0.17875465589935507
-xdown p=(40.0475,-163.046,22.8467) v=(-0.00549481,0.466493,-0.186013)
-xup p=(329.673,0,0) v=(1,0,0)
-ydown p=(-249.201,383.288,0) v=(-0.728571,1.1,0)
-yup p=(54.0212,-149.118,19.5691) v=(0.178755,-0.64698,0.120908)
-zdown p=(32.7178,-12.2692,413.251) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.298574,0.111965,-306.284) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.38048065061694
-T2= 1.0388275544990385e-14
-difference between t: 20.380480650616928
-T1= 4279.98555409691
-T2= -3641.487047954833
-difference between t: 638.4985061420771
-T1= 1660.3271466040392
-T2= -2319.672853395961
-difference between t: -659.3457067919217
-T1= 1161.7675781023415
-T2= -1854.7493514281732
-difference between t: -692.9817733258317
-T1= 2684.452497712396
-T2= -3150.957777841722
-difference between t: -466.5052801293259
-T1= 1321.9616214594118
-T2= -2018.0309999734952
-difference between t: -696.0693785140834
-T1= 1930.3173538979468
-T2= -2632.6048962707537
-difference between t: -702.2875423728069
+xdown p=(40.0475,-163.0458,22.8467) v=(-0.0055,0.4665,-0.186)
+xup p=(329.6729,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-249.2008,383.2877,0.0) v=(-0.7286,1.1,0.0)
+yup p=(54.0212,-149.1176,19.5691) v=(0.1788,-0.647,0.1209)
+zdown p=(32.7178,-12.2692,413.2511) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.2986,0.112,-306.2843) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.38048065061694
+nearest event time: -1
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+current event time: -2
+nearest event time: 20.38048065061694
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.38048065061694
 nearest event type: colliding
-time_elapsed: 450.0533340465778
-dot 1 top: 13.939948372450031
-dot 1 bottom: 399.9999999999996
-dot 2 top: 13.939948372450031
-dot 2 bottom: 399.9999999999996
-v1_x= 0.9830579519773652
-v2_x= -0.06838353561338889
-xdown p=(39.9355,-153.538,19.0557) v=(0.983058,-0.0222394,-0.0199824)
-xup p=(350.053,0,0) v=(1,0,0)
-ydown p=(-264.049,405.706,0) v=(-0.728571,1.1,0)
-yup p=(57.6643,-162.303,22.0333) v=(-0.0683835,-0.524797,0.0794004)
-zdown p=(34.6802,-13.0051,437.446) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.316488,0.118683,-324.061) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616914
-T2= -1.4283878874361786e-14
-difference between t: 20.3804806506169
-T1= 1973.5782581654369
-T2= -2061.0234798827005
-difference between t: -87.44522171726362
-T1= 1639.9466659534223
-T2= -2340.0533340465777
-difference between t: -700.1066680931553
-T1= 1141.3870974517245
-T2= -1875.12983207879
-difference between t: -733.7427346270656
-T1= 3425.915776206695
-T2= -4005.4170503548175
-difference between t: -579.5012741481223
-T1= 1301.5811408087948
-T2= -2038.411480624112
-difference between t: -736.8303398153173
-T1= 1909.9368732473297
-T2= -2652.9853769213705
-difference between t: -743.0485036740408
+xdown p=(39.9355,-153.5384,19.0557) v=(0.9831,-0.0222,-0.02)
+xup p=(350.0533,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-264.0494,405.7062,0.0) v=(-0.7286,1.1,0.0)
+yup p=(57.6643,-162.3034,22.0333) v=(-0.0684,-0.5248,0.0794)
+zdown p=(34.6802,-13.0051,437.4462) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.3165,0.1187,-324.0611) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616914
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+current event time: -2
+nearest event time: 20.380480650616914
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616914
 nearest event type: colliding
-time_elapsed: 470.4338146971947
-dot 1 top: 13.93994837245004
-dot 1 bottom: 399.9999999999996
-dot 2 top: 13.93994837245004
-dot 2 bottom: 399.9999999999996
-v1_x= 0.7767406331920164
-v2_x= -0.01680420591705168
-xdown p=(59.9707,-153.992,18.6485) v=(0.776741,-1.08208,0.258988)
-xup p=(370.434,0,0) v=(1,0,0)
-ydown p=(-278.898,428.125,0) v=(-0.728571,1.1,0)
-yup p=(56.2706,-172.999,23.6515) v=(-0.0168042,-0.259836,0.00965778)
-zdown p=(36.6427,-13.741,461.641) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.334403,0.125401,-341.838) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616935
-T2= -1.4283878874361792e-14
-difference between t: 20.38048065061692
-T1= 1347.7688757437832
-T2= -1584.6042985476558
-difference between t: -236.8354228038727
-T1= 1619.5661853028055
-T2= -2360.4338146971945
-difference between t: -740.867629394389
-T1= 1121.0066168011076
-T2= -1895.510312729407
-difference between t: -774.5036959282993
-T1= 6981.239847246324
-T2= -8284.345425016974
-difference between t: -1303.1055777706506
-T1= 1281.200660158178
-T2= -2058.791961274729
-difference between t: -777.5913011165512
-T1= 1889.5563925967128
-T2= -2673.3658575719874
-difference between t: -783.8094649752745
+xdown p=(59.9707,-153.9917,18.6485) v=(0.7767,-1.0821,0.259)
+xup p=(370.4338,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-278.8981,428.1247,0.0) v=(-0.7286,1.1,0.0)
+yup p=(56.2706,-172.999,23.6515) v=(-0.0168,-0.2598,0.0097)
+zdown p=(36.6427,-13.741,461.6414) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.3344,0.1254,-341.8379) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616935
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+current event time: -2
+nearest event time: 20.380480650616935
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616935
 nearest event type: colliding
-time_elapsed: 490.81429534781165
-dot 1 top: 13.93994837245005
-dot 1 bottom: 400.0000000000004
-dot 2 top: 13.93994837245005
-dot 2 bottom: 400.0000000000004
-v1_x= -0.3313700810587543
-v2_x= 0.260223472645641
-xdown p=(75.801,-176.045,23.9268) v=(-0.33137,-1.20752,0.254617)
-xup p=(390.814,0,0) v=(1,0,0)
-ydown p=(-293.747,450.543,0) v=(-0.728571,1.1,0)
-yup p=(55.9281,-178.295,23.8484) v=(0.260223,-0.228478,0.0107506)
-zdown p=(38.6052,-14.477,485.837) v=(0.0962929,-0.0361098,1.18717)
-zup p=(-0.352317,0.132119,-359.615) v=(-0.000878997,0.000329624,-0.872248)
-
-
-new sim
-T1= 20.380480650616924
-T2= 1.4283878874361786e-14
-difference between t: 20.38048065061691
-T1= 1436.0117174449338
-T2= -1673.100526634399
-difference between t: -237.08880918946534
-T1= 1599.1857046521884
-T2= -2380.8142953478114
-difference between t: -781.628590695623
-T1= 1100.6261361504908
-T2= -1915.8907933800238
-difference between t: -815.264657229533
-T1= 5273.96664986938
-T2= -6199.480519461585
-difference between t: -925.5138695922051
-T1= 1260.820179507561
-T2= -2079.172441925346
-difference between t: -818.3522624177849
-T1= 1869.1759119460958
-T2= -2693.746338222604
-difference between t: -824.5704262765084
+xdown p=(75.801,-176.045,23.9268) v=(-0.3314,-1.2075,0.2546)
+xup p=(390.8143,0.0,0.0) v=(1.0,0.0,0.0)
+ydown p=(-293.7467,450.5432,0.0) v=(-0.7286,1.1,0.0)
+yup p=(55.9281,-178.2946,23.8484) v=(0.2602,-0.2285,0.0108)
+zdown p=(38.6052,-14.477,485.8366) v=(0.0963,-0.0361,1.1872)
+zup p=(-0.3523,0.1321,-359.6148) v=(-0.0009,0.0003,-0.8722)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 20.380480650616924
+nearest event time: -1
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+current event time: -2
+nearest event time: 20.380480650616924
+sphere: xdown
+sphere: xup
+sphere: ydown
+sphere: yup
+sphere: zdown
+sphere: zup
+checked 1
 
 nearest event time: 20.380480650616924
 nearest event type: colliding
-time_elapsed: 511.19477599842855
 
 Here are the events.
 

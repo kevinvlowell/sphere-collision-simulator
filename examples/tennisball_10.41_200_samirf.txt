@@ -8,1166 +8,443 @@ tennisball m=3.1 R=1.2 p=(4.1,-4.1,4) v=(-1.2,5,1)
 energy: 42.532
 momentum: (-3.72,15.5,3.1)
 
-new sim
-T1= 2.156222555855788
-T2= -0.5949980660598697
-difference between t: 1.5612244897959184
+sphere: tennisball
+checked 1
 
 nearest event time: 2.156222555855788
 nearest event type: reflecting
-time_elapsed: 2.156222555855788
-dot top: 37.746746932682825
-dot bottom: 84.82410000000002
-vel_x: -2.546155110358551
-vel_y: -0.9461939073483911
-vel_z: -4.479041330875594
-tennisball p=(1.51253,6.68111,6.15622) v=(-2.54616,-0.946194,-4.47904)
-
-
-new sim
-T1= 2.751220621915658
-T2= 0.0
-difference between t: 2.751220621915658
+tennisball p=(1.5125,6.6811,6.1562) v=(-2.5462,-0.9462,-4.479)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915658
 nearest event type: reflecting
-time_elapsed: 4.907443177771446
-dot top: 37.746746932682825
-dot bottom: 84.82410000000002
-vel_x: 2.3421741415332558
-vel_y: -4.575548948509481
-vel_z: 1.0092433356365262
-tennisball p=(-5.4925,4.07792,-6.16661) v=(2.34217,-4.57555,1.00924)
-
-
-new sim
-T1= 2.7512206219156585
-T2= 0.0
-difference between t: 2.7512206219156585
+tennisball p=(-5.4925,4.0779,-6.1666) v=(2.3422,-4.5755,1.0092)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156585
 nearest event type: reflecting
-time_elapsed: 7.658663799687105
-dot top: 37.746746932682846
-dot bottom: 84.82410000000004
-vel_x: 1.4954843446445087
-vel_y: 2.998729383700921
-vel_z: 4.026307074510326
-tennisball p=(0.951336,-8.51042,-3.38996) v=(1.49548,2.99873,4.02631)
-
-
-new sim
-T1= 2.751220621915658
-T2= 2.589441456851675e-16
-difference between t: 2.7512206219156576
+tennisball p=(0.9513,-8.5104,-3.39) v=(1.4955,2.9987,4.0263)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915658
 nearest event type: reflecting
-time_elapsed: 10.409884421602763
-dot top: 37.74674693268285
-dot bottom: 84.82410000000003
-vel_x: -3.013030186623233
-vel_y: 3.230355505429405
-vel_z: -2.8153956032925693
-tennisball p=(5.06574,-0.260254,7.6873) v=(-3.01303,3.23036,-2.8154)
-
-
-new sim
-T1= 2.751220621915657
-T2= 2.5894414568516747e-16
-difference between t: 2.7512206219156567
+tennisball p=(5.0657,-0.2603,7.6873) v=(-3.013,3.2304,-2.8154)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 13.16110504351842
-dot top: 37.74674693268286
-dot bottom: 84.82410000000002
-vel_x: -0.14387573571904344
-vel_y: -4.4478274811618785
-vel_z: -2.7633549302419573
-tennisball p=(-3.22377,8.62717,-0.0584726) v=(-0.143876,-4.44783,-2.76335)
-
-
-new sim
-T1= 2.7512206219156567
-T2= 0.0
-difference between t: 2.7512206219156567
+tennisball p=(-3.2238,8.6272,-0.0585) v=(-0.1439,-4.4478,-2.7634)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 15.912325665434077
-dot top: 37.74674693268288
-dot bottom: 84.82410000000003
-vel_x: 3.0775710876326876
-vel_y: -1.2351143222366363
-vel_z: 4.055002936074565
-tennisball p=(-3.6196,-3.60979,-7.66107) v=(3.07757,-1.23511,4.055)
-
-
-new sim
-T1= 2.7512206219156563
-T2= 2.589441456851672e-16
-difference between t: 2.751220621915656
+tennisball p=(-3.6196,-3.6098,-7.6611) v=(3.0776,-1.2351,4.055)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 18.66354628734973
-dot top: 37.746746932682875
-dot bottom: 84.82410000000002
-vel_x: -1.2366851345609478
-vel_y: 5.001884708452092
-vel_z: 0.9443300489284212
-tennisball p=(4.84748,-7.00786,3.49514) v=(-1.23669,5.00188,0.94433)
-
-
-new sim
-T1= 2.7512206219156554
-T2= 0.0
-difference between t: 2.7512206219156554
+tennisball p=(4.8475,-7.0079,3.4951) v=(-1.2367,5.0019,0.9443)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156554
 nearest event type: reflecting
-time_elapsed: 21.41476690926539
-dot top: 37.74674693268286
-dot bottom: 84.82409999999996
-vel_x: -2.5228092130840545
-vel_y: -1.0086701784335101
-vel_z: -4.478617883400769
-tennisball p=(1.44508,6.75343,6.0932) v=(-2.52281,-1.00867,-4.47862)
-
-
-new sim
-T1= 2.751220621915656
-T2= -7.768324370555013e-16
-difference between t: 2.751220621915655
+tennisball p=(1.4451,6.7534,6.0932) v=(-2.5228,-1.0087,-4.4786)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915656
 nearest event type: reflecting
-time_elapsed: 24.165987531181045
-dot top: 37.746746932682896
-dot bottom: 84.82410000000007
-vel_x: 2.3683865911940054
-vel_y: -4.549407563420554
-vel_z: 1.0647233333332853
-tennisball p=(-5.49572,3.97835,-6.22847) v=(2.36839,-4.54941,1.06472)
-
-
-new sim
-T1= 2.7512206219156563
-T2= 7.768324370555019e-16
-difference between t: 2.7512206219156554
+tennisball p=(-5.4957,3.9784,-6.2285) v=(2.3684,-4.5494,1.0647)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 26.917208153096702
-dot top: 37.74674693268285
-dot bottom: 84.82409999999999
-vel_x: 1.4603798620163733
-vel_y: 3.049478948132953
-vel_z: 4.000995976442743
-tennisball p=(1.02023,-8.53807,-3.29918) v=(1.46038,3.04948,4.001)
-
-
-new sim
-T1= 2.7512206219156554
-T2= -2.5894414568516728e-16
-difference between t: 2.751220621915655
+tennisball p=(1.0202,-8.5381,-3.2992) v=(1.4604,3.0495,4.001)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156554
 nearest event type: reflecting
-time_elapsed: 29.66842877501236
-dot top: 37.74674693268285
-dot bottom: 84.8241
-vel_x: -3.0234951933467284
-vel_y: 3.1814484844400877
-vel_z: -2.859521350971721
-tennisball p=(5.03806,-0.14828,7.70844) v=(-3.0235,3.18145,-2.85952)
-
-
-new sim
-T1= 2.7512206219156563
-T2= -2.5894414568516737e-16
-difference between t: 2.751220621915656
+tennisball p=(5.0381,-0.1483,7.7084) v=(-3.0235,3.1814,-2.8595)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 32.419649396928016
-dot top: 37.74674693268286
-dot bottom: 84.82410000000006
-vel_x: -0.10407677865692389
-vel_y: -4.476637952218891
-vel_z: -2.718249559716303
-tennisball p=(-3.28024,8.60459,-0.158732) v=(-0.104077,-4.47664,-2.71825)
-
-
-new sim
-T1= 2.7512206219156563
-T2= 5.17888291370335e-16
-difference between t: 2.751220621915656
+tennisball p=(-3.2802,8.6046,-0.1587) v=(-0.1041,-4.4766,-2.7182)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 35.17087001884367
-dot top: 37.74674693268282
-dot bottom: 84.82409999999997
-vel_x: 3.070182767419652
-vel_y: -1.1732832751686217
-vel_z: 4.078894964429585
-tennisball p=(-3.56658,-3.71163,-7.63724) v=(3.07018,-1.17328,4.07889)
-
-
-new sim
-T1= 2.751220621915656
-T2= -5.178882913703349e-16
-difference between t: 2.7512206219156554
+tennisball p=(-3.5666,-3.7116,-7.6372) v=(3.0702,-1.1733,4.0789)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915656
 nearest event type: reflecting
-time_elapsed: 37.92209064075933
-dot top: 37.74674693268284
-dot bottom: 84.82410000000003
-vel_x: -1.273169781248812
-vel_y: 5.0029585255960285
-vel_z: 0.8885070057579112
-tennisball p=(4.88017,-6.93959,3.5847) v=(-1.27317,5.00296,0.888507)
-
-
-new sim
-T1= 2.7512206219156563
-T2= 2.5894414568516747e-16
-difference between t: 2.751220621915656
+tennisball p=(4.8802,-6.9396,3.5847) v=(-1.2732,5.003,0.8885)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 40.673311262674986
-dot top: 37.74674693268283
-dot bottom: 84.82410000000002
-vel_x: -2.4990543251625876
-vel_y: -1.0709829267810411
-vel_z: -4.47746837514568
-tennisball p=(1.3774,6.82465,6.02918) v=(-2.49905,-1.07098,-4.47747)
-
-
-new sim
-T1= 2.751220621915656
-T2= 0.0
-difference between t: 2.751220621915656
+tennisball p=(1.3774,6.8246,6.0292) v=(-2.4991,-1.071,-4.4775)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915656
 nearest event type: reflecting
-time_elapsed: 43.42453188459064
-dot top: 37.74674693268282
-dot bottom: 84.82409999999999
-vel_x: 2.3942150847635633
-vel_y: -4.5225286413300045
-vel_z: 1.1200307211145635
-tennisball p=(-5.49805,3.87814,-6.28932) v=(2.39422,-4.52253,1.12003)
-
-
-new sim
-T1= 2.7512206219156554
-T2= -2.5894414568516747e-16
-difference between t: 2.751220621915655
+tennisball p=(-5.4981,3.8781,-6.2893) v=(2.3942,-4.5225,1.12)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156554
 nearest event type: reflecting
-time_elapsed: 46.1757525065063
-dot top: 37.746746932682825
-dot bottom: 84.8241
-vel_x: 1.4250386267628574
-vel_y: 3.099734139719999
-vel_z: 3.975036248298645
-tennisball p=(1.08896,-8.56434,-3.20787) v=(1.42504,3.09973,3.97504)
-
-
-new sim
-T1= 2.751220621915656
-T2= -2.589441456851675e-16
-difference between t: 2.7512206219156554
+tennisball p=(1.089,-8.5643,-3.2079) v=(1.425,3.0997,3.975)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915656
 nearest event type: reflecting
-time_elapsed: 48.926973128421956
-dot top: 37.74674693268283
-dot bottom: 84.82410000000003
-vel_x: -3.0334700396376144
-vel_y: 3.132025696080359
-vel_z: -2.9031835211907175
-tennisball p=(5.00956,-0.0362826,7.72833) v=(-3.03347,3.13203,-2.90318)
-
-
-new sim
-T1= 2.7512206219156554
-T2= 2.5894414568516747e-16
-difference between t: 2.751220621915655
+tennisball p=(5.0096,-0.0363,7.7283) v=(-3.0335,3.132,-2.9032)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156554
 nearest event type: reflecting
-time_elapsed: 51.67819375033761
-dot top: 37.74674693268281
-dot bottom: 84.82409999999996
-vel_x: -0.06426094896379464
-vel_y: -4.504722683476435
-vel_z: -2.6727035143111495
-tennisball p=(-3.33619,8.58061,-0.258966) v=(-0.0642609,-4.50472,-2.6727)
-
-
-new sim
-T1= 2.7512206219156563
-T2= -7.768324370555024e-16
-difference between t: 2.7512206219156554
+tennisball p=(-3.3362,8.5806,-0.259) v=(-0.0643,-4.5047,-2.6727)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 54.42941437225327
-dot top: 37.74674693268287
-dot bottom: 84.8241000000001
-vel_x: 3.0622967179174374
-vel_y: -1.1112620187565048
-vel_z: 4.102125733945917
-tennisball p=(-3.51298,-3.81287,-7.61216) v=(3.0623,-1.11126,4.10213)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 1.0357765827406699e-15
-difference between t: 2.7512206219156567
+tennisball p=(-3.513,-3.8129,-7.6122) v=(3.0623,-1.1113,4.1021)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 57.180634994168926
-dot top: 37.74674693268284
-dot bottom: 84.82410000000004
-vel_x: -1.3094480252765477
-vel_y: 5.00322127734764
-vel_z: 0.832539920361306
-tennisball p=(4.91207,-6.8702,3.67369) v=(-1.30945,5.00322,0.83254)
-
-
-new sim
-T1= 2.7512206219156567
-T2= 2.589441456851676e-16
-difference between t: 2.7512206219156563
+tennisball p=(4.9121,-6.8702,3.6737) v=(-1.3094,5.0032,0.8325)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 59.93185561608458
-dot top: 37.74674693268282
-dot bottom: 84.82410000000002
-vel_x: -2.4748942976689556
-vel_y: -1.1331220504256407
-vel_z: -4.4755929924653435
-tennisball p=(1.30949,6.89476,5.96419) v=(-2.47489,-1.13312,-4.47559)
-
-
-new sim
-T1= 2.7512206219156563
-T2= 0.0
-difference between t: 2.7512206219156563
+tennisball p=(1.3095,6.8948,5.9642) v=(-2.4749,-1.1331,-4.4756)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 62.68307623800024
-dot top: 37.74674693268282
-dot bottom: 84.82410000000002
-vel_x: 2.419655435000109
-vel_y: -4.494916539772147
-vel_z: 1.1751565327041442
-tennisball p=(-5.49949,3.77729,-6.34915) v=(2.41966,-4.49492,1.17516)
-
-
-new sim
-T1= 2.7512206219156567
-T2= 0.0
-difference between t: 2.7512206219156567
+tennisball p=(-5.4995,3.7773,-6.3492) v=(2.4197,-4.4949,1.1752)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 65.43429685991589
-dot top: 37.74674693268281
-dot bottom: 84.82410000000002
-vel_x: 1.3894663683043802
-vel_y: 3.149486811233511
-vel_z: 3.9484320985952395
-tennisball p=(1.15752,-8.58921,-3.11604) v=(1.38947,3.14949,3.94843)
-
-
-new sim
-T1= 2.751220621915657
-T2= 0.0
-difference between t: 2.751220621915657
+tennisball p=(1.1575,-8.5892,-3.116) v=(1.3895,3.1495,3.9484)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 68.18551748183155
-dot top: 37.746746932682825
-dot bottom: 84.82410000000004
-vel_x: -3.0429531084022186
-vel_y: 3.0820951526319256
-vel_z: -2.946375035562864
-tennisball p=(4.98024,0.0757209,7.74697) v=(-3.04295,3.0821,-2.94638)
-
-
-new sim
-T1= 2.751220621915657
-T2= 2.5894414568516767e-16
-difference between t: 2.7512206219156567
+tennisball p=(4.9802,0.0757,7.747) v=(-3.043,3.0821,-2.9464)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 70.93673810374722
-dot top: 37.74674693268281
-dot bottom: 84.82410000000003
-vel_x: -0.024434701468574183
-vel_y: -4.5320771219178555
-vel_z: -2.6267241778216626
-tennisball p=(-3.39159,8.55524,-0.359158) v=(-0.0244347,-4.53208,-2.62672)
-
-
-new sim
-T1= 2.7512206219156567
-T2= 2.589441456851679e-16
-difference between t: 2.7512206219156563
+tennisball p=(-3.3916,8.5552,-0.3592) v=(-0.0244,-4.5321,-2.6267)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 73.68795872566287
-dot top: 37.74674693268278
-dot bottom: 84.82409999999999
-vel_x: 3.0539142175899294
-vel_y: -1.0490606077097748
-vel_z: 4.124691478517353
-tennisball p=(-3.45882,-3.9135,-7.58586) v=(3.05391,-1.04906,4.12469)
-
-
-new sim
-T1= 2.7512206219156563
-T2= -2.5894414568516787e-16
-difference between t: 2.751220621915656
+tennisball p=(-3.4588,-3.9135,-7.5859) v=(3.0539,-1.0491,4.1247)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 76.43917934757852
-dot top: 37.74674693268277
-dot bottom: 84.82409999999994
-vel_x: -1.3455139853185236
-vel_y: 5.002672921110359
-vel_z: 0.776437865963139
-tennisball p=(4.94317,-6.7997,3.76208) v=(-1.34551,5.00267,0.776438)
-
-
-new sim
-T1= 2.7512206219156563
-T2= -1.0357765827406713e-15
-difference between t: 2.7512206219156554
+tennisball p=(4.9432,-6.7997,3.7621) v=(-1.3455,5.0027,0.7764)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 79.19039996949417
-dot top: 37.74674693268279
-dot bottom: 84.82410000000002
-vel_x: -2.450333047358022
-vel_y: -1.1950774755494988
-vel_z: -4.472992039391458
-tennisball p=(1.24137,6.96376,5.89823) v=(-2.45033,-1.19508,-4.47299)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 0.0
-difference between t: 2.7512206219156576
+tennisball p=(1.2414,6.9638,5.8982) v=(-2.4503,-1.1951,-4.473)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 81.94162059140983
-dot top: 37.74674693268278
-dot bottom: 84.82410000000003
-vel_x: 2.4447035175864844
-vel_y: -4.466575735142277
-vel_z: 1.2300918312623947
-tennisball p=(-5.50004,3.67584,-6.40796) v=(2.4447,-4.46658,1.23009)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 2.58944145685168e-16
-difference between t: 2.751220621915657
+tennisball p=(-5.5,3.6758,-6.408) v=(2.4447,-4.4666,1.2301)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 84.6928412133255
-dot top: 37.74674693268278
-dot bottom: 84.82410000000002
-vel_x: 1.3536688535142145
-vel_y: 3.198728896912023
-vel_z: 3.921187840321538
-tennisball p=(1.22588,-8.6127,-3.0237) v=(1.35367,3.19873,3.92119)
-
-
-new sim
-T1= 2.751220621915657
-T2= 0.0
-difference between t: 2.751220621915657
+tennisball p=(1.2259,-8.6127,-3.0237) v=(1.3537,3.1987,3.9212)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 87.44406183524116
-dot top: 37.74674693268279
-dot bottom: 84.82409999999999
-vel_x: -3.05194286227243
-vel_y: 3.031664948692353
-vel_z: -2.9890888920028043
-tennisball p=(4.95012,0.187712,7.76435) v=(-3.05194,3.03166,-2.98909)
-
-
-new sim
-T1= 2.7512206219156567
-T2= -2.589441456851678e-16
-difference between t: 2.7512206219156563
+tennisball p=(4.9501,0.1877,7.7644) v=(-3.0519,3.0317,-2.9891)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 90.19528245715682
-dot top: 37.7467469326828
-dot bottom: 84.82410000000002
-vel_x: 0.015395507310864698
-vel_y: -4.558696832919468
-vel_z: -2.5803190042869963
-tennisball p=(-3.44645,8.52849,-0.459292) v=(0.0153955,-4.5587,-2.58032)
-
-
-new sim
-T1= 2.7512206219156563
-T2= 0.0
-difference between t: 2.7512206219156563
+tennisball p=(-3.4464,8.5285,-0.4593) v=(0.0154,-4.5587,-2.5803)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 92.94650307907247
-dot top: 37.74674693268277
-dot bottom: 84.82409999999994
-vel_x: 3.0450366253842227
-vel_y: -0.9866891259441086
-vel_z: 4.146588539849633
-tennisball p=(-3.40409,-4.01349,-7.55832) v=(3.04504,-0.986689,4.14659)
-
-
-new sim
-T1= 2.751220621915656
-T2= -1.0357765827406709e-15
-difference between t: 2.751220621915655
+tennisball p=(-3.4041,-4.0135,-7.5583) v=(3.045,-0.9867,4.1466)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915656
 nearest event type: reflecting
-time_elapsed: 95.69772370098812
-dot top: 37.746746932682804
-dot bottom: 84.8241
-vel_x: -1.3813618144639874
-vel_y: 5.001313545782144
-vel_z: 0.7202099376687361
-tennisball p=(4.97348,-6.72809,3.84986) v=(-1.38136,5.00131,0.72021)
-
-
-new sim
-T1= 2.7512206219156567
-T2= -2.5894414568516767e-16
-difference between t: 2.7512206219156563
+tennisball p=(4.9735,-6.7281,3.8499) v=(-1.3814,5.0013,0.7202)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 98.44894432290377
-dot top: 37.74674693268282
-dot bottom: 84.82410000000002
-vel_x: -2.4253745560297615
-vel_y: -1.2568391581155058
-vel_z: -4.469665937583137
-tennisball p=(1.17305,7.03163,5.83132) v=(-2.42537,-1.25684,-4.46967)
-
-
-new sim
-T1= 2.7512206219156567
-T2= 0.0
-difference between t: 2.7512206219156567
+tennisball p=(1.173,7.0316,5.8313) v=(-2.4254,-1.2568,-4.4697)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 101.20016494481942
-dot top: 37.74674693268281
-dot bottom: 84.82410000000002
-vel_x: 2.4693552717988707
-vel_y: -4.437510821970945
-vel_z: 1.2848277108351382
-tennisball p=(-5.49969,3.57379,-6.46572) v=(2.46936,-4.43751,1.28483)
-
-
-new sim
-T1= 2.751220621915657
-T2= 0.0
-difference between t: 2.751220621915657
+tennisball p=(-5.4997,3.5738,-6.4657) v=(2.4694,-4.4375,1.2848)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 103.95138556673508
-dot top: 37.74674693268281
-dot bottom: 84.82410000000004
-vel_x: 1.317651885783522
-vel_y: 3.2474524137688254
-vel_z: 3.893307890239115
-tennisball p=(1.29405,-8.63479,-2.93087) v=(1.31765,3.24745,3.89331)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 2.589441456851678e-16
-difference between t: 2.751220621915657
+tennisball p=(1.294,-8.6348,-2.9309) v=(1.3177,3.2475,3.8933)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 106.70260618865075
-dot top: 37.746746932682804
-dot bottom: 84.82410000000004
-vel_x: -3.0604378438549498
-vel_y: 2.9807432598626957
-vel_z: -3.031318165861769
-tennisball p=(4.9192,0.299673,7.78047) v=(-3.06044,2.98074,-3.03132)
-
-
-new sim
-T1= 2.751220621915657
-T2= 2.5894414568516787e-16
-difference between t: 2.7512206219156567
+tennisball p=(4.9192,0.2997,7.7805) v=(-3.0604,2.9807,-3.0313)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 109.45382681056641
-dot top: 37.74674693268278
-dot bottom: 84.82410000000003
-vel_x: 0.055223220214494884
-vel_y: -4.584577500969525
-vel_z: -2.5334955167817332
-tennisball p=(-3.50074,8.50036,-0.559351) v=(0.0552232,-4.58458,-2.5335)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 2.5894414568516797e-16
-difference between t: 2.751220621915657
+tennisball p=(-3.5007,8.5004,-0.5594) v=(0.0552,-4.5846,-2.5335)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 112.20504743248208
-dot top: 37.74674693268279
-dot bottom: 84.82410000000007
-vel_x: 3.0356653805102822
-vel_y: -0.9241576849465201
-vel_z: 4.167813368053519
-tennisball p=(-3.34881,-4.11283,-7.52956) v=(3.03567,-0.924158,4.16781)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 7.768324370555042e-16
-difference between t: 2.7512206219156567
+tennisball p=(-3.3488,-4.1128,-7.5296) v=(3.0357,-0.9242,4.1678)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 114.95626805439774
-dot top: 37.74674693268277
-dot bottom: 84.82410000000003
-vel_x: -1.416985701164942
-vel_y: 4.9991433717410425
-vel_z: 0.663865250989736
-tennisball p=(5.00298,-6.65539,3.93702) v=(-1.41699,4.99914,0.663865)
-
-
-new sim
-T1= 2.751220621915657
-T2= 2.58944145685168e-16
-difference between t: 2.7512206219156567
+tennisball p=(5.003,-6.6554,3.937) v=(-1.417,4.9991,0.6639)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 117.7074886763134
-dot top: 37.74674693268277
-dot bottom: 84.82410000000004
-vel_x: -2.400022869883725
-vel_y: -1.3183970854955112
-vel_z: -4.465615226258526
-tennisball p=(1.10454,7.09836,5.76346) v=(-2.40002,-1.3184,-4.46562)
-
-
-new sim
-T1= 2.751220621915657
-T2= 2.589441456851681e-16
-difference between t: 2.7512206219156567
+tennisball p=(1.1045,7.0984,5.7635) v=(-2.4,-1.3184,-4.4656)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 120.45870929822907
-dot top: 37.746746932682754
-dot bottom: 84.82410000000004
-vel_x: 2.4936067011650414
-vel_y: -4.407726512179131
-vel_z: 1.3393552977973897
-tennisball p=(-5.49846,3.47115,-6.52243) v=(2.49361,-4.40773,1.33936)
-
-
-new sim
-T1= 2.751220621915657
-T2= 2.589441456851682e-16
-difference between t: 2.7512206219156567
+tennisball p=(-5.4985,3.4712,-6.5224) v=(2.4936,-4.4077,1.3394)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 123.20992992014473
-dot top: 37.74674693268273
-dot bottom: 84.82410000000002
-vel_x: 1.281421304080596
-vel_y: 3.2956494628860415
-vel_z: 3.864796768166117
-tennisball p=(1.36201,-8.65547,-2.83757) v=(1.28142,3.29565,3.8648)
-
-
-new sim
-T1= 2.751220621915657
-T2= 0.0
-difference between t: 2.751220621915657
+tennisball p=(1.362,-8.6555,-2.8376) v=(1.2814,3.2956,3.8648)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 125.9611505420604
-dot top: 37.746746932682726
-dot bottom: 84.82410000000002
-vel_x: -3.068436675967538
-vel_y: 2.9293383414222203
-vel_z: -3.0730560110500655
-tennisball p=(4.88748,0.411585,7.79534) v=(-3.06844,2.92934,-3.07306)
-
-
-new sim
-T1= 2.7512206219156563
-T2= 0.0
-difference between t: 2.7512206219156563
+tennisball p=(4.8875,0.4116,7.7953) v=(-3.0684,2.9293,-3.0731)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 128.71237116397606
-dot top: 37.74674693268271
-dot bottom: 84.82409999999994
-vel_x: 0.09504198048685009
-vel_y: -4.609714930367778
-vel_z: -2.4862613061964085
-tennisball p=(-3.55447,8.47084,-0.65932) v=(0.095042,-4.60971,-2.48626)
-
-
-new sim
-T1= 2.7512206219156563
-T2= -1.035776582740673e-15
-difference between t: 2.7512206219156554
+tennisball p=(-3.5545,8.4708,-0.6593) v=(0.095,-4.6097,-2.4863)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156563
 nearest event type: reflecting
-time_elapsed: 131.4635917858917
-dot top: 37.74674693268273
-dot bottom: 84.82409999999999
-vel_x: 3.025802002207658
-vel_y: -0.8614764221362692
-vel_z: 4.188362522220273
-tennisball p=(-3.29299,-4.2115,-7.49957) v=(3.0258,-0.861476,4.18836)
-
-
-new sim
-T1= 2.751220621915657
-T2= -2.589441456851682e-16
-difference between t: 2.7512206219156567
+tennisball p=(-3.293,-4.2115,-7.4996) v=(3.0258,-0.8615,4.1884)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 134.21481240780736
-dot top: 37.74674693268275
-dot bottom: 84.8241
-vel_x: -1.4523798701782673
-vel_y: 4.9961627508095035
-vel_z: 0.6074129403663799
-tennisball p=(5.03166,-6.58161,4.02354) v=(-1.45238,4.99616,0.607413)
-
-
-new sim
-T1= 2.751220621915657
-T2= -2.589441456851681e-16
-difference between t: 2.7512206219156567
+tennisball p=(5.0317,-6.5816,4.0235) v=(-1.4524,4.9962,0.6074)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 136.966033029723
-dot top: 37.746746932682754
-dot bottom: 84.8241
-vel_x: -2.3742820988631124
-vel_y: -1.3797412780935554
-vel_z: -4.460840562107425
-tennisball p=(1.03584,7.16393,5.69466) v=(-2.37428,-1.37974,-4.46084)
-
-
-new sim
-T1= 2.7512206219156576
-T2= -2.589441456851682e-16
-difference between t: 2.751220621915657
+tennisball p=(1.0358,7.1639,5.6947) v=(-2.3743,-1.3797,-4.4608)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 139.71725365163866
-dot top: 37.746746932682754
-dot bottom: 84.82410000000002
-vel_x: 2.5174538741123165
-vel_y: -4.377227634314355
-vel_z: 1.39366575229199
-tennisball p=(-5.49633,3.36796,-6.57809) v=(2.51745,-4.37723,1.39367)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 0.0
-difference between t: 2.7512206219156576
+tennisball p=(-5.4963,3.368,-6.5781) v=(2.5175,-4.3772,1.3937)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 142.4684742735543
-dot top: 37.74674693268276
-dot bottom: 84.82410000000003
-vel_x: 1.2449829820041791
-vel_y: 3.343312230695318
-vel_z: 3.8356590962444805
-tennisball p=(1.42974,-8.67476,-2.74381) v=(1.24498,3.34331,3.83566)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 2.589441456851682e-16
-difference between t: 2.751220621915657
+tennisball p=(1.4297,-8.6748,-2.7438) v=(1.245,3.3433,3.8357)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 145.21969489546996
-dot top: 37.74674693268274
-dot bottom: 84.82409999999999
-vel_x: -3.0759380618623218
-vel_y: 2.877458526989911
-vel_z: -3.1142956611471027
-tennisball p=(4.85496,0.523431,7.80893) v=(-3.07594,2.87746,-3.1143)
-
-
-new sim
-T1= 2.751220621915657
-T2= -2.589441456851681e-16
-difference between t: 2.7512206219156567
+tennisball p=(4.855,0.5234,7.8089) v=(-3.0759,2.8775,-3.1143)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 147.9709155173856
-dot top: 37.74674693268276
-dot bottom: 84.82410000000003
-vel_x: 0.1348453328239323
-vel_y: -4.634105045905776
-vel_z: -2.4386240300067117
-tennisball p=(-3.60762,8.43995,-0.759181) v=(0.134845,-4.63411,-2.43862)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 2.589441456851682e-16
-difference between t: 2.751220621915657
+tennisball p=(-3.6076,8.44,-0.7592) v=(0.1348,-4.6341,-2.4386)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 150.72213613930126
-dot top: 37.746746932682754
-dot bottom: 84.82410000000002
-vel_x: 3.015448089499149
-vel_y: -0.7986554992211352
-vel_z: 4.208232670979556
-tennisball p=(-3.23663,-4.30949,-7.46837) v=(3.01545,-0.798655,4.20823)
-
-
-new sim
-T1= 2.7512206219156576
-T2= 0.0
-difference between t: 2.7512206219156576
+tennisball p=(-3.2366,-4.3095,-7.4684) v=(3.0154,-0.7987,4.2082)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 153.4733567612169
-dot top: 37.74674693268276
-dot bottom: 84.82410000000002
-vel_x: -1.4875385835021047
-vel_y: 4.992372166197301
-vel_z: 0.5508621576864661
-tennisball p=(5.05953,-6.50677,4.1094) v=(-1.48754,4.99237,0.550862)
-
-
-new sim
-T1= 2.751220621915657
-T2= 0.0
-difference between t: 2.751220621915657
+tennisball p=(5.0595,-6.5068,4.1094) v=(-1.4875,4.9924,0.5509)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 156.22457738313256
-dot top: 37.746746932682775
-dot bottom: 84.82410000000003
-vel_x: -2.3481564159884045
-vel_y: -1.4408617909638624
-vel_z: -4.4553427191847845
-tennisball p=(0.966986,7.22835,5.62495) v=(-2.34816,-1.44086,-4.45534)
-
-
-new sim
-T1= 2.7512206219156567
-T2= 2.58944145685168e-16
-difference between t: 2.7512206219156563
+tennisball p=(0.967,7.2283,5.6249) v=(-2.3482,-1.4409,-4.4553)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156567
 nearest event type: reflecting
-time_elapsed: 158.9757980050482
-dot top: 37.746746932682754
-dot bottom: 84.82409999999996
-vel_x: 2.5408929246049348
-vel_y: -4.346019132767829
-vel_z: 1.4477502696627322
-tennisball p=(-5.49331,3.26422,-6.63268) v=(2.54089,-4.34602,1.44775)
-
-
-new sim
-T1= 2.751220621915657
-T2= -7.768324370555041e-16
-difference between t: 2.7512206219156563
+tennisball p=(-5.4933,3.2642,-6.6327) v=(2.5409,-4.346,1.4478)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915657
 nearest event type: reflecting
-time_elapsed: 161.72701862696385
-dot top: 37.746746932682775
-dot bottom: 84.82410000000002
-vel_x: 1.2083428268312788
-vel_y: 3.390432990244463
-vel_z: 3.8058995981905968
-tennisball p=(1.49725,-8.69264,-2.6496) v=(1.20834,3.39043,3.8059)
-
-
-new sim
-T1= 2.751220621915658
-T2= 0.0
-difference between t: 2.751220621915658
+tennisball p=(1.4972,-8.6926,-2.6496) v=(1.2083,3.3904,3.8059)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915658
 nearest event type: reflecting
-time_elapsed: 164.4782392488795
-dot top: 37.746746932682775
-dot bottom: 84.82410000000003
-vel_x: -3.082940785435974
-vel_y: 2.825112227173556
-vel_z: -3.15503043049823
-tennisball p=(4.82166,0.635191,7.82127) v=(-3.08294,2.82511,-3.15503)
-
-
-new sim
-T1= 2.7512206219156585
-T2= 2.5894414568516816e-16
-difference between t: 2.751220621915658
+tennisball p=(4.8217,0.6352,7.8213) v=(-3.0829,2.8251,-3.155)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156585
 nearest event type: reflecting
-time_elapsed: 167.22945987079515
-dot top: 37.746746932682775
-dot bottom: 84.82410000000003
-vel_x: 0.17462682441958455
-vel_y: -4.657743893527428
-vel_z: -2.390591411032224
-tennisball p=(-3.66019,8.4077,-0.85892) v=(0.174627,-4.65774,-2.39059)
-
-
-new sim
-T1= 2.751220621915658
-T2= 2.589441456851681e-16
-difference between t: 2.7512206219156576
+tennisball p=(-3.6602,8.4077,-0.8589) v=(0.1746,-4.6577,-2.3906)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915658
 nearest event type: reflecting
-time_elapsed: 169.9806804927108
-dot top: 37.746746932682754
-dot bottom: 84.82409999999999
-vel_x: 3.004605320931603
-vel_y: -0.7357051005502875
-vel_z: 4.227420593039418
-tennisball p=(-3.17975,-4.40678,-7.43596) v=(3.00461,-0.735705,4.22742)
-
-
-new sim
-T1= 2.7512206219156585
-T2= -2.5894414568516816e-16
-difference between t: 2.751220621915658
+tennisball p=(-3.1797,-4.4068,-7.436) v=(3.0046,-0.7357,4.2274)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156585
 nearest event type: reflecting
-time_elapsed: 172.73190111462645
-dot top: 37.74674693268278
-dot bottom: 84.82410000000007
-vel_x: -1.5224561413059439
-vel_y: 4.987772232423215
-vel_z: 0.4942220708018783
-tennisball p=(5.08658,-6.43087,4.1946) v=(-1.52246,4.98777,0.494222)
-
-
-new sim
-T1= 2.751220621915659
-T2= 7.768324370555046e-16
-difference between t: 2.751220621915658
+tennisball p=(5.0866,-6.4309,4.1946) v=(-1.5225,4.9878,0.4942)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915659
 nearest event type: reflecting
-time_elapsed: 175.4831217365421
-dot top: 37.746746932682754
-dot bottom: 84.82409999999999
-vel_x: -2.3216500566809266
-vel_y: -1.5017487154228935
-vel_z: -4.449122588785242
-tennisball p=(0.89797,7.29159,5.55432) v=(-2.32165,-1.50175,-4.44912)
-
-
-new sim
-T1= 2.751220621915658
-T2= -2.589441456851681e-16
-difference between t: 2.7512206219156576
+tennisball p=(0.898,7.2916,5.5543) v=(-2.3217,-1.5017,-4.4491)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915658
 nearest event type: reflecting
-time_elapsed: 178.23434235845775
-dot top: 37.74674693268276
-dot bottom: 84.8241
-vel_x: 2.5639200527707615
-vel_y: -4.3141060669729665
-vel_z: 1.5016000818816444
-tennisball p=(-5.4894,3.15995,-6.6862) v=(2.56392,-4.31411,1.5016)
-
-
-new sim
-T1= 2.7512206219156576
-T2= -2.589441456851682e-16
-difference between t: 2.751220621915657
+tennisball p=(-5.4894,3.16,-6.6862) v=(2.5639,-4.3141,1.5016)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 180.9855629803734
-dot top: 37.746746932682726
-dot bottom: 84.82409999999992
-vel_x: 1.1715067785595352
-vel_y: 3.4370041024500892
-vel_z: 3.7755230985295607
-tennisball p=(1.56451,-8.70911,-2.55497) v=(1.17151,3.437,3.77552)
-
-
-new sim
-T1= 2.7512206219156576
-T2= -1.2947207284258414e-15
-difference between t: 2.7512206219156563
+tennisball p=(1.5645,-8.7091,-2.555) v=(1.1715,3.437,3.7755)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 183.73678360228905
-dot top: 37.746746932682754
-dot bottom: 84.82409999999999
-vel_x: -3.0894437114268865
-vel_y: 2.772307928206252
-vel_z: -3.195253715298611
-tennisball p=(4.78758,0.746849,7.83233) v=(-3.08944,2.77231,-3.19525)
-
-
-new sim
-T1= 2.7512206219156585
-T2= -2.5894414568516816e-16
-difference between t: 2.751220621915658
+tennisball p=(4.7876,0.7468,7.8323) v=(-3.0894,2.7723,-3.1953)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156585
 nearest event type: reflecting
-time_elapsed: 186.4880042242047
-dot top: 37.746746932682775
-dot bottom: 84.8241
-vel_x: 0.21438000601164697
-vel_y: -4.680627640970056
-vel_z: -2.3421712361843863
-tennisball p=(-3.71216,8.37408,-0.958519) v=(0.21438,-4.68063,-2.34217)
-
-
-new sim
-T1= 2.7512206219156594
-T2= -2.5894414568516806e-16
-difference between t: 2.751220621915659
+tennisball p=(-3.7122,8.3741,-0.9585) v=(0.2144,-4.6806,-2.3422)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156594
 nearest event type: reflecting
-time_elapsed: 189.23922484612035
-dot top: 37.746746932682804
-dot bottom: 84.82410000000006
-vel_x: 2.9932754543037907
-vel_y: -0.672635431463136
-vel_z: 4.245923177708565
-tennisball p=(-3.12235,-4.50336,-7.40235) v=(2.99328,-0.672635,4.24592)
-
-
-new sim
-T1= 2.75122062191566
-T2= 5.178882913703362e-16
-difference between t: 2.7512206219156594
+tennisball p=(-3.1224,-4.5034,-7.4023) v=(2.9933,-0.6726,4.2459)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.75122062191566
 nearest event type: reflecting
-time_elapsed: 191.990445468036
-dot top: 37.7467469326828
-dot bottom: 84.82410000000003
-vel_x: -1.5571268828547264
-vel_y: 4.98236369521542
-vel_z: 0.43750186204225017
-tennisball p=(5.11281,-6.35393,4.27912) v=(-1.55713,4.98236,0.437502)
-
-
-new sim
-T1= 2.751220621915659
-T2= 2.58944145685168e-16
-difference between t: 2.7512206219156585
+tennisball p=(5.1128,-6.3539,4.2791) v=(-1.5571,4.9824,0.4375)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915659
 nearest event type: reflecting
-time_elapsed: 194.74166608995165
-dot top: 37.746746932682775
-dot bottom: 84.82409999999999
-vel_x: -2.2947673180761847
-vel_y: -1.562392180655804
-vel_z: -4.442181179298632
-tennisball p=(0.828809,7.35365,5.48279) v=(-2.29477,-1.56239,-4.44218)
-
-
-new sim
-T1= 2.7512206219156576
-T2= -2.589441456851682e-16
-difference between t: 2.751220621915657
+tennisball p=(0.8288,7.3537,5.4828) v=(-2.2948,-1.5624,-4.4422)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.7512206219156576
 nearest event type: reflecting
-time_elapsed: 197.4928867118673
-dot top: 37.74674693268274
-dot bottom: 84.82409999999993
-vel_x: 2.586531525517335
-vel_y: -4.281493610585144
-vel_z: 1.5552064589704777
-tennisball p=(-5.4846,3.05517,-6.73863) v=(2.58653,-4.28149,1.55521)
-
-
-new sim
-T1= 2.751220621915658
-T2= -1.035776582740673e-15
-difference between t: 2.751220621915657
+tennisball p=(-5.4846,3.0552,-6.7386) v=(2.5865,-4.2815,1.5552)
+sphere: tennisball
+checked 1
 
 nearest event time: 2.751220621915658
 nearest event type: reflecting
-time_elapsed: 200.24410733378295
 
 Here are the events.
 

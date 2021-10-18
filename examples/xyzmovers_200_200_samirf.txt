@@ -10,68 +10,51 @@ xmover m=20 R=3 p=(10,0,0) v=(0.5,0,0)
 energy: 65
 momentum: (10,40,30)
 
-new sim
-T1= 126.0
-T2= -139.33333333333334
-difference between t: -13.333333333333343
-T1= 94.0
-T2= -104.0
-difference between t: -10.0
-T1= 374.0
-T2= -414.0
-difference between t: -40.0
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: zmover
+sphere: ymover
+sphere: xmover
+checked 1
 
 nearest event time: 94.0
 nearest event type: reflecting
-time_elapsed: 94.0
-dot top: 396.0
-dot bottom: 39204.0
-vel_x: 0.0
-vel_y: -2.0
-vel_z: 0.0
-zmover p=(0,0,151) v=(0,0,1.5)
-ymover p=(0,198,0) v=(0,-2,0)
-xmover p=(57,0,0) v=(0.5,0,0)
-
-
-new sim
-T1= 32.0
-T2= -233.33333333333334
-difference between t: -201.33333333333334
-T1= 198.0
-T2= 0.0
-difference between t: 198.0
-T1= 280.0
-T2= -508.0
-difference between t: -228.0
+zmover p=(0.0,0.0,151.0) v=(0.0,0.0,1.5)
+ymover p=(0.0,198.0,0.0) v=(0.0,-2.0,0.0)
+xmover p=(57.0,0.0,0.0) v=(0.5,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: zmover
+sphere: ymover
+sphere: xmover
+checked 1
 
 nearest event time: 32.0
 nearest event type: reflecting
-time_elapsed: 126.0
-dot top: 298.5
-dot bottom: 39601.0
-vel_x: 0.0
-vel_y: 0.0
-vel_z: -1.5
-zmover p=(0,0,199) v=(0,0,-1.5)
-ymover p=(0,134,0) v=(0,-2,0)
-xmover p=(73,0,0) v=(0.5,0,0)
-
-
-new sim
-T1= 265.3333333333333
-T2= 0.0
-difference between t: 265.3333333333333
-T1= 166.0
-T2= -32.0
-difference between t: 134.0
-T1= 248.0
-T2= -540.0
-difference between t: -292.0
+zmover p=(0.0,0.0,199.0) v=(0.0,0.0,-1.5)
+ymover p=(0.0,134.0,0.0) v=(0.0,-2.0,0.0)
+xmover p=(73.0,0.0,0.0) v=(0.5,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: zmover
+sphere: ymover
+sphere: xmover
+checked 1
 
 nearest event time: 166.0
 nearest event type: reflecting
-time_elapsed: 292.0
 
 Here are the events.
 

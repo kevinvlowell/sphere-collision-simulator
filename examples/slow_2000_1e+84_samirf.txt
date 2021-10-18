@@ -9,131 +9,37 @@ other m=100 R=10 p=(80,0,90) v=(0,0,0)
 energy: 5e-159
 momentum: (1e-78,0,0)
 
-new sim
-T1= 9.73205080756888e+81
-T2= 6.267949192431121e+81
-difference between t: 3.464101615137759e+81
-T1= 1.987485849006226e+83
-T2= -1.987485849006226e+83
-difference between t: 0.0
+current event time: 6.267949192431121e+81
+nearest event time: -1
+sphere: slow
+sphere: other
+checked 1
 
 nearest event time: 6.267949192431121e+81
 nearest event type: colliding
-time_elapsed: 6.267949192431121e+81
-dot 1 top: -1.7320508075688792e-79
-dot 1 bottom: 400.0000000000007
-dot 2 top: -1.7320508075688792e-79
-dot 2 bottom: 400.0000000000007
-v1_x= 2.4999999999999948e-81
-v2_x= 7.500000000000005e-81
-slow p=(62.6795,0,100) v=(2.5e-81,0,4.33013e-81)
-other p=(80,0,90) v=(7.5e-81,0,-4.33013e-81)
-
-
-new sim
-T1= 3.7441062133379676e+83
-T2= -4.2158753587003664e+83
-difference between t: -4.7176914536239885e+82
-T1= 2.2657762848656988e+83
-T2= -2.3218532364115662e+83
-difference between t: -5.607695154586744e+81
+slow p=(62.6795,0.0,100.0) v=(0.0,0.0,0.0)
+other p=(80.0,0.0,90.0) v=(0.0,0.0,-0.0)
+current event time: -2
+nearest event time: -1
+sphere: slow
+sphere: other
+checked 1
 
 nearest event time: 2.2657762848656988e+83
 nearest event type: reflecting
-time_elapsed: 2.32845577679001e+83
-dot top: 1.7203610704789756e-77
-dot bottom: 3960100.000000001
-vel_x: -7.959679663702383e-81
-vel_y: 0.0
-vel_z: 3.4122572662744443e-81
-slow p=(629.124,0,1081.11) v=(2.5e-81,0,4.33013e-81)
-other p=(1779.33,0,-891.11) v=(-7.95968e-81,0,3.41226e-81)
+slow p=(629.1236,0.0,1081.1099) v=(0.0,0.0,0.0)
+other p=(1779.3322,0.0,-891.1099) v=(-0.0,0.0,0.0)
+current event time: -2
+nearest event time: -1
+sphere: slow
+sphere: other
+checked 1
 
-
-new sim
-T1= 1.4783299284722685e+83
-T2= -6.481651643566065e+83
-difference between t: -5.003321715093796e+83
-T1= 4.5876295212772656e+83
-T2= 2.556819513175898e+67
-difference between t: 4.5876295212772656e+83
-HERE
-
-nearest event time: 1.4783299284722685e+83
+nearest event time: 2.556819513175898e+67
 nearest event type: reflecting
-time_elapsed: 3.8067857052622783e+83
-dot top: 9.949976965047896e-78
-dot bottom: 3960100.0
-vel_x: -2.5186117245418866e-81
-vel_y: 0.0
-vel_z: -4.319328070545242e-81
-slow p=(998.706,0,1721.25) v=(-2.51861e-81,0,-4.31933e-81)
-other p=(602.629,0,-386.666) v=(-7.95968e-81,0,3.41226e-81)
-
-
-new sim
-T1= 7.959981572038333e+83
-T2= 0.0
-difference between t: 7.959981572038333e+83
-HERE
-T1= 3.109299592804997e+83
-T2= -1.4783299284722682e+83
-difference between t: 1.630969664332729e+83
-HERE
-
-nearest event time: 3.109299592804997e+83
-nearest event type: reflecting
-time_elapsed: 6.916085298067275e+83
-dot top: 1.720361070478975e-77
-dot bottom: 3960100.0
-vel_x: 8.307521553670629e-81
-vel_y: 0.0
-vel_z: -2.446443466605748e-81
-slow p=(215.594,0,378.237) v=(-2.51861e-81,0,-4.31933e-81)
-other p=(-1872.27,0,674.307) v=(8.30752e-81,0,-2.44644e-81)
-
-
-new sim
-T1= 4.850681979233337e+83
-T2= -3.109299592804997e+83
-difference between t: 1.7413823864283398e+83
-HERE
-T1= 4.5876295212772656e+83
-T2= 0.0
-difference between t: 4.5876295212772656e+83
-HERE
-
-nearest event time: 4.5876295212772656e+83
-nearest event type: reflecting
-time_elapsed: 1.150371481934454e+84
-
-Here are the events.
-
-time of event: 6.26795e+81
-colliding slow other
-slow m=100 R=10 p=(62.6795,0,100) v=(2.5e-81,0,4.33013e-81)
-other m=100 R=10 p=(80,0,90) v=(7.5e-81,0,-4.33013e-81)
-energy: 5e-159
-momentum: (1e-78,0,0)
-
-time of event: 2.32846e+83
-reflecting other
-slow m=100 R=10 p=(629.124,0,1081.11) v=(2.5e-81,0,4.33013e-81)
-other m=100 R=10 p=(1779.33,0,-891.11) v=(-7.95968e-81,0,3.41226e-81)
-energy: 5e-159
-momentum: (-5.45968e-79,0,7.74238e-79)
-
-time of event: 3.80679e+83
-reflecting slow
-slow m=100 R=10 p=(998.706,0,1721.25) v=(-2.51861e-81,0,-4.31933e-81)
-other m=100 R=10 p=(602.629,0,-386.666) v=(-7.95968e-81,0,3.41226e-81)
-energy: 5e-159
-momentum: (-1.04783e-78,0,-9.07071e-80)
-
-time of event: 6.91609e+83
-reflecting other
-slow m=100 R=10 p=(215.594,0,378.237) v=(-2.51861e-81,0,-4.31933e-81)
-other m=100 R=10 p=(-1872.27,0,674.307) v=(8.30752e-81,0,-2.44644e-81)
-energy: 5e-159
-momentum: (5.78891e-79,0,-6.76577e-79)
-
+slow p=(629.1236,0.0,1081.1099) v=(0.0,0.0,0.0)
+other p=(1779.3322,0.0,-891.1099) v=(0.0,0.0,-0.0)
+current event time: -2
+nearest event time: -1
+sphere: slow
+sphere: other

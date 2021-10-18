@@ -10,1084 +10,611 @@ two m=1 R=1 p=(20,0,0) v=(0,0,0)
 energy: 5.6
 momentum: (16,0,0)
 
-new sim
-T1= 16.249999999999993
-T2= 8.75
-difference between t: 7.499999999999993
-T1= 22.0
-T2= 18.0
-difference between t: 4.0
-T1= 64.99999999999997
-T2= 35.0
-difference between t: 29.99999999999997
-T1= 49.0
-T2= -49.0
-difference between t: 0.0
-T1= 190.0
-T2= -290.0
-difference between t: -100.0
+current event time: 8.75
+nearest event time: -1
+current event time: 18.0
+nearest event time: 8.75
+current event time: 35.0
+nearest event time: 8.75
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 8.75
 nearest event type: colliding
-time_elapsed: 8.75
-dot 1 top: -2.4000000000000004
-dot 1 bottom: 9.0
-dot 2 top: -2.4000000000000004
-dot 2 bottom: 9.0
-v1_x= -0.2000000000000004
-v2_x= 0.6000000000000001
-one p=(8.75,0,0) v=(-0.2,0,0)
-three p=(11.75,0,0) v=(0.6,0,0)
-two p=(20,0,0) v=(0,0,0)
-
-
-new sim
-T1= 18.750000000000004
-T2= 8.749999999999996
-difference between t: 10.000000000000007
-T1= 288.74999999999943
-T2= -201.2499999999996
-difference between t: 87.49999999999983
-T1= 60.41666666666666
-T2= -99.58333333333333
-difference between t: -39.16666666666667
+one p=(8.75,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(11.75,0.0,0.0) v=(0.6,0.0,0.0)
+two p=(20.0,0.0,0.0) v=(0.0,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 8.749999999999996
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 8.749999999999996
 nearest event type: colliding
-time_elapsed: 17.499999999999996
-dot 1 top: -1.8000000000000003
-dot 1 bottom: 9.0
-dot 2 top: -1.8000000000000003
-dot 2 bottom: 9.0
-v1_x= 0.5612903225806453
-v2_x= 1.1612903225806455
-one p=(7,0,0) v=(-0.2,0,0)
-three p=(17,0,0) v=(0.56129,0,0)
-two p=(20,0,0) v=(1.16129,0,0)
-
-
-new sim
-T1= 279.99999999999943
-T2= -209.9999999999996
-difference between t: 69.99999999999983
-T1= 55.229885057471265
-T2= -115.8045977011494
-difference between t: -60.57471264367814
-T1= 24.972222222222214
-T2= -59.41666666666665
-difference between t: -34.444444444444436
+one p=(7.0,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(17.0,0.0,0.0) v=(0.5613,0.0,0.0)
+two p=(20.0,0.0,0.0) v=(1.1613,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 24.972222222222214
 nearest event type: reflecting
-time_elapsed: 42.472222222222214
-dot top: 56.90322580645163
-dot bottom: 2401.0
-vel_x: -1.1612903225806455
-vel_y: 0.0
-vel_z: 0.0
-one p=(2.00556,0,0) v=(-0.2,0,0)
-three p=(31.0167,0,0) v=(0.56129,0,0)
-two p=(49,0,0) v=(-1.16129,0,0)
-
-
-new sim
-T1= 50.96737509321403
-T2= 46.80630126771067
-difference between t: 4.161073825503358
-T1= 12.181335830212223
-T2= 8.698189762796508
-difference between t: 3.4831460674157153
-T1= 255.02777777777723
-T2= -234.97222222222183
-difference between t: 20.0555555555554
-T1= 30.25766283524904
-T2= -140.77681992337162
-difference between t: -110.51915708812258
-T1= 84.38888888888887
-T2= 0.0
-difference between t: 84.38888888888887
+one p=(2.0056,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(31.0167,0.0,0.0) v=(0.5613,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-1.1613,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 46.80630126771067
+nearest event time: -1
+current event time: 8.698189762796508
+nearest event time: 46.80630126771067
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 8.698189762796508
 nearest event type: colliding
-time_elapsed: 51.170411985018724
-dot 1 top: -5.167741935483848
-dot 1 bottom: 8.999999999999915
-dot 2 top: -5.167741935483848
-dot 2 bottom: 8.999999999999915
-v1_x= 0.4501560874089491
-v2_x= 2.17273673257024
-one p=(0.265918,0,0) v=(-0.2,0,0)
-three p=(35.8989,0,0) v=(0.450156,0,0)
-two p=(38.8989,0,0) v=(2.17274,0,0)
-
-
-new sim
-T1= 246.32958801498071
-T2= -243.67041198501832
-difference between t: 2.6591760299623957
-T1= 26.882061431532346
-T2= -186.37730056569373
-difference between t: -159.49523913416138
-T1= 4.64903245942572
-T2= -40.45537367084246
-difference between t: -35.80634121141674
+one p=(0.2659,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(35.8989,0.0,0.0) v=(0.4502,0.0,0.0)
+two p=(38.8989,0.0,0.0) v=(2.1727,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 4.64903245942572
 nearest event type: reflecting
-time_elapsed: 55.81944444444444
-dot top: 106.46409989594176
-dot bottom: 2401.0
-vel_x: -2.17273673257024
-vel_y: 0.0
-vel_z: 0.0
-one p=(-0.663889,0,0) v=(-0.2,0,0)
-three p=(37.9917,0,0) v=(0.450156,0,0)
-two p=(49,0,0) v=(-2.17274,0,0)
-
-
-new sim
-T1= 26.188942516205334
-T2= 24.161302469787096
-difference between t: 2.027640046418238
-T1= 5.340795181041546
-T2= 3.053244597847069
-difference between t: 2.287550583194477
-T1= 241.68055555555503
-T2= -248.31944444444403
-difference between t: -6.638888888888999
-T1= 22.23302897210662
-T2= -191.0263330251194
-difference between t: -168.7933040530128
-T1= 45.10440613026819
-T2= 0.0
-difference between t: 45.10440613026819
+one p=(-0.6639,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(37.9917,0.0,0.0) v=(0.4502,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-2.1727,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 24.161302469787096
+nearest event time: -1
+current event time: 3.053244597847069
+nearest event time: 24.161302469787096
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 3.053244597847069
 nearest event type: colliding
-time_elapsed: 58.87268904229151
-dot 1 top: -7.868678459937568
-dot 1 bottom: 9.0
-dot 2 top: -7.868678459937568
-dot 2 bottom: 9.0
-v1_x= 0.2809371957973885
-v2_x= 2.903830015776578
-one p=(-1.27454,0,0) v=(-0.2,0,0)
-three p=(39.3661,0,0) v=(0.280937,0,0)
-two p=(42.3661,0,0) v=(2.90383,0,0)
-
-
-new sim
-T1= 238.62731095770792
-T2= -251.3726890422911
-difference between t: -12.745378084583194
-T1= 30.7324797870152
-T2= -310.98090468498987
-difference between t: -280.24842489797464
-T1= 2.2845334111231925
-T2= -31.463998516559784
-difference between t: -29.17946510543659
+one p=(-1.2745,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(39.3661,0.0,0.0) v=(0.2809,0.0,0.0)
+two p=(42.3661,0.0,0.0) v=(2.9038,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 2.2845334111231925
 nearest event type: reflecting
-time_elapsed: 61.157222453414704
-dot top: 142.28767077305233
-dot bottom: 2401.0
-vel_x: -2.903830015776578
-vel_y: 0.0
-vel_z: 0.0
-one p=(-1.73144,0,0) v=(-0.2,0,0)
-three p=(40.0079,0,0) v=(0.280937,0,0)
-two p=(49,0,0) v=(-2.90383,0,0)
-
-
-new sim
-T1= 19.50249985502062
-T2= 18.023116914280756
-difference between t: 1.479382940739864
-T1= 3.765451439419616
-T2= 1.8814832868353333
-difference between t: 1.8839681525842826
-T1= 236.3427775465847
-T2= -253.65722245341425
-difference between t: -17.31444490682955
-T1= 28.447946375892023
-T2= -313.26543809611303
-difference between t: -284.817491720221
-T1= 33.748531927682976
-T2= 0.0
-difference between t: 33.748531927682976
+one p=(-1.7314,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(40.0079,0.0,0.0) v=(0.2809,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-2.9038,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 18.023116914280756
+nearest event time: -1
+current event time: 1.8814832868353333
+nearest event time: 18.023116914280756
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 1.8814832868353333
 nearest event type: colliding
-time_elapsed: 63.03870574025004
-dot 1 top: -9.554301634721899
-dot 1 bottom: 9.0
-dot 2 top: -9.554301634721899
-dot 2 bottom: 9.0
-v1_x= 0.07546834343777778
-v2_x= 3.2602355550117434
-one p=(-2.10774,0,0) v=(-0.2,0,0)
-three p=(40.5365,0,0) v=(0.0754683,0,0)
-two p=(43.5365,0,0) v=(3.26024,0,0)
-
-
-new sim
-T1= 234.46129425974934
-T2= -255.5387057402496
-difference between t: -21.077411480500274
-T1= 98.89587213011949
-T2= -1173.160670082844
-difference between t: -1074.2647979527246
-T1= 1.6758015027766084
-T2= -28.38337623036329
-difference between t: -26.70757472758668
+one p=(-2.1077,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(40.5365,0.0,0.0) v=(0.0755,0.0,0.0)
+two p=(43.5365,0.0,0.0) v=(3.2602,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 1.6758015027766084
 nearest event type: reflecting
-time_elapsed: 64.71450724302665
-dot top: 159.75154219557544
-dot bottom: 2401.0
-vel_x: -3.2602355550117434
-vel_y: 0.0
-vel_z: 0.0
-one p=(-2.4429,0,0) v=(-0.2,0,0)
-three p=(40.663,0,0) v=(0.0754683,0,0)
-two p=(49,0,0) v=(-3.26024,0,0)
-
-
-new sim
-T1= 17.463656142770436
-T2= 16.15656721837403
-difference between t: 1.3070889243964068
-T1= 3.3986942559316864
-T2= 1.5999734513696056
-difference between t: 1.7987208045620808
-T1= 232.7854927569728
-T2= -257.2145072430263
-difference between t: -24.42901448605349
-T1= 97.22007062734288
-T2= -1174.8364715856205
-difference between t: -1077.6164009582776
-T1= 30.0591777331399
-T2= 0.0
-difference between t: 30.0591777331399
+one p=(-2.4429,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(40.663,0.0,0.0) v=(0.0755,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-3.2602,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 16.15656721837403
+nearest event time: -1
+current event time: 1.5999734513696056
+nearest event time: 16.15656721837403
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 1.5999734513696056
 nearest event type: colliding
-time_elapsed: 66.31448069439625
-dot 1 top: -10.00711169534854
-dot 1 bottom: 8.999999999999957
-dot 2 top: -10.00711169534854
-dot 2 bottom: 8.999999999999957
-v1_x= -0.13973835968799775
-v2_x= 3.195965538761523
-one p=(-2.7629,0,0) v=(-0.2,0,0)
-three p=(40.7837,0,0) v=(-0.139738,0,0)
-two p=(43.7837,0,0) v=(3.19597,0,0)
-
-
-new sim
-T1= 231.18551930560318
-T2= -258.8144806943958
-difference between t: -27.628961388792618
-T1= 635.356747173809
-T2= -51.64144154362684
-difference between t: 583.7153056301822
-T1= 1.6321484915796114
-T2= -29.031511304319256
-difference between t: -27.399362812739646
+one p=(-2.7629,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(40.7837,0.0,0.0) v=(-0.1397,0.0,0.0)
+two p=(43.7837,0.0,0.0) v=(3.196,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 1.6321484915796114
 nearest event type: reflecting
-time_elapsed: 67.94662918597587
-dot top: 156.60231139931463
-dot bottom: 2401.0
-vel_x: -3.195965538761523
-vel_y: 0.0
-vel_z: 0.0
-one p=(-3.08933,0,0) v=(-0.2,0,0)
-three p=(40.5556,0,0) v=(-0.139738,0,0)
-two p=(49,0,0) v=(-3.19597,0,0)
-
-
-new sim
-T1= 18.054054740414216
-T2= 16.71892589856067
-difference between t: 1.335128841853546
-T1= 3.744605166975805
-T2= 1.7814003237354346
-difference between t: 1.9632048432403706
-T1= 229.55337081402357
-T2= -260.4466291859755
-difference between t: -30.89325837195193
-T1= 633.7245986822294
-T2= -53.273590035206446
-difference between t: 580.451008647023
-T1= 30.66365979589887
-T2= 0.0
-difference between t: 30.66365979589887
+one p=(-3.0893,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(40.5556,0.0,0.0) v=(-0.1397,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-3.196,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 16.71892589856067
+nearest event time: -1
+current event time: 1.7814003237354346
+nearest event time: 16.71892589856067
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 1.7814003237354346
 nearest event type: colliding
-time_elapsed: 69.7280295097113
-dot 1 top: -9.168681537220577
-dot 1 bottom: 9.0
-dot 2 top: -9.168681537220577
-dot 2 bottom: 9.0
-v1_x= -0.3369143067249994
-v2_x= 2.7193128723485267
-one p=(-3.44561,0,0) v=(-0.2,0,0)
-three p=(40.3067,0,0) v=(-0.336914,0,0)
-two p=(43.3067,0,0) v=(2.71931,0,0)
-
-
-new sim
-T1= 341.47134054040197
-T2= 297.6483088681071
-difference between t: 43.82303167229486
-T1= 227.77197049028808
-T2= -262.22802950971084
-difference between t: -34.45605901942275
-T1= 262.10435173559364
-T2= -22.834572150349757
-difference between t: 239.2697795852439
-T1= 2.093651710066032
-T2= -33.944864121090454
-difference between t: -31.85121241102442
+one p=(-3.4456,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(40.3067,0.0,0.0) v=(-0.3369,0.0,0.0)
+two p=(43.3067,0.0,0.0) v=(2.7193,0.0,0.0)
+current event time: 297.6483088681071
+nearest event time: -1
+current event time: -2
+nearest event time: 297.6483088681071
+current event time: -2
+nearest event time: 297.6483088681071
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 2.093651710066032
 nearest event type: reflecting
-time_elapsed: 71.82168121977733
-dot top: 133.2463307450778
-dot bottom: 2401.0
-vel_x: -2.7193128723485267
-vel_y: 0.0
-vel_z: 0.0
-one p=(-3.86434,0,0) v=(-0.2,0,0)
-three p=(39.6013,0,0) v=(-0.336914,0,0)
-two p=(49,0,0) v=(-2.71931,0,0)
-
-
-new sim
-T1= 339.37768883033596
-T2= 295.55465715804104
-difference between t: 43.82303167229492
-T1= 21.77750006604402
-T2= 20.18976555164394
-difference between t: 1.5877345144000792
-T1= 5.204282540596878
-T2= 2.68581225330905
-difference between t: 2.5184702872878275
-T1= 225.67831878022213
-T2= -264.3216812197769
-difference between t: -38.64336243955478
-T1= 260.0107000255276
-T2= -24.928223860415788
-difference between t: 235.08247616511184
-T1= 36.03851583115649
-T2= 0.0
-difference between t: 36.03851583115649
+one p=(-3.8643,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(39.6013,0.0,0.0) v=(-0.3369,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-2.7193,0.0,0.0)
+current event time: 295.55465715804104
+nearest event time: -1
+current event time: 20.18976555164394
+nearest event time: 295.55465715804104
+current event time: 2.68581225330905
+nearest event time: 20.18976555164394
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 2.68581225330905
 nearest event type: colliding
-time_elapsed: 74.50749347308638
-dot 1 top: -7.1471956968705825
-dot 1 bottom: 9.0
-dot 2 top: -7.1471956968705825
-dot 2 bottom: 9.0
-v1_x= -0.4906174399910334
-v2_x= 1.8917811256324941
-one p=(-4.4015,0,0) v=(-0.2,0,0)
-three p=(38.6964,0,0) v=(-0.490617,0,0)
-two p=(41.6964,0,0) v=(1.89178,0,0)
-
-
-new sim
-T1= 158.62067625021058
-T2= 137.9749779046976
-difference between t: 20.645698345512983
-T1= 222.99250652691302
-T2= -267.00749347308596
-difference between t: -44.01498694617294
-T1= 176.7088348274977
-T2= -18.962970075635177
-difference between t: 157.7458647518625
-T1= 3.860681203642331
-T2= -47.94235175411322
-difference between t: -44.08167055047089
+one p=(-4.4015,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(38.6964,0.0,0.0) v=(-0.4906,0.0,0.0)
+two p=(41.6964,0.0,0.0) v=(1.8918,0.0,0.0)
+current event time: 137.9749779046976
+nearest event time: -1
+current event time: -2
+nearest event time: 137.9749779046976
+current event time: -2
+nearest event time: 137.9749779046976
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 3.860681203642331
 nearest event type: reflecting
-time_elapsed: 78.36817467672871
-dot top: 92.69727515599222
-dot bottom: 2401.0
-vel_x: -1.8917811256324946
-vel_y: 0.0
-vel_z: 0.0
-one p=(-5.17363,0,0) v=(-0.2,0,0)
-three p=(36.8023,0,0) v=(-0.490617,0,0)
-two p=(49,0,0) v=(-1.89178,0,0)
-
-
-new sim
-T1= 154.75999504656824
-T2= 134.11429670105525
-difference between t: 20.645698345512983
-T1= 33.20384302924806
-T2= 30.83947098407296
-difference between t: 2.3643720451751022
-T1= 10.846471056612936
-T2= 6.564316115341262
-difference between t: 4.282154941271674
-T1= 219.13182532327068
-T2= -270.8681746767283
-difference between t: -51.736349353457626
-T1= 172.84815362385535
-T2= -22.82365127927751
-difference between t: 150.02450234457785
-T1= 51.80303295775554
-T2= 0.0
-difference between t: 51.80303295775554
+one p=(-5.1736,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(36.8023,0.0,0.0) v=(-0.4906,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-1.8918,0.0,0.0)
+current event time: 134.11429670105525
+nearest event time: -1
+current event time: 30.83947098407296
+nearest event time: 134.11429670105525
+current event time: 6.564316115341262
+nearest event time: 30.83947098407296
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 6.564316115341262
 nearest event type: colliding
-time_elapsed: 84.93249079206997
-dot 1 top: -4.203491056924383
-dot 1 bottom: 9.0
-dot 2 top: -4.203491056924383
-dot 2 bottom: 9.0
-v1_x= -0.5810150971291922
-v2_x= 0.8201485885122684
-one p=(-6.4865,0,0) v=(-0.2,0,0)
-three p=(33.5818,0,0) v=(-0.581015,0,0)
-two p=(36.5818,0,0) v=(0.820149,0,0)
-
-
-new sim
-T1= 113.03554413782966
-T2= 97.28813663296225
-difference between t: 15.747407504867411
-T1= 212.56750920792942
-T2= -277.43249079206953
-difference between t: -64.86498158414011
-T1= 140.4124455171807
-T2= -24.81561907931255
-difference between t: 115.59682643786816
-T1= 15.141462783243034
-T2= -104.34907999482827
-difference between t: -89.20761721158524
+one p=(-6.4865,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(33.5818,0.0,0.0) v=(-0.581,0.0,0.0)
+two p=(36.5818,0.0,0.0) v=(0.8201,0.0,0.0)
+current event time: 97.28813663296225
+nearest event time: -1
+current event time: -2
+nearest event time: 97.28813663296225
+current event time: -2
+nearest event time: 97.28813663296225
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 15.141462783243034
 nearest event type: reflecting
-time_elapsed: 100.073953575313
-dot top: 40.18728083710115
-dot bottom: 2401.0
-vel_x: -0.8201485885122681
-vel_y: 0.0
-vel_z: 0.0
-one p=(-9.51479,0,0) v=(-0.2,0,0)
-three p=(24.7843,0,0) v=(-0.581015,0,0)
-two p=(49,0,0) v=(-0.820149,0,0)
-
-
-new sim
-T1= 97.89408135458672
-T2= 82.14667384971912
-difference between t: 15.747407504867596
-T1= 97.58111497155423
-T2= 91.13104788425174
-difference between t: 6.450067087302486
-T1= 113.8095197036793
-T2= 88.71893132436954
-difference between t: 25.090588379309764
-T1= 197.42604642468643
-T2= -292.5739535753126
-difference between t: -95.14790715062617
-T1= 125.27098273393771
-T2= -39.95708186255558
-difference between t: 85.31390087138213
-T1= 119.49054277807134
-T2= 0.0
-difference between t: 119.49054277807134
+one p=(-9.5148,0.0,0.0) v=(-0.2,0.0,0.0)
+three p=(24.7843,0.0,0.0) v=(-0.581,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-0.8201,0.0,0.0)
+current event time: 82.14667384971912
+nearest event time: -1
+current event time: 91.13104788425174
+nearest event time: 82.14667384971912
+current event time: 88.71893132436954
+nearest event time: 82.14667384971912
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 82.14667384971912
 nearest event type: colliding
-time_elapsed: 182.22062742503212
-dot 1 top: -1.143045291387593
-dot 1 bottom: 9.000000000000277
-dot 2 top: -1.143045291387593
-dot 2 bottom: 9.000000000000277
-v1_x= -0.771522645693788
-v2_x= -0.39050754856459624
-one p=(-25.9441,0,0) v=(-0.771523,0,0)
-three p=(-22.9441,0,0) v=(-0.390508,0,0)
-two p=(-18.3725,0,0) v=(-0.820149,0,0)
-
-
-new sim
-T1= 196.8423915586074
-T2= 114.5817757607414
-difference between t: 82.26061579786601
-T1= 17.623192786945722
-T2= 3.6580464388902163
-difference between t: 13.965146348055505
-T1= 29.883600492712205
-T2= -97.13794650526862
-difference between t: -67.25434601255641
-T1= 64.162330810486
-T2= -181.6715854681389
-difference between t: -117.50925465765289
-T1= 37.34386892835222
-T2= -82.14667384971912
-difference between t: -44.8028049213669
+one p=(-25.9441,0.0,0.0) v=(-0.7715,0.0,0.0)
+three p=(-22.9441,0.0,0.0) v=(-0.3905,0.0,0.0)
+two p=(-18.3725,0.0,0.0) v=(-0.8201,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 114.5817757607414
+nearest event time: -1
+current event time: 3.6580464388902163
+nearest event time: 114.5817757607414
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 3.6580464388902163
 nearest event type: colliding
-time_elapsed: 185.87867386392233
-dot 1 top: -1.2889231198430156
-dot 1 bottom: 9.0
-dot 2 top: -1.2889231198430156
-dot 2 bottom: 9.0
-v1_x= -0.41822632533541376
-v2_x= 0.011414714612257959
-one p=(-28.7664,0,0) v=(-0.771523,0,0)
-three p=(-24.3726,0,0) v=(-0.418226,0,0)
-two p=(-21.3726,0,0) v=(0.0114147,0,0)
-
-
-new sim
-T1= 26.22555405382199
-T2= -100.79599294415884
-difference between t: -74.57043889033685
-T1= 56.494243275236535
-T2= -173.04654405566347
-difference between t: -116.55230078042695
-T1= 6165.079252776204
-T2= -2420.3303110126617
-difference between t: 3744.7489417635425
+one p=(-28.7664,0.0,0.0) v=(-0.7715,0.0,0.0)
+three p=(-24.3726,0.0,0.0) v=(-0.4182,0.0,0.0)
+two p=(-21.3726,0.0,0.0) v=(0.0114,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 26.22555405382199
 nearest event type: reflecting
-time_elapsed: 212.1042279177443
-dot top: 37.804609638995615
-dot bottom: 2401.0
-vel_x: 0.7715226456937878
-vel_y: 0.0
-vel_z: 0.0
-one p=(-49,0,0) v=(0.771523,0,0)
-three p=(-35.3408,0,0) v=(-0.418226,0,0)
-two p=(-21.0733,0,0) v=(0.0114147,0,0)
-
-
-new sim
-T1= 14.00225011447643
-T2= 8.959169476373702
-difference between t: 5.043080638102728
-T1= 39.371694148879826
-T2= 34.10928359317286
-difference between t: 5.262410555706964
-T1= 127.02154699798085
-T2= 0.0
-difference between t: 127.02154699798085
-T1= 30.268689221414537
-T2= -199.27209810948548
-difference between t: -169.00340888807094
-T1= 6138.853698722382
-T2= -2446.5558650664843
-difference between t: 3692.297833655898
+one p=(-49.0,0.0,0.0) v=(0.7715,0.0,0.0)
+three p=(-35.3408,0.0,0.0) v=(-0.4182,0.0,0.0)
+two p=(-21.0733,0.0,0.0) v=(0.0114,0.0,0.0)
+current event time: 8.959169476373702
+nearest event time: -1
+current event time: 34.10928359317286
+nearest event time: 8.959169476373702
+current event time: -2
+nearest event time: 8.959169476373702
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 8.959169476373702
 nearest event type: colliding
-time_elapsed: 221.063397394118
-dot 1 top: -3.569246913087613
-dot 1 bottom: 9.000000000000043
-dot 2 top: -3.569246913087613
-dot 2 bottom: 9.000000000000043
-v1_x= -1.0131008108500146
-v2_x= 0.1766481601791871
-one p=(-42.0878,0,0) v=(-1.0131,0,0)
-three p=(-39.0878,0,0) v=(0.176648,0,0)
-two p=(-20.971,0,0) v=(0.0114147,0,0)
-
-
-new sim
-T1= 127.79979946149018
-T2= 91.48753846969444
-difference between t: 36.31226099179574
-T1= 6.822817693563357
-T2= -89.90990520079085
-difference between t: -83.0870875072275
-T1= 493.0014429475497
-T2= -50.451712197798024
-difference between t: 442.5497307497517
-T1= 6129.894529246009
-T2= -2455.515034542858
-difference between t: 3674.3794947031515
+one p=(-42.0878,0.0,0.0) v=(-1.0131,0.0,0.0)
+three p=(-39.0878,0.0,0.0) v=(0.1766,0.0,0.0)
+two p=(-20.971,0.0,0.0) v=(0.0114,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 91.48753846969444
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 6.822817693563357
 nearest event type: reflecting
-time_elapsed: 227.88621508768136
-dot top: 49.641939731650716
-dot bottom: 2401.0
-vel_x: 1.0131008108500146
-vel_y: 0.0
-vel_z: 0.0
-one p=(-49,0,0) v=(1.0131,0,0)
-three p=(-37.8826,0,0) v=(0.176648,0,0)
-two p=(-20.8931,0,0) v=(0.0114147,0,0)
-
-
-new sim
-T1= 16.877751919507677
-T2= 9.704602315417056
-difference between t: 7.1731496040906215
-T1= 30.056206206033718
-T2= 26.062939238444134
-difference between t: 3.9932669675895838
-T1= 120.97698176792684
-T2= 84.66472077613106
-difference between t: 36.31226099179578
-T1= 96.7327228943542
-T2= 0.0
-difference between t: 96.7327228943542
-T1= 486.17862525398635
-T2= -57.274529891361404
-difference between t: 428.90409536262496
-T1= 6123.071711552445
-T2= -2462.3378522364214
-difference between t: 3660.7338593160234
+one p=(-49.0,0.0,0.0) v=(1.0131,0.0,0.0)
+three p=(-37.8826,0.0,0.0) v=(0.1766,0.0,0.0)
+two p=(-20.8931,0.0,0.0) v=(0.0114,0.0,0.0)
+current event time: 9.704602315417056
+nearest event time: -1
+current event time: 26.062939238444134
+nearest event time: 9.704602315417056
+current event time: 84.66472077613106
+nearest event time: 9.704602315417056
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 9.704602315417056
 nearest event type: colliding
-time_elapsed: 237.5908174030984
-dot 1 top: -2.5093579520124822
-dot 1 bottom: 9.0
-dot 2 top: -2.5093579520124822
-dot 2 bottom: 9.0
-v1_x= -0.24157816515622677
-v2_x= 0.5948744855146009
-one p=(-39.1683,0,0) v=(-0.241578,0,0)
-three p=(-36.1683,0,0) v=(0.594874,0,0)
-two p=(-20.7823,0,0) v=(0.0114147,0,0)
-
-
-new sim
-T1= 31.511887486149064
-T2= 21.228402147098606
-difference between t: 10.283485339050458
-T1= 40.69796816433239
-T2= -364.9678333646433
-difference between t: -324.2698652003109
-T1= 141.48910665157143
-T2= -19.889473767715568
-difference between t: 121.59963288385586
-T1= 6113.367109237029
-T2= -2472.042454551838
-difference between t: 3641.3246546851906
+one p=(-39.1683,0.0,0.0) v=(-0.2416,0.0,0.0)
+three p=(-36.1683,0.0,0.0) v=(0.5949,0.0,0.0)
+two p=(-20.7823,0.0,0.0) v=(0.0114,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: 21.228402147098606
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 21.228402147098606
 nearest event type: colliding
-time_elapsed: 258.81921955019703
-dot 1 top: -1.7503793127070246
-dot 1 bottom: 8.999999999999957
-dot 2 top: -1.7503793127070246
-dot 2 bottom: 8.999999999999957
-v1_x= 0.5572319196499336
-v2_x= 1.1406916905522766
-one p=(-44.2966,0,0) v=(-0.241578,0,0)
-three p=(-23.54,0,0) v=(0.557232,0,0)
-two p=(-20.54,0,0) v=(1.14069,0,0)
-
-
-new sim
-T1= 19.46956601723379
-T2= -386.19623551174186
-difference between t: -366.7266694945081
-T1= 128.38464954531833
-T2= -43.89550278391199
-difference between t: 84.48914676140635
-T1= 60.96303260178329
-T2= -24.949752431789094
-difference between t: 36.0132801699942
+one p=(-44.2966,0.0,0.0) v=(-0.2416,0.0,0.0)
+three p=(-23.54,0.0,0.0) v=(0.5572,0.0,0.0)
+two p=(-20.54,0.0,0.0) v=(1.1407,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 19.46956601723379
 nearest event type: reflecting
-time_elapsed: 278.2887855674308
-dot top: 11.837330092655112
-dot bottom: 2401.0
-vel_x: 0.24157816515622677
-vel_y: 0.0
-vel_z: 0.0
-one p=(-49,0,0) v=(0.241578,0,0)
-three p=(-12.691,0,0) v=(0.557232,0,0)
-two p=(1.66875,0,0) v=(1.14069,0,0)
-
-
-new sim
-T1= 405.6658015289757
-T2= 0.0
-difference between t: 405.6658015289757
-T1= 108.91508352808457
-T2= -63.365068801145775
-difference between t: 45.55001472693879
-T1= 41.49346658454949
-T2= -44.419318449022875
-difference between t: -2.925851864473387
+one p=(-49.0,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(-12.691,0.0,0.0) v=(0.5572,0.0,0.0)
+two p=(1.6687,0.0,0.0) v=(1.1407,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 41.49346658454949
 nearest event type: reflecting
-time_elapsed: 319.7822521519803
-dot top: 55.89389283706154
-dot bottom: 2400.999999999999
-vel_x: -1.1406916905522766
-vel_y: 0.0
-vel_z: 0.0
-one p=(-38.9761,0,0) v=(0.241578,0,0)
-three p=(10.4305,0,0) v=(0.557232,0,0)
-two p=(49,0,0) v=(-1.14069,0,0)
-
-
-new sim
-T1= 65.09299476144231
-T2= 62.19920381065176
-difference between t: 2.893790950790553
-T1= 24.482536661586302
-T2= 20.94880878128106
-difference between t: 3.5337278803052428
-T1= 364.1723349444262
-T2= -41.49346658454946
-difference between t: 322.67886835987673
-T1= 67.42161694353508
-T2= -104.85853538569525
-difference between t: -37.43691844216016
-T1= 85.91278503357236
-T2= -1.092153403816007e-14
-difference between t: 85.91278503357235
+one p=(-38.9761,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(10.4305,0.0,0.0) v=(0.5572,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-1.1407,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 62.19920381065176
+nearest event time: -1
+current event time: 20.94880878128106
+nearest event time: 62.19920381065176
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 20.94880878128106
 nearest event type: colliding
-time_elapsed: 340.73106093326135
-dot 1 top: -5.093770830606691
-dot 1 bottom: 9.000000000000213
-dot 2 top: -5.093770830606691
-dot 2 bottom: 9.000000000000213
-v1_x= 0.4476884609272103
-v2_x= 2.1456120711294213
-one p=(-33.9153,0,0) v=(0.241578,0,0)
-three p=(22.1039,0,0) v=(0.447688,0,0)
-two p=(25.1039,0,0) v=(2.14561,0,0)
-
-
-new sim
-T1= 343.22352616314515
-T2= -62.44227536583055
-difference between t: 280.7812507973146
-T1= 57.8440910675747
-T2= -156.59074113956734
-difference between t: -98.74665007199263
-T1= 11.137209948300335
-T2= -34.537402587046806
-difference between t: -23.40019263874647
+one p=(-33.9153,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(22.1039,0.0,0.0) v=(0.4477,0.0,0.0)
+two p=(25.1039,0.0,0.0) v=(2.1456,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 11.137209948300335
 nearest event type: reflecting
-time_elapsed: 351.86827088156167
-dot top: 105.13499148534164
-dot bottom: 2401.0
-vel_x: -2.1456120711294213
-vel_y: 0.0
-vel_z: 0.0
-one p=(-31.2248,0,0) v=(0.241578,0,0)
-three p=(27.0899,0,0) v=(0.447688,0,0)
-two p=(49,0,0) v=(-2.14561,0,0)
-
-
-new sim
-T1= 34.44417696371388
-T2= 32.768566893263866
-difference between t: 1.6756100704500128
-T1= 9.605570744723133
-T2= 7.291916802254049
-difference between t: 2.3136539424690845
-T1= 332.0863162148448
-T2= -73.57948531413088
-difference between t: 258.50683090071396
-T1= 46.70688111927438
-T2= -167.72795108786767
-difference between t: -121.02106996859328
-T1= 45.67461253534714
-T2= 0.0
-difference between t: 45.67461253534714
+one p=(-31.2248,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(27.0899,0.0,0.0) v=(0.4477,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-2.1456,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 32.768566893263866
+nearest event time: -1
+current event time: 7.291916802254049
+nearest event time: 32.768566893263866
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 7.291916802254049
 nearest event type: colliding
-time_elapsed: 359.1601876838157
-dot 1 top: -7.779901596169914
-dot 1 bottom: 9.000000000000043
-dot 2 top: -7.779901596169914
-dot 2 bottom: 9.000000000000043
-v1_x= 0.28037874918162115
-v2_x= 2.873679281238254
-one p=(-29.4632,0,0) v=(0.241578,0,0)
-three p=(30.3544,0,0) v=(0.280379,0,0)
-two p=(33.3544,0,0) v=(2.87368,0,0)
-
-
-new sim
-T1= 324.7943994125908
-T2= -80.87140211638493
-difference between t: 243.92299729620586
-T1= 62.93495767454695
-T2= -279.4590371635355
-difference between t: -216.52407948898858
-T1= 5.444457499044958
-T2= -28.658165100430473
-difference between t: -23.213707601385515
+one p=(-29.4632,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(30.3544,0.0,0.0) v=(0.2804,0.0,0.0)
+two p=(33.3544,0.0,0.0) v=(2.8737,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+current event time: -2
+nearest event time: -1
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 5.444457499044958
 nearest event type: reflecting
-time_elapsed: 364.6046451828607
-dot top: 140.81028478067446
-dot bottom: 2401.000000000001
-vel_x: -2.8736792812382532
-vel_y: 0.0
-vel_z: 0.0
-one p=(-28.148,0,0) v=(0.241578,0,0)
-three p=(31.8809,0,0) v=(0.280379,0,0)
-two p=(49,0,0) v=(-2.87368,0,0)
-
-
-new sim
-T1= 25.406559288326616
-T2= 24.122556258454992
-difference between t: 1.2840030298716236
-T1= 6.378802905650641
-T2= 4.476491679245816
-difference between t: 1.9023112264048248
-T1= 319.3499419135458
-T2= -86.31585961542989
-difference between t: 233.03408229811595
-T1= 57.49050017550198
-T2= -284.90349466258044
-difference between t: -227.41299448707846
-T1= 34.10262259947544
-T2= 3.4417046732301115e-15
-difference between t: 34.10262259947544
+one p=(-28.148,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(31.8809,0.0,0.0) v=(0.2804,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-2.8737,0.0,0.0)
+current event time: -2
+nearest event time: -1
+current event time: 24.122556258454992
+nearest event time: -1
+current event time: 4.476491679245816
+nearest event time: 24.122556258454992
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 4.476491679245816
 nearest event type: colliding
-time_elapsed: 369.0811368621065
-dot 1 top: -9.462174091259644
-dot 1 bottom: 9.000000000000043
-dot 2 top: -9.462174091259644
-dot 2 bottom: 9.000000000000043
-v1_x= 0.07689113431582281
-v2_x= 3.230949164735697
-one p=(-27.0666,0,0) v=(0.241578,0,0)
-three p=(33.136,0,0) v=(0.0768911,0,0)
-two p=(36.136,0,0) v=(3.23095,0,0)
-
-
-new sim
-T1= 383.7736866722506
-T2= 347.34094531197695
-difference between t: 36.43274136027367
-T1= 314.8734502343
-T2= -90.7923512946757
-difference between t: 224.08109893962427
-T1= 193.31229176866748
-T2= -1055.2061603806972
-difference between t: -861.8938686120297
-T1= 3.9814929716903955
-T2= -26.350151075707284
-difference between t: -22.368658104016887
+one p=(-27.0666,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(33.136,0.0,0.0) v=(0.0769,0.0,0.0)
+two p=(36.136,0.0,0.0) v=(3.2309,0.0,0.0)
+current event time: 347.34094531197695
+nearest event time: -1
+current event time: -2
+nearest event time: 347.34094531197695
+current event time: -2
+nearest event time: 347.34094531197695
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 3.9814929716903955
 nearest event type: reflecting
-time_elapsed: 373.0626298337969
-dot top: 158.31650907204914
-dot bottom: 2401.0
-vel_x: -3.230949164735696
-vel_y: 0.0
-vel_z: 0.0
-one p=(-26.1047,0,0) v=(0.241578,0,0)
-three p=(33.4421,0,0) v=(0.0768911,0,0)
-two p=(49,0,0) v=(-3.23095,0,0)
-
-
-new sim
-T1= 379.79219370056086
-T2= 343.359452340286
-difference between t: 36.43274136027486
-T1= 22.20420497013878
-T2= 21.052306188647012
-difference between t: 1.1518987814917665
-T1= 5.610264765726938
-T2= 3.796392432857533
-difference between t: 1.8138723328694049
-T1= 310.8919572626096
-T2= -94.77384426636608
-difference between t: 216.1181129962435
-T1= 189.33079879697704
-T2= -1059.1876533523875
-difference between t: -869.8568545554106
-T1= 30.33164404739769
-T2= 0.0
-difference between t: 30.33164404739769
+one p=(-26.1047,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(33.4421,0.0,0.0) v=(0.0769,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-3.2309,0.0,0.0)
+current event time: 343.359452340286
+nearest event time: -1
+current event time: 21.052306188647012
+nearest event time: 343.359452340286
+current event time: 3.796392432857533
+nearest event time: 21.052306188647012
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 3.796392432857533
 nearest event type: colliding
-time_elapsed: 376.85902226665445
-dot 1 top: -9.92352089715458
-dot 1 bottom: 9.000000000000043
-dot 2 top: -9.92352089715458
-dot 2 bottom: 9.000000000000043
-v1_x= -0.13651791723588808
-v2_x= 3.1713223818156306
-one p=(-25.1876,0,0) v=(0.241578,0,0)
-three p=(33.734,0,0) v=(-0.136518,0,0)
-two p=(36.734,0,0) v=(3.17132,0,0)
-
-
-new sim
-T1= 163.77221294511872
-T2= 147.90323074874286
-difference between t: 15.868982196375867
-T1= 307.0955648297521
-T2= -98.57023669922361
-difference between t: 208.5253281305285
-T1= 598.7056548688952
-T2= -104.49874455160311
-difference between t: 494.20691031729206
-T1= 3.8677716999958602
-T2= -27.03416389694383
-difference between t: -23.16639219694797
+one p=(-25.1876,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(33.734,0.0,0.0) v=(-0.1365,0.0,0.0)
+two p=(36.734,0.0,0.0) v=(3.1713,0.0,0.0)
+current event time: 147.90323074874286
+nearest event time: -1
+current event time: -2
+nearest event time: 147.90323074874286
+current event time: -2
+nearest event time: 147.90323074874286
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 3.8677716999958602
 nearest event type: reflecting
-time_elapsed: 380.7267939666503
-dot top: 155.3947967089659
-dot bottom: 2401.0
-vel_x: -3.1713223818156315
-vel_y: 0.0
-vel_z: 0.0
-one p=(-24.2532,0,0) v=(0.241578,0,0)
-three p=(33.206,0,0) v=(-0.136518,0,0)
-two p=(49,0,0) v=(-3.17132,0,0)
-
-
-new sim
-T1= 159.90444124512285
-T2= 144.035459048747
-difference between t: 15.868982196375867
-T1= 22.049635743247126
-T2= 20.877612138999716
-difference between t: 1.1720236042474106
-T1= 6.1928112061677405
-T2= 4.2157480806754375
-difference between t: 1.977063125492303
-T1= 303.2277931297562
-T2= -102.43800839921947
-difference between t: 200.78978473053672
-T1= 594.8378831688996
-T2= -108.36651625159901
-difference between t: 486.47136691730054
-T1= 30.90193559693968
-T2= 0.0
-difference between t: 30.90193559693968
+one p=(-24.2532,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(33.206,0.0,0.0) v=(-0.1365,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-3.1713,0.0,0.0)
+current event time: 144.035459048747
+nearest event time: -1
+current event time: 20.877612138999716
+nearest event time: 144.035459048747
+current event time: 4.2157480806754375
+nearest event time: 20.877612138999716
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 4.2157480806754375
 nearest event type: colliding
-time_elapsed: 384.94254204732573
-dot 1 top: -9.104413393739252
-dot 1 bottom: 9.000000000000043
-dot 2 top: -9.104413393739252
-dot 2 bottom: 9.000000000000043
-v1_x= -0.3323117536603877
-v2_x= 2.7024927109193557
-one p=(-23.2348,0,0) v=(0.241578,0,0)
-three p=(32.6305,0,0) v=(-0.332312,0,0)
-two p=(35.6305,0,0) v=(2.70249,0,0)
-
-
-new sim
-T1= 102.57243249647662
-T2= 92.11746578025998
-difference between t: 10.454966716216646
-T1= 299.01204504908077
-T2= -106.65375647989492
-difference between t: 192.35828856918585
-T1= 242.6351246006771
-T2= -46.250233628659025
-difference between t: 196.38489097201807
-T1= 4.9470979848801
-T2= -31.31571952579565
-difference between t: -26.368621540915548
+one p=(-23.2348,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(32.6305,0.0,0.0) v=(-0.3323,0.0,0.0)
+two p=(35.6305,0.0,0.0) v=(2.7025,0.0,0.0)
+current event time: 92.11746578025998
+nearest event time: -1
+current event time: -2
+nearest event time: 92.11746578025998
+current event time: -2
+nearest event time: 92.11746578025998
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 4.9470979848801
 nearest event type: reflecting
-time_elapsed: 389.8896400322058
-dot top: 132.42214283504842
-dot bottom: 2401.0
-vel_x: -2.702492710919355
-vel_y: 0.0
-vel_z: 0.0
-one p=(-22.0397,0,0) v=(0.241578,0,0)
-three p=(30.9865,0,0) v=(-0.332312,0,0)
-two p=(49,0,0) v=(-2.70249,0,0)
-
-
-new sim
-T1= 97.62533451159662
-T2= 87.17036779537978
-difference between t: 10.454966716216845
-T1= 24.80907336235527
-T2= 23.45041041965731
-difference between t: 1.3586629426979613
-T1= 8.865768238864323
-T2= 6.3343159539135625
-difference between t: 2.5314522849507606
-T1= 294.0649470642007
-T2= -111.60085446477503
-difference between t: 182.46409259942567
-T1= 237.688026615797
-T2= -51.19733161353913
-difference between t: 186.4906950022579
-T1= 36.26281751067577
-T2= 0.0
-difference between t: 36.26281751067577
+one p=(-22.0397,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(30.9865,0.0,0.0) v=(-0.3323,0.0,0.0)
+two p=(49.0,0.0,0.0) v=(-2.7025,0.0,0.0)
+current event time: 87.17036779537978
+nearest event time: -1
+current event time: 23.45041041965731
+nearest event time: 87.17036779537978
+current event time: 6.3343159539135625
+nearest event time: 23.45041041965731
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 6.3343159539135625
 nearest event type: colliding
-time_elapsed: 396.2239559861194
-dot 1 top: -7.110542871776893
-dot 1 bottom: 8.999999999999979
-dot 2 top: -7.110542871776893
-dot 2 bottom: 8.999999999999979
-v1_x= -0.48522665412870813
-v2_x= 1.8849543031302591
-one p=(-20.5094,0,0) v=(0.241578,0,0)
-three p=(28.8816,0,0) v=(-0.485227,0,0)
-two p=(31.8816,0,0) v=(1.88495,0,0)
-
-
-new sim
-T1= 72.08399537072354
-T2= 63.82868412237043
-difference between t: 8.25531124835311
-T1= 287.7306311102871
-T2= -117.93517041868859
-difference between t: 169.79546069159852
-T1= 158.4446292299007
-T2= -39.40105625162203
-difference between t: 119.04357297827866
-T1= 9.081622119795558
-T2= -42.90902817727307
-difference between t: -33.82740605747752
+one p=(-20.5094,0.0,0.0) v=(0.2416,0.0,0.0)
+three p=(28.8816,0.0,0.0) v=(-0.4852,0.0,0.0)
+two p=(31.8816,0.0,0.0) v=(1.885,0.0,0.0)
+current event time: 63.82868412237043
+nearest event time: -1
+current event time: -2
+nearest event time: 63.82868412237043
+current event time: -2
+nearest event time: 63.82868412237043
+sphere: one
+sphere: three
+sphere: two
+checked 1
 
 nearest event time: 9.081622119795558
 nearest event type: reflecting
-time_elapsed: 405.30557810591495
 
 Here are the events.
 
