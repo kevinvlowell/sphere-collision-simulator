@@ -8,63 +8,6 @@ tennisball m=3.1 R=1.2 p=(4.1,-4.1,4) v=(-1.2,5,1)
 energy: 42.532
 momentum: (-3.72,15.5,3.1)
 
-new sim
-T1= 19.609809141431537
-T2= -18.04858465163562
-difference between t: 1.5612244897959187
-
-nearest event time: 19.609809141431537
-nearest event type: reflecting
-time_elapsed: 19.609809141431537
-dot top: 516.6731628408814
-dot bottom: 9761.439999999999
-vel_x: 0.8570478467364941
-vel_y: -4.945448743504997
-vel_z: -1.499335090554875
-tennisball p=(-19.4318,93.949,23.6098) v=(0.857048,-4.94545,-1.49934)
-
-
-new sim
-T1= 37.65839379306715
-T2= 0.0
-difference between t: 37.65839379306715
-
-nearest event time: 37.65839379306715
-nearest event type: reflecting
-time_elapsed: 57.26820293449869
-dot top: 516.6731628408814
-dot bottom: 9761.439999999997
-vel_x: -0.5025415531082067
-vel_y: 4.824226286368313
-vel_z: 1.978457157815801
-tennisball p=(12.8433,-92.2886,-32.8527) v=(-0.502542,4.82423,1.97846)
-
-
-new sim
-T1= 37.65839379306716
-T2= -4.143106330962684e-15
-difference between t: 37.658393793067155
-
-nearest event time: 37.65839379306716
-nearest event type: reflecting
-time_elapsed: 94.92659672756585
-dot top: 516.6731628408814
-dot bottom: 9761.44
-vel_x: 0.1412603335923427
-vel_y: -4.637966867903959
-vel_z: -2.4309070015898424
-tennisball p=(-6.08163,89.384,41.6528) v=(0.14126,-4.63797,-2.43091)
-
-
-new sim
-T1= 37.65839379306716
-T2= 0.0
-difference between t: 37.65839379306716
-
-nearest event time: 37.65839379306716
-nearest event type: reflecting
-time_elapsed: 132.58499052063303
-
 Here are the events.
 
 time of event: 19.6098
