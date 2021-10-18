@@ -8,6 +8,46 @@ zmover m=20 R=10 p=(0,0,0) v=(0,0,1)
 energy: 10
 momentum: (0,0,20)
 
+new sim
+T1= 90.0
+T2= -90.0
+difference between t: 0.0
+
+nearest event time: 90.0
+nearest event type: reflecting
+time_elapsed: 90.0
+dot top: 90.0
+dot bottom: 8100.0
+vel_x: 0.0
+vel_y: 0.0
+vel_z: -1.0
+zmover p=(0,0,90) v=(0,0,-1)
+
+
+new sim
+T1= 180.0
+T2= 0.0
+difference between t: 180.0
+
+nearest event time: 180.0
+nearest event type: reflecting
+time_elapsed: 270.0
+dot top: 90.0
+dot bottom: 8100.0
+vel_x: 0.0
+vel_y: 0.0
+vel_z: 1.0
+zmover p=(0,0,-90) v=(0,0,1)
+
+
+new sim
+T1= 180.0
+T2= 0.0
+difference between t: 180.0
+
+nearest event time: 180.0
+nearest event type: reflecting
+time_elapsed: 450.0
 
 Here are the events.
 
@@ -17,15 +57,9 @@ zmover m=20 R=10 p=(0,0,90) v=(0,0,-1)
 energy: 10
 momentum: (0,0,-20)
 
-time of event: 170
+time of event: 270
 reflecting zmover
-zmover m=20 R=10 p=(0,0,10) v=(0,0,1)
+zmover m=20 R=10 p=(0,0,-90) v=(0,0,1)
 energy: 10
 momentum: (0,0,20)
-
-time of event: 250
-reflecting zmover
-zmover m=20 R=10 p=(0,0,90) v=(0,0,-1)
-energy: 10
-momentum: (0,0,-20)
 
