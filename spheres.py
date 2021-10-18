@@ -119,7 +119,7 @@ def compute_reflection_time(sphere, universe_radius):
         c = sphere.pos_x**2 + sphere.pos_y**2 + sphere.pos_z**2 - (universe_radius - sphere.radius)**2
 
         return minimum_pos_quadratic_soln(a,b,c)
-        
+
     return -2
 
 def compute_positions(sphere_list, event_time):
@@ -274,9 +274,9 @@ def run_sim(universe_radius, duration):
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
 
-            print("sphere:",sphere.name)
+            # print("sphere:",sphere.name)
             current_event_time = compute_reflection_time(sphere,universe_radius)
-            print("current event time:",current_event_time)
+            # print("current event time:",current_event_time)
 
             # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
             if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
@@ -286,10 +286,10 @@ def run_sim(universe_radius, duration):
 
 
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
-        print("\nnearest event time:",nearest_event_time) #DEBUGGER
-        print("nearest event type:",next_event_type) #DEBUGGER
+        # print("\nnearest event time:",nearest_event_time) #DEBUGGER
+        # print("nearest event type:",next_event_type) #DEBUGGER
         time_elapsed += nearest_event_time
-        print("time elapsed:", time_elapsed) #DEBUGGER
+        # print("time elapsed:", time_elapsed) #DEBUGGER
 
         if time_elapsed < duration:
 
@@ -334,10 +334,10 @@ def run_sim(universe_radius, duration):
                 raise Exception("Error: no event type specified")
 
             #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
-            for sphere in sphere_list:
-                print(sphere.name, \
-                "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
-                "v=(" + str(round(float(sphere.vel_x),4)) + "," + str(round(float(sphere.vel_y),4)) + "," + str(round(float(sphere.vel_z),4)) + ")")
+            # for sphere in sphere_list:
+            #     print(sphere.name, \
+            #     "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
+            #     "v=(" + str(round(float(sphere.vel_x),4)) + "," + str(round(float(sphere.vel_y),4)) + "," + str(round(float(sphere.vel_z),4)) + ")")
             #print("\n")
 
     print("\nHere are the events.\n")
