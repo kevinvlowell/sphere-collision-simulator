@@ -239,21 +239,19 @@ def run_sim(universe_radius, duration):
     energy = compute_energy(sphere_list)
     momentum = compute_momentum(sphere_list)
 
-    print("energy:", str(int(energy)))
-    print("momentum: (" + str(int(momentum[0])) + "," + str(int(momentum[1])) + "," + str(int(momentum[2])) + ")")
-
+    print(f"energy: {energy:g}")
+    print(f"momentum: ({momentum[0]:g},{momentum[1]:g},{momentum[2]:g})\n")
     # begin simulation
-    nearest_event_time = -1
     time_elapsed = 0
 
     #end simulation once the nearest event would occur beyond existence of universe
     while time_elapsed < duration:
-
+        checked =0
+        nearest_event_time = -1
         ## determine the time of the first event by evaluating all possible collision times from starting
         # positions, and choosing event that happens soonest
 
         next_colliding_pair_indices = []
-
         # check sphere-to-sphere collision times
         for i in range(len(sphere_list)-1):
             s1 = sphere_list[i]
@@ -263,12 +261,16 @@ def run_sim(universe_radius, duration):
                 s2 = sphere_list[j]
 
                 current_event_time = compute_collision_time(s1,s2)
+                print("current event time: " + str(current_event_time))
+                print("nearest event time: " + str(nearest_event_time))
                 #print("collision current event time:",current_event_time) DEBUGGER
                 # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
-                if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2:
+                if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
                     nearest_event_time = current_event_time
                     next_event_type = "colliding"
                     next_colliding_pair_indices = [i, j]
+                    checked = 1
+                    
                 # increment j to look at next possible sphere pair
                 j += 1
 
@@ -278,29 +280,29 @@ def run_sim(universe_radius, duration):
 
             #print("sphere:",sphere.name) DEBUGGER
             current_event_time = compute_reflection_time(sphere,universe_radius)
+            print("current event time: " + str(current_event_time))
+            print("nearest event time: " + str(nearest_event_time))
             #print("current event time:",current_event_time) DEBUGGER
 
             # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
             if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
                 nearest_event_time = current_event_time
-                next_event_type = "reflecting"
                 next_reflecting_sphere = sphere
+                next_event_type = "reflecting"
+                next_reflecting_sphere.name
+                checked = 1
 
-
+        print("checked "+str(checked))
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
         #print("\nnearest event time:",nearest_event_time) DEBUGGER
         #print("nearest event type:",next_event_type) DEBUGGER
         time_elapsed += nearest_event_time
-        #print("time of next event:", time_elapsed) DEBUGGER
-
         if time_elapsed < duration:
-
             #compute new positions for each of the spheres based on event time
             compute_positions(sphere_list, nearest_event_time)
 
             if next_event_type == "reflecting":
                 # Compute new velocities, system energy, and system momentum
-
                 compute_reflection(next_reflecting_sphere)
                 next_reflecting_sphere.on_border = True
                 updated_energy = compute_energy(sphere_list)
@@ -311,7 +313,6 @@ def run_sim(universe_radius, duration):
                 event_list.append(current_event)
 
             elif next_event_type == "colliding":
-
                 # Compute new velocities, system energy, and system momentum
                 colliding_sphere1 = sphere_list[next_colliding_pair_indices[0]]
                 colliding_sphere2 = sphere_list[next_colliding_pair_indices[1]]
@@ -324,6 +325,7 @@ def run_sim(universe_radius, duration):
                 # create an event and append to event list
                 current_event = Event(time_elapsed, next_event_type, colliding_sphere1, colliding_sphere2, sphere_list, updated_energy, updated_momentum)
                 event_list.append(current_event)
+                
 
                 #reset border flags for all moving spheres
                 for sphere in sphere_list:
@@ -335,7 +337,7 @@ def run_sim(universe_radius, duration):
             else:
                 raise Exception("Error: no event type specified")
 
-            #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
+            #DEBUGGER: ERASE AFTER 100% SUCCESSFULstr TESTING
             #for sphere in sphere_list:
             #    print(sphere.name, \
             #    "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\

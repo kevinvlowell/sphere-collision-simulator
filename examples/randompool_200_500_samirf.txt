@@ -1,0 +1,16 @@
+Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial conditions.
+universe radius 200
+end simulation 500
+white m=8.62 R=19.9 p=(47.871,-16.635,99.26) v=(-3.69,-3.332,0.385)
+black m=6.93 R=14.9 p=(-25.641,71.72,-99.235) v=(0.555,-0.214,2.691)
+blue m=1.25 R=19.9 p=(94.88,-16.167,4.758) v=(2.927,-3.754,-4.509)
+red m=3.49 R=19.2 p=(-94.857,-87.406,-64.274) v=(-2.577,4.033,0.674)
+yellow m=5.97 R=16.6 p=(-35.023,-40.176,68.971) v=(2.884,-4.462,2.455)
+green m=3.46 R=15.5 p=(45.396,-3.24,35.031) v=(3.291,-2.763,3.051)
+cyan m=6.34 R=18.2 p=(41.543,25.491,94.972) v=(-1.055,-2.785,4.256)
+orange m=1.47 R=13.8 p=(-98.452,-75.271,75.675) v=(-1.202,-3.301,-3.38)
+energy: 454
+momentum: (-13,-79,65)
