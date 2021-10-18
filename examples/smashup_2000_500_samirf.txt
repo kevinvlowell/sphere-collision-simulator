@@ -1,0 +1,14 @@
+Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
+When complete, use EOF / Ctrl-D to stop entering
+
+Here are the initial conditions.
+universe radius 2000
+end simulation 500
+xdown m=10 R=10 p=(100,0,0) v=(-1,0,0)
+xup m=20 R=10 p=(-100,0,0) v=(1,0,0)
+ydown m=30 R=10 p=(0,100,0) v=(0,-1,0)
+yup m=40 R=10 p=(0,-100,0) v=(0,1,0)
+zdown m=50 R=10 p=(0,0,100) v=(0,0,-1)
+zup m=60 R=10 p=(0,0,-100) v=(0,0,1)
+energy: 105
+momentum: (10,10,10)

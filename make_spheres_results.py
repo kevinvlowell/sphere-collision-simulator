@@ -13,7 +13,7 @@ compare your results with mine.
 
 """
 
-myid = "jbc"
+myid = "samirf"
 
 from subprocess import run, PIPE
 import os
@@ -41,6 +41,7 @@ spheres_tests=[
 
 
 for basename,radius,N in spheres_tests:
+    print(basename)
     with open(f'examples/{basename}.txt') as g:
         text = g.read()
 
