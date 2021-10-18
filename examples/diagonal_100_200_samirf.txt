@@ -8,7 +8,6 @@ marble m=100 R=1 p=(2.2,2.2,2.2) v=(2,2,2)
 energy: 613.5
 momentum: (197,197,197)
 
-
 Here are the events.
 
 time of event: 13.3205

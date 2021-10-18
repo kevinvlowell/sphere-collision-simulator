@@ -7,30 +7,6 @@ tennisball m=3.1 R=1.2 p=(4.1,-4.1,4) v=(-1.2,5,1)
 energy: 42.532
 momentum: (-3.72,15.5,3.1)
 
-sphere: tennisball
-checked 1
-
-nearest event time: 19.609809141431537
-nearest event type: reflecting
-tennisball p=(-19.4318,93.949,23.6098) v=(0.857,-4.9454,-1.4993)
-sphere: tennisball
-checked 1
-
-nearest event time: 37.65839379306715
-nearest event type: reflecting
-tennisball p=(12.8433,-92.2886,-32.8527) v=(-0.5025,4.8242,1.9785)
-sphere: tennisball
-checked 1
-
-nearest event time: 37.65839379306716
-nearest event type: reflecting
-tennisball p=(-6.0816,89.384,41.6528) v=(0.1413,-4.638,-2.4309)
-sphere: tennisball
-checked 1
-
-nearest event time: 37.65839379306716
-nearest event type: reflecting
-
 Here are the events.
 
 time of event: 19.6098

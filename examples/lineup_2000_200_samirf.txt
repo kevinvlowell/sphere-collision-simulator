@@ -14,7 +14,6 @@ sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
 energy: 50
 momentum: (0,-10,0)
 
-
 Here are the events.
 
 time of event: 48.9

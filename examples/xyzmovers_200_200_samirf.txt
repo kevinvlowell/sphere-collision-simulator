@@ -9,52 +9,6 @@ xmover m=20 R=3 p=(10,0,0) v=(0.5,0,0)
 energy: 65
 momentum: (10,40,30)
 
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: zmover
-sphere: ymover
-sphere: xmover
-checked 1
-
-nearest event time: 94.0
-nearest event type: reflecting
-zmover p=(0.0,0.0,151.0) v=(0.0,0.0,1.5)
-ymover p=(0.0,198.0,0.0) v=(0.0,-2.0,0.0)
-xmover p=(57.0,0.0,0.0) v=(0.5,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: zmover
-sphere: ymover
-sphere: xmover
-checked 1
-
-nearest event time: 32.0
-nearest event type: reflecting
-zmover p=(0.0,0.0,199.0) v=(0.0,0.0,-1.5)
-ymover p=(0.0,134.0,0.0) v=(0.0,-2.0,0.0)
-xmover p=(73.0,0.0,0.0) v=(0.5,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: zmover
-sphere: ymover
-sphere: xmover
-checked 1
-
-nearest event time: 166.0
-nearest event type: reflecting
-
 Here are the events.
 
 time of event: 94

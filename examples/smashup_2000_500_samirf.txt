@@ -12,7 +12,6 @@ zup m=60 R=10 p=(0,0,-100) v=(0,0,1)
 energy: 105
 momentum: (10,10,10)
 
-
 Here are the events.
 
 time of event: 85.8579
