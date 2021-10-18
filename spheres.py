@@ -72,6 +72,13 @@ def minimum_pos_quadratic_soln(a, b, c):
     if (abs(t2) < 10**-8):
         t2 = 0
 
+    if (abs(t1)-abs(t2)) > 10**83:
+
+        if t1 < t2:
+            t1 = 0
+        elif t2 < t1:
+            t2 = 0
+
     if t1 > 0 and t2 > 0:
         return min(t1,t2)
     elif t1 > 0 and t2 <= 0:
@@ -119,7 +126,7 @@ def compute_reflection_time(sphere, universe_radius):
         c = sphere.pos_x**2 + sphere.pos_y**2 + sphere.pos_z**2 - (universe_radius - sphere.radius)**2
 
         return minimum_pos_quadratic_soln(a,b,c)
-        
+
     return -2
 
 def compute_positions(sphere_list, event_time):
@@ -131,49 +138,49 @@ def compute_positions(sphere_list, event_time):
 # get collsion results
 def compute_collision(sphere_a, sphere_b):
 	# compile variables
-	m1 = sphere_a.mass
-	m2 = sphere_b.mass
+    m1 = sphere_a.mass
+    m2 = sphere_b.mass
 
-	r1 = sphere_a.radius
-	r2 = sphere_b.radius
+    r1 = sphere_a.radius
+    r2 = sphere_b.radius
 
-	pos1_x = sphere_a.pos_x
-	pos1_y = sphere_a.pos_y
-	pos1_z = sphere_a.pos_z
-	pos2_x = sphere_b.pos_x
-	pos2_y = sphere_b.pos_y
-	pos2_z = sphere_b.pos_z
+    pos1_x = sphere_a.pos_x
+    pos1_y = sphere_a.pos_y
+    pos1_z = sphere_a.pos_z
+    pos2_x = sphere_b.pos_x
+    pos2_y = sphere_b.pos_y
+    pos2_z = sphere_b.pos_z
 
-	v1_x = sphere_a.vel_x
-	v1_y = sphere_a.vel_y
-	v1_z = sphere_a.vel_z
-	v2_x = sphere_b.vel_x
-	v2_y = sphere_b.vel_y
-	v2_z = sphere_b.vel_z
+    v1_x = sphere_a.vel_x
+    v1_y = sphere_a.vel_y
+    v1_z = sphere_a.vel_z
+    v2_x = sphere_b.vel_x
+    v2_y = sphere_b.vel_y
+    v2_z = sphere_b.vel_z
 
-	# compute inbetween values
-	dot_product_1_top = (v1_x-v2_x)*(pos1_x-pos2_x) + (v1_y-v2_y)*(pos1_y-pos2_y) + (v1_z-v2_z)*(pos1_z-pos2_z)
-	dot_product_1_bottom = (pos1_x-pos2_x)**2 + (pos1_y-pos2_y)**2 + (pos1_z-pos2_z)**2
+    # compute inbetween values
+    dot_product_1_top = (v1_x-v2_x)*(pos1_x-pos2_x) + (v1_y-v2_y)*(pos1_y-pos2_y) + (v1_z-v2_z)*(pos1_z-pos2_z)
+    dot_product_1_bottom = (pos1_x-pos2_x)**2 + (pos1_y-pos2_y)**2 + (pos1_z-pos2_z)**2
 
-	dot_product_2_top = (v2_x-v1_x)*(pos2_x-pos1_x) + (v2_y-v1_y)*(pos2_y-pos1_y) + (v2_z-v1_z)*(pos2_z-pos1_z)
-	dot_product_2_bottom = (pos2_x-pos1_x)**2 + (pos2_y-pos1_y)**2 + (pos2_z-pos1_z)**2
+    dot_product_2_top = (v2_x-v1_x)*(pos2_x-pos1_x) + (v2_y-v1_y)*(pos2_y-pos1_y) + (v2_z-v1_z)*(pos2_z-pos1_z)
+    dot_product_2_bottom = (pos2_x-pos1_x)**2 + (pos2_y-pos1_y)**2 + (pos2_z-pos1_z)**2
 
-	# compute new velocity values for each colliding sphere
-	v1_x_prime = v1_x - (2*m2*dot_product_1_top*(pos1_x-pos2_x)) / ((m1+m2)*dot_product_1_bottom)
-	v1_y_prime = v1_y - (2*m2*dot_product_1_top*(pos1_y-pos2_y)) / ((m1+m2)*dot_product_1_bottom)
-	v1_z_prime = v1_z - (2*m2*dot_product_1_top*(pos1_z-pos2_z)) / ((m1+m2)*dot_product_1_bottom)
+    # compute new velocity values for each colliding sphere
+    v1_x_prime = v1_x - (2*m2*dot_product_1_top*(pos1_x-pos2_x)) / ((m1+m2)*dot_product_1_bottom)
+    v1_y_prime = v1_y - (2*m2*dot_product_1_top*(pos1_y-pos2_y)) / ((m1+m2)*dot_product_1_bottom)
+    v1_z_prime = v1_z - (2*m2*dot_product_1_top*(pos1_z-pos2_z)) / ((m1+m2)*dot_product_1_bottom)
 
-	v2_x_prime = v2_x - (2*m1*dot_product_2_top*(pos2_x-pos1_x)) / ((m1+m2)*dot_product_2_bottom)
-	v2_y_prime = v2_y - (2*m1*dot_product_2_top*(pos2_y-pos1_y)) / ((m1+m2)*dot_product_2_bottom)
-	v2_z_prime = v2_z - (2*m1*dot_product_2_top*(pos2_z-pos1_z)) / ((m1+m2)*dot_product_2_bottom)
+    v2_x_prime = v2_x - (2*m1*dot_product_2_top*(pos2_x-pos1_x)) / ((m1+m2)*dot_product_2_bottom)
+    v2_y_prime = v2_y - (2*m1*dot_product_2_top*(pos2_y-pos1_y)) / ((m1+m2)*dot_product_2_bottom)
+    v2_z_prime = v2_z - (2*m1*dot_product_2_top*(pos2_z-pos1_z)) / ((m1+m2)*dot_product_2_bottom)
 
-	sphere_a.vel_x = v1_x_prime
-	sphere_a.vel_y = v1_y_prime
-	sphere_a.vel_z = v1_z_prime
+    sphere_a.vel_x = v1_x_prime
+    sphere_a.vel_y = v1_y_prime
+    sphere_a.vel_z = v1_z_prime
 
-	sphere_b.vel_x = v2_x_prime
-	sphere_b.vel_y = v2_y_prime
-	sphere_b.vel_z = v2_z_prime
+    sphere_b.vel_x = v2_x_prime
+    sphere_b.vel_y = v2_y_prime
+    sphere_b.vel_z = v2_z_prime
 
 
 # get reflection results
@@ -193,7 +200,6 @@ def compute_reflection(sphere):
     sphere.vel_x -= 2*(dot_product_top/dot_product_bottom)*pos_x
     sphere.vel_y -= 2*(dot_product_top/dot_product_bottom)*pos_y
     sphere.vel_z -= 2*(dot_product_top/dot_product_bottom)*pos_z
-
 
 def compute_energy(sphere_list):
     sum_energy = 0
@@ -238,12 +244,14 @@ def run_sim(universe_radius, duration):
     momentum = compute_momentum(sphere_list)
 
     print(f"energy: {energy:g}")
-    print(f"momentum: ({momentum[0]:g},{momentum[1]:g},{momentum[2]:g})\n")
+    print(f"momentum: ({momentum[0]:g},{momentum[1]:g},{momentum[2]:g})")
     # begin simulation
     time_elapsed = 0
 
     #end simulation once the nearest event would occur beyond existence of universe
     while time_elapsed < duration:
+
+        #print("new sim")
         checked =0
         nearest_event_time = -1
         ## determine the time of the first event by evaluating all possible collision times from starting
@@ -259,8 +267,8 @@ def run_sim(universe_radius, duration):
                 s2 = sphere_list[j]
 
                 current_event_time = compute_collision_time(s1,s2)
-                print("current event time: " + str(current_event_time))
-                print("nearest event time: " + str(nearest_event_time))
+                # print("current event time: " + str(current_event_time))
+                # print("nearest event time: " + str(nearest_event_time))
                 #print("collision current event time:",current_event_time) DEBUGGER
                 # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
                 if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
@@ -268,7 +276,7 @@ def run_sim(universe_radius, duration):
                     next_event_type = "colliding"
                     next_colliding_pair_indices = [i, j]
                     checked = 1
-                    
+
                 # increment j to look at next possible sphere pair
                 j += 1
 
@@ -276,7 +284,7 @@ def run_sim(universe_radius, duration):
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
 
-            print("sphere:",sphere.name)
+            # print("sphere:",sphere.name)
             current_event_time = compute_reflection_time(sphere,universe_radius)
 
 
@@ -289,11 +297,12 @@ def run_sim(universe_radius, duration):
                 next_reflecting_sphere.name
                 checked = 1
 
-        print("checked "+str(checked))
+        # print("checked "+str(checked))
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
-        print("\nnearest event time:",nearest_event_time) #DEBUGGER
-        print("nearest event type:",next_event_type) #DEBUGGER
+        # print("\nnearest event time:",nearest_event_time) #DEBUGGER
+        # print("nearest event type:",next_event_type) #DEBUGGER
         time_elapsed += nearest_event_time
+        # print("time_elapsed:",time_elapsed)
 
         if time_elapsed < duration:
             #compute new positions for each of the spheres based on event time
@@ -323,7 +332,7 @@ def run_sim(universe_radius, duration):
                 # create an event and append to event list
                 current_event = Event(time_elapsed, next_event_type, colliding_sphere1, colliding_sphere2, sphere_list, updated_energy, updated_momentum)
                 event_list.append(current_event)
-                
+
 
                 #reset border flags for all moving spheres
                 for sphere in sphere_list:
@@ -336,13 +345,11 @@ def run_sim(universe_radius, duration):
                 raise Exception("Error: no event type specified")
 
 
-            #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
-            for sphere in sphere_list:
-                print(sphere.name, \
-                "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
-                "v=(" + str(round(float(sphere.vel_x),4)) + "," + str(round(float(sphere.vel_y),4)) + "," + str(round(float(sphere.vel_z),4)) + ")")
-
-            #print("\n")
+            # #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
+            # for sphere in sphere_list:
+            #     print(f"{sphere.name} p=({sphere.pos_x:g},{sphere.pos_y:g},{sphere.pos_z:g}) v=({sphere.vel_x:g},{sphere.vel_y:g},{sphere.vel_z:g})")
+            #
+            # print("\n")
 
     print("\nHere are the events.\n")
 
