@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 40
 end simulation 200
@@ -9,74 +8,6 @@ other m=1 R=5 p=(20,10,0) v=(1,0,0)
 energy: 0.5
 momentum: (1,0,0)
 
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: other
-checked 1
-
-nearest event time: 13.541019662496844
-nearest event type: reflecting
-one p=(0.0,0.0,0.0) v=(0.0,0.0,0.0)
-other p=(33.541,10.0,0.0) v=(-0.8367,-0.5476,0.0)
-current event time: 33.54101918565968
-nearest event time: -1
-sphere: one
-sphere: other
-checked 1
-
-nearest event time: 33.54101918565968
-nearest event type: colliding
-one p=(0.0,0.0,0.0) v=(-0.0,0.0,0.0)
-other p=(5.4761,-8.3673,0.0) v=(-0.8367,-0.5476,0.0)
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: other
-checked 1
-
-nearest event time: 33.54101966249687
-nearest event type: reflecting
-one p=(-0.0,0.0,0.0) v=(-0.0,0.0,0.0)
-other p=(-22.5888,-26.7347,0.0) v=(0.4002,0.9164,0.0)
-current event time: 33.53370541976692
-nearest event time: -1
-sphere: one
-sphere: other
-checked 1
-
-nearest event time: 33.53370541976692
-nearest event type: colliding
-one p=(-0.0,0.0,0.0) v=(0.0007,-0.0003,0.0)
-other p=(-9.167,3.9958,0.0) v=(0.3996,0.9167,0.0)
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: other
-checked 1
-
-nearest event time: 33.541025688997294
-nearest event type: reflecting
-one p=(0.0225,-0.0098,0.0) v=(0.0007,-0.0003,0.0)
-other p=(4.2353,34.7428,0.0) v=(0.1677,-0.9858,0.0)
-current event time: 32.668158559423716
-nearest event time: -1
-sphere: one
-sphere: other
-checked 1
-
-nearest event time: 32.668158559423716
-nearest event type: colliding
-one p=(0.0444,-0.0194,0.0) v=(-0.0868,-0.0234,0.0)
-other p=(9.7121,2.537,0.0) v=(0.2552,-0.9627,0.0)
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: other
-checked 1
-
-nearest event time: 33.6301348967485
-nearest event type: reflecting
 
 Here are the events.
 
@@ -121,4 +52,3 @@ one m=1 R=5 p=(0.0444025,-0.0193508,0) v=(-0.0868345,-0.0234307,0)
 other m=1 R=5 p=(9.71213,2.53702,0) v=(0.255155,-0.962708,0)
 energy: 0.5
 momentum: (0.168321,-0.986139,0)
-

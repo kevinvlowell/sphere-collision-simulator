@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 10.41
 end simulation 200
@@ -879,4 +878,3 @@ reflecting tennisball
 tennisball m=3.1 R=1.2 p=(-5.4846,3.05517,-6.73863) v=(2.58653,-4.28149,1.55521)
 energy: 42.532
 momentum: (8.01825,-13.2726,4.82114)
-

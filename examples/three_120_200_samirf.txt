@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 120
 end simulation 200
@@ -10,131 +9,6 @@ three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
 energy: 10
 momentum: (0,0,20)
 
-current event time: 94.08392021690038
-nearest event time: -1
-current event time: -2
-nearest event time: 94.08392021690038
-current event time: -2
-nearest event time: 94.08392021690038
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 94.08392021690038
-nearest event type: colliding
-one p=(0.0,0.0,94.0839) v=(0.0,-0.0299,0.8232)
-two p=(0.0,1.0,100.0) v=(0.0,0.2988,1.7677)
-three p=(2.0,-1.0,-2.0) v=(0.0,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 8.45512175829743
-nearest event type: reflecting
-one p=(0.0,-0.2526,101.0444) v=(0.0,-0.0299,0.8232)
-two p=(0.0,3.5263,114.9459) v=(0.0,0.1899,-1.7827)
-three p=(2.0,-1.0,-2.0) v=(0.0,0.0,0.0)
-current event time: 3.8698915365933115
-nearest event time: -1
-current event time: -2
-nearest event time: 3.8698915365933115
-current event time: -2
-nearest event time: 3.8698915365933115
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 3.8698915365933115
-nearest event type: colliding
-one p=(0.0,-0.3683,104.2303) v=(0.0,-0.2386,0.6511)
-two p=(0.0,4.2611,108.0472) v=(0.0,2.2776,-0.0614)
-three p=(2.0,-1.0,-2.0) v=(0.0,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 16.6003154091553
-nearest event type: reflecting
-one p=(0.0,-4.3299,115.0387) v=(0.0,-0.2386,0.6511)
-two p=(0.0,42.0697,107.0287) v=(0.0,1.7098,-1.5059)
-three p=(2.0,-1.0,-2.0) v=(0.0,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 5.871835658520829
-nearest event type: reflecting
-one p=(0.0,-5.7312,118.8619) v=(0.0,-0.1749,-0.671)
-two p=(0.0,52.1091,98.186) v=(0.0,1.7098,-1.5059)
-three p=(2.0,-1.0,-2.0) v=(0.0,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 28.513867330598757
-nearest event type: reflecting
-one p=(0.0,-10.7183,99.7279) v=(0.0,-0.1749,-0.671)
-two p=(0.0,100.8609,55.2457) v=(0.0,0.3484,-2.2516)
-three p=(2.0,-1.0,-2.0) v=(0.0,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 34.38570298911957
-nearest event type: reflecting
-one p=(0.0,-16.7323,76.6537) v=(0.0,-0.1749,-0.671)
-two p=(0.0,112.8413,-22.1775) v=(0.0,-1.1746,-1.9523)
-three p=(2.0,-1.0,-2.0) v=(0.0,0.0,0.0)
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-current event time: -2
-nearest event time: -1
-sphere: one
-sphere: two
-sphere: three
-checked 1
-
-nearest event time: 34.3857029891196
-nearest event type: reflecting
 
 Here are the events.
 
@@ -193,4 +67,3 @@ two m=2 R=5 p=(0,112.841,-22.1775) v=(0,-1.17463,-1.95228)
 three m=3 R=1 p=(2,-1,-2) v=(0,0,0)
 energy: 10
 momentum: (0,-5.84725,-17.3254)
-

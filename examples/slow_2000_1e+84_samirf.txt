@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 2000
 end simulation 1e+84
@@ -8,38 +7,3 @@ slow m=100 R=10 p=(0,0,100) v=(1e-80,0,0)
 other m=100 R=10 p=(80,0,90) v=(0,0,0)
 energy: 5e-159
 momentum: (1e-78,0,0)
-
-current event time: 6.267949192431121e+81
-nearest event time: -1
-sphere: slow
-sphere: other
-checked 1
-
-nearest event time: 6.267949192431121e+81
-nearest event type: colliding
-slow p=(62.6795,0.0,100.0) v=(0.0,0.0,0.0)
-other p=(80.0,0.0,90.0) v=(0.0,0.0,-0.0)
-current event time: -2
-nearest event time: -1
-sphere: slow
-sphere: other
-checked 1
-
-nearest event time: 2.2657762848656988e+83
-nearest event type: reflecting
-slow p=(629.1236,0.0,1081.1099) v=(0.0,0.0,0.0)
-other p=(1779.3322,0.0,-891.1099) v=(-0.0,0.0,0.0)
-current event time: -2
-nearest event time: -1
-sphere: slow
-sphere: other
-checked 1
-
-nearest event time: 2.556819513175898e+67
-nearest event type: reflecting
-slow p=(629.1236,0.0,1081.1099) v=(0.0,0.0,0.0)
-other p=(1779.3322,0.0,-891.1099) v=(0.0,0.0,-0.0)
-current event time: -2
-nearest event time: -1
-sphere: slow
-sphere: other
