@@ -38,8 +38,6 @@ class Sphere:
 # Event Class
 class Event:
 
-    #assumes we would pass the list of spheres after adjusting the velocities in the simulation code according to the event
-    #would also calculate new energy and momentum for arguments immediately prior to creating event
     def __init__(self, event_time, event_type, sphere_a, sphere_b, all_spheres, energy, momentum):
 
         self.sphere_names_involved = [sphere_a.name]
@@ -266,7 +264,7 @@ def run_sim(universe_radius, duration):
                 s2 = sphere_list[j]
 
                 current_event_time = compute_collision_time(s1,s2)
-                #print("collision current event time:",current_event_time)
+                #print("collision current event time:",current_event_time) DEBUGGER
                 # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
                 if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2:
                     nearest_event_time = current_event_time
@@ -276,13 +274,13 @@ def run_sim(universe_radius, duration):
                 j += 1
 
         # check sphere-to-wall collision times
-        # Notes (3.4)on assignment says objects are never initially in a overlapping or colliding state
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
 
-            #print("sphere:",sphere.name)
+            #print("sphere:",sphere.name) DEBUGGER
             current_event_time = compute_reflection_time(sphere,universe_radius)
-            #print("current event time:",current_event_time)
+            #print("current event time:",current_event_time) DEBUGGER
+
             # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
             if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
                 nearest_event_time = current_event_time
@@ -291,10 +289,10 @@ def run_sim(universe_radius, duration):
 
 
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
-        #print("\nnearest event time:",nearest_event_time)
-        #print("nearest event type:",next_event_type)
+        #print("\nnearest event time:",nearest_event_time) DEBUGGER
+        #print("nearest event type:",next_event_type) DEBUGGER
         time_elapsed += nearest_event_time
-        #print("time of next event:", time_elapsed)
+        #print("time of next event:", time_elapsed) DEBUGGER
 
         if time_elapsed < duration:
 
@@ -339,6 +337,7 @@ def run_sim(universe_radius, duration):
             else:
                 raise Exception("Error: no event type specified")
 
+            #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
             #for sphere in sphere_list:
             #    print(sphere.name, \
             #    "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
