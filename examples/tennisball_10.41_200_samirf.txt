@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 10.41
 end simulation 200
@@ -17,777 +16,429 @@ tennisball m=3.1 R=1.2 p=(1.51253,6.68111,6.15622) v=(-2.54616,-0.946194,-4.4790
 energy: 42.532
 momentum: (-7.89308,-2.9332,-13.885)
 
-time of event: 3.68534
+time of event: 4.90744
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.38083,5.23427,-0.692752) v=(-1.94825,-2.26068,-4.30507)
+tennisball m=3.1 R=1.2 p=(-5.4925,4.07792,-6.16661) v=(2.34217,-4.57555,1.00924)
 energy: 42.532
-momentum: (-6.03959,-7.00811,-13.3457)
+momentum: (7.26074,-14.1842,3.12865)
 
-time of event: 5.21445
+time of event: 7.65866
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.35994,1.77743,-7.2757) v=(2.8221,-3.84259,2.17031)
+tennisball m=3.1 R=1.2 p=(0.951336,-8.51042,-3.38996) v=(1.49548,2.99873,4.02631)
 energy: 42.532
-momentum: (8.7485,-11.912,6.72796)
+momentum: (4.636,9.29606,12.4816)
 
-time of event: 6.74357
+time of event: 10.4099
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.04463,-4.09834,-3.95705) v=(3.08443,-2.81337,3.16405)
+tennisball m=3.1 R=1.2 p=(5.06574,-0.260254,7.6873) v=(-3.01303,3.23036,-2.8154)
 energy: 42.532
-momentum: (9.56175,-8.72146,9.80854)
+momentum: (-9.34039,10.0141,-8.72773)
 
-time of event: 8.27269
+time of event: 13.1611
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.67183,-8.40032,0.881146) v=(-0.183496,4.66291,2.37983)
+tennisball m=3.1 R=1.2 p=(-3.22377,8.62717,-0.0584726) v=(-0.143876,-4.44783,-2.76335)
 energy: 42.532
-momentum: (-0.568836,14.455,7.37746)
+momentum: (-0.446015,-13.7883,-8.5664)
 
-time of event: 9.8018
+time of event: 15.9123
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.39124,-1.27018,4.52018) v=(-1.03514,4.98189,1.24467)
+tennisball m=3.1 R=1.2 p=(-3.6196,-3.60979,-7.66107) v=(3.07757,-1.23511,4.055)
 energy: 42.532
-momentum: (-3.20894,15.4439,3.85848)
+momentum: (9.54047,-3.82885,12.5705)
 
-time of event: 11.3309
+time of event: 18.6635
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(1.80839,6.34771,6.42342) v=(-2.64461,-0.667573,-4.47218)
+tennisball m=3.1 R=1.2 p=(4.84748,-7.00786,3.49514) v=(-1.23669,5.00188,0.94433)
 energy: 42.532
-momentum: (-8.1983,-2.06948,-13.8638)
+momentum: (-3.83372,15.5058,2.92742)
 
-time of event: 12.86
+time of event: 21.4148
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.23552,5.32692,-0.415057) v=(-2.0832,-2.00532,-4.36794)
+tennisball m=3.1 R=1.2 p=(1.44508,6.75343,6.0932) v=(-2.52281,-1.00867,-4.47862)
 energy: 42.532
-momentum: (-6.45793,-6.21651,-13.5406)
+momentum: (-7.82071,-3.12688,-13.8837)
 
-time of event: 14.3892
+time of event: 24.166
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.42098,2.26054,-7.09415) v=(2.74148,-4.01721,1.94585)
+tennisball m=3.1 R=1.2 p=(-5.49572,3.97835,-6.22847) v=(2.36839,-4.54941,1.06472)
 energy: 42.532
-momentum: (8.49857,-12.4533,6.03215)
+momentum: (7.342,-14.1032,3.30064)
 
-time of event: 15.9183
+time of event: 26.9172
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.22895,-3.88224,-4.11871) v=(3.0501,-3.04226,2.98019)
+tennisball m=3.1 R=1.2 p=(1.02023,-8.53807,-3.29918) v=(1.46038,3.04948,4.001)
 energy: 42.532
-momentum: (9.45532,-9.43101,9.23859)
+momentum: (4.52718,9.45338,12.4031)
 
-time of event: 17.4474
+time of event: 29.6684
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.43501,-8.5342,0.438341) v=(-0.00705963,4.55319,2.59007)
+tennisball m=3.1 R=1.2 p=(5.03806,-0.14828,7.70844) v=(-3.0235,3.18145,-2.85952)
 energy: 42.532
-momentum: (-0.0218849,14.1149,8.0292)
+momentum: (-9.37284,9.86249,-8.86452)
 
-time of event: 18.9765
+time of event: 32.4196
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.42422,-1.57185,4.39885) v=(-0.866985,4.94793,1.48538)
+tennisball m=3.1 R=1.2 p=(-3.28024,8.60459,-0.158732) v=(-0.104077,-4.47664,-2.71825)
 energy: 42.532
-momentum: (-2.68765,15.3386,4.60468)
+momentum: (-0.322638,-13.8776,-8.42657)
 
-time of event: 20.5056
+time of event: 35.1709
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.0985,5.9941,6.67017) v=(-2.73465,-0.386826,-4.45108)
+tennisball m=3.1 R=1.2 p=(-3.56658,-3.71163,-7.63724) v=(3.07018,-1.17328,4.07889)
 energy: 42.532
-momentum: (-8.47741,-1.19916,-13.7983)
+momentum: (9.51757,-3.63718,12.6446)
 
-time of event: 22.0347
+time of event: 37.9221
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.0831,5.4026,-0.136041) v=(-2.21152,-1.74358,-4.41691)
+tennisball m=3.1 R=1.2 p=(4.88017,-6.93959,3.5847) v=(-1.27317,5.00296,0.888507)
 energy: 42.532
-momentum: (-6.8557,-5.40511,-13.6924)
+momentum: (-3.94683,15.5092,2.75437)
 
-time of event: 23.5638
+time of event: 40.6733
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.46476,2.73646,-6.89001) v=(2.65213,-4.17903,1.7152)
+tennisball m=3.1 R=1.2 p=(1.3774,6.82465,6.02918) v=(-2.49905,-1.07098,-4.47747)
 energy: 42.532
-momentum: (8.22159,-12.955,5.31713)
+momentum: (-7.74707,-3.32005,-13.8802)
 
-time of event: 25.093
+time of event: 43.4245
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.40936,-3.65377,-4.26727) v=(3.00606,-3.26146,2.78684)
+tennisball m=3.1 R=1.2 p=(-5.49805,3.87814,-6.28932) v=(2.39422,-4.52253,1.12003)
 energy: 42.532
-momentum: (9.31878,-10.1105,8.63922)
+momentum: (7.42207,-14.0198,3.4721)
 
-time of event: 26.6221
+time of event: 46.1758
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.18726,-8.64092,-0.00585974) v=(0.169399,4.42896,2.79206)
+tennisball m=3.1 R=1.2 p=(1.08896,-8.56434,-3.20787) v=(1.42504,3.09973,3.97504)
 energy: 42.532
-momentum: (0.525136,13.7298,8.65538)
+momentum: (4.41762,9.60918,12.3226)
 
-time of event: 28.1512
+time of event: 48.927
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.44629,-1.86852,4.26352) v=(-0.696069,4.89821,1.72136)
+tennisball m=3.1 R=1.2 p=(5.00956,-0.0362826,7.72833) v=(-3.03347,3.13203,-2.90318)
 energy: 42.532
-momentum: (-2.15781,15.1844,5.33621)
+momentum: (-9.40376,9.70928,-8.99987)
 
-time of event: 29.6803
+time of event: 51.6782
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.38192,5.6214,6.89568) v=(-2.81598,-0.104848,-4.4158)
+tennisball m=3.1 R=1.2 p=(-3.33619,8.58061,-0.258966) v=(-0.0642609,-4.50472,-2.6727)
 energy: 42.532
-momentum: (-8.72952,-0.325029,-13.689)
+momentum: (-0.199209,-13.9646,-8.28538)
 
-time of event: 31.2094
+time of event: 54.4294
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.92404,5.46108,0.143408) v=(-2.33279,-1.47629,-4.45181)
+tennisball m=3.1 R=1.2 p=(-3.51298,-3.81287,-7.61216) v=(3.0623,-1.11126,4.10213)
 energy: 42.532
-momentum: (-7.23165,-4.57651,-13.8006)
+momentum: (9.49312,-3.44491,12.7166)
 
-time of event: 32.7385
+time of event: 57.1806
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.49115,3.20366,-6.66393) v=(2.55433,-4.32755,1.47909)
+tennisball m=3.1 R=1.2 p=(4.91207,-6.8702,3.67369) v=(-1.30945,5.00322,0.83254)
 energy: 42.532
-momentum: (7.91843,-13.4154,4.58518)
+momentum: (-4.05929,15.51,2.58087)
 
-time of event: 34.2677
+time of event: 59.9319
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.58528,-3.41367,-4.40223) v=(2.95244,-3.47027,2.58462)
+tennisball m=3.1 R=1.2 p=(1.30949,6.89476,5.96419) v=(-2.47489,-1.13312,-4.47559)
 energy: 42.532
-momentum: (9.15257,-10.7578,8.01234)
+momentum: (-7.67217,-3.51268,-13.8743)
 
-time of event: 35.7968
+time of event: 62.6831
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.92935,-8.72012,-0.450042) v=(0.345318,4.29064,2.98516)
+tennisball m=3.1 R=1.2 p=(-5.49949,3.77729,-6.34915) v=(2.41966,-4.49492,1.17516)
 energy: 42.532
-momentum: (1.07049,13.301,9.254)
+momentum: (7.50093,-13.9342,3.64299)
 
-time of event: 37.3259
+time of event: 65.4343
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.45738,-2.15924,4.11462) v=(-0.522937,4.83289,1.95186)
+tennisball m=3.1 R=1.2 p=(1.15752,-8.58921,-3.11604) v=(1.38947,3.14949,3.94843)
 energy: 42.532
-momentum: (-1.6211,14.9819,6.05075)
+momentum: (4.30735,9.76341,12.2401)
 
-time of event: 38.855
+time of event: 68.1855
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.65775,5.23081,7.09923) v=(-2.88834,0.177464,-4.36646)
+tennisball m=3.1 R=1.2 p=(4.98024,0.0757209,7.74697) v=(-3.04295,3.0821,-2.94638)
 energy: 42.532
-momentum: (-8.95385,0.550139,-13.536)
+momentum: (-9.43315,9.55449,-9.13376)
 
-time of event: 40.3841
+time of event: 70.9367
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.75885,5.50217,0.422401) v=(-2.44664,-1.2043,-4.47254)
+tennisball m=3.1 R=1.2 p=(-3.39159,8.55524,-0.359158) v=(-0.0244347,-4.53208,-2.62672)
 energy: 42.532
-momentum: (-7.58457,-3.73333,-13.8649)
+momentum: (-0.0757476,-14.0494,-8.14284)
 
-time of event: 41.9132
+time of event: 73.688
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.50004,3.66066,-6.41664) v=(2.4484,-4.46229,1.23827)
+tennisball m=3.1 R=1.2 p=(-3.45882,-3.9135,-7.58586) v=(3.05391,-1.04906,4.12469)
 energy: 42.532
-momentum: (7.59005,-13.8331,3.83863)
+momentum: (9.46713,-3.25209,12.7865)
 
-time of event: 43.4424
+time of event: 76.4392
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.75615,-3.1627,-4.52318) v=(2.88943,-3.66804,2.37418)
+tennisball m=3.1 R=1.2 p=(4.94317,-6.7997,3.76208) v=(-1.34551,5.00267,0.776438)
 energy: 42.532
-momentum: (8.95722,-11.3709,7.35995)
+momentum: (-4.17109,15.5083,2.40696)
 
-time of event: 44.9715
+time of event: 79.1904
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.66212,-8.77155,-0.892791) v=(0.520137,4.13865,3.16876)
+tennisball m=3.1 R=1.2 p=(1.24137,6.96376,5.89823) v=(-2.45033,-1.19508,-4.47299)
 energy: 42.532
-momentum: (1.61243,12.8298,9.82316)
+momentum: (-7.59603,-3.70474,-13.8663)
 
-time of event: 46.5006
+time of event: 81.9416
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.45747,-2.44308,3.95261) v=(-0.34814,4.75218,2.17614)
+tennisball m=3.1 R=1.2 p=(-5.50004,3.67584,-6.40796) v=(2.4447,-4.46658,1.23009)
 energy: 42.532
-momentum: (-1.07923,14.7318,6.74603)
+momentum: (7.57858,-13.8464,3.81328)
 
-time of event: 48.0297
+time of event: 84.6928
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.92513,4.82356,7.28018) v=(-2.9515,0.459211,-4.30323)
+tennisball m=3.1 R=1.2 p=(1.22588,-8.6127,-3.0237) v=(1.35367,3.19873,3.92119)
 energy: 42.532
-momentum: (-9.14966,1.42355,-13.34)
+momentum: (4.19637,9.91606,12.1557)
 
-time of event: 49.5588
+time of event: 87.4441
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.58807,5.52575,0.700048) v=(-2.55269,-0.928473,-4.47903)
+tennisball m=3.1 R=1.2 p=(4.95012,0.187712,7.76435) v=(-3.05194,3.03166,-2.98909)
 energy: 42.532
-momentum: (-7.91334,-2.87827,-13.885)
+momentum: (-9.46102,9.39816,-9.26618)
 
-time of event: 51.0879
+time of event: 90.1953
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.49143,4.106,-6.14891) v=(2.33468,-4.58282,0.993502)
+tennisball m=3.1 R=1.2 p=(-3.44645,8.52849,-0.459292) v=(0.0153955,-4.5587,-2.58032)
 energy: 42.532
-momentum: (7.23751,-14.2067,3.07985)
+momentum: (0.0477261,-14.132,-7.99899)
 
-time of event: 52.6171
+time of event: 92.9465
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.92143,-2.90166,-4.62973) v=(2.81721,-3.85412,2.15617)
+tennisball m=3.1 R=1.2 p=(-3.40409,-4.01349,-7.55832) v=(3.04504,-0.986689,4.14659)
 energy: 42.532
-momentum: (8.73335,-11.9478,6.68412)
+momentum: (9.43961,-3.05874,12.8544)
 
-time of event: 54.1462
+time of event: 95.6977
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.38641,-8.79506,-1.3327) v=(0.693301,3.97348,3.34227)
+tennisball m=3.1 R=1.2 p=(4.97348,-6.72809,3.84986) v=(-1.38136,5.00131,0.72021)
 energy: 42.532
-momentum: (2.14923,12.3178,10.361)
+momentum: (-4.28222,15.5041,2.23265)
 
-time of event: 55.6753
+time of event: 98.4489
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.44655,-2.71914,3.77802) v=(-0.172234,4.65634,2.39349)
+tennisball m=3.1 R=1.2 p=(1.17305,7.03163,5.83132) v=(-2.42537,-1.25684,-4.46967)
 energy: 42.532
-momentum: (-0.533925,14.4347,7.41983)
+momentum: (-7.51866,-3.8962,-13.856)
 
-time of event: 57.2044
+time of event: 101.2
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.18319,4.40095,7.43795) v=(-3.00527,0.739496,-4.22629)
+tennisball m=3.1 R=1.2 p=(-5.49969,3.57379,-6.46572) v=(2.46936,-4.43751,1.28483)
 energy: 42.532
-momentum: (-9.31634,2.29244,-13.1015)
+momentum: (7.655,-13.7563,3.98297)
 
-time of event: 58.7335
+time of event: 103.951
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.41222,5.53172,0.975467) v=(-2.65062,-0.649689,-4.47126)
+tennisball m=3.1 R=1.2 p=(1.29405,-8.63479,-2.93087) v=(1.31765,3.24745,3.89331)
 energy: 42.532
-momentum: (-8.21692,-2.01404,-13.8609)
+momentum: (4.08472,10.0671,12.0693)
 
-time of event: 60.2626
+time of event: 106.703
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.46533,4.53827,-5.8616) v=(2.21352,-4.68876,0.745573)
+tennisball m=3.1 R=1.2 p=(4.9192,0.299673,7.78047) v=(-3.06044,2.98074,-3.03132)
 energy: 42.532
-momentum: (6.86193,-14.5351,2.31128)
+momentum: (-9.48736,9.2403,-9.39709)
 
-time of event: 61.7918
+time of event: 109.454
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.08059,-2.63138,-4.72153) v=(2.73602,-4.02794,1.93129)
+tennisball m=3.1 R=1.2 p=(-3.50074,8.50036,-0.559351) v=(0.0552232,-4.58458,-2.5335)
 energy: 42.532
-momentum: (8.48168,-12.4866,5.98701)
+momentum: (0.171192,-14.2122,-7.85384)
 
-time of event: 63.3209
+time of event: 112.205
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.10311,-8.79056,-1.76836) v=(0.864257,3.79567,3.50514)
+tennisball m=3.1 R=1.2 p=(-3.34881,-4.11283,-7.52956) v=(3.03567,-0.924158,4.16781)
 energy: 42.532
-momentum: (2.6792,11.7666,10.8659)
+momentum: (9.41056,-2.86489,12.9202)
 
-time of event: 64.85
+time of event: 114.956
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.42466,-2.98654,3.5914) v=(0.00422019,4.54568,2.60323)
+tennisball m=3.1 R=1.2 p=(5.00298,-6.65539,3.93702) v=(-1.41699,4.99914,0.663865)
 energy: 42.532
-momentum: (0.0130826,14.0916,8.07)
+momentum: (-4.39266,15.4973,2.05798)
 
-time of event: 66.3791
+time of event: 117.707
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.43111,3.96433,7.57203) v=(-3.04947,1.01743,-4.13589)
+tennisball m=3.1 R=1.2 p=(1.10454,7.09836,5.76346) v=(-2.40002,-1.3184,-4.46562)
 energy: 42.532
-momentum: (-9.45336,3.15402,-12.8213)
+momentum: (-7.44007,-4.08703,-13.8434)
 
-time of event: 67.9082
+time of event: 120.459
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.23188,5.52009,1.24778) v=(-2.74011,-0.368837,-4.44924)
+tennisball m=3.1 R=1.2 p=(-5.49846,3.47115,-6.52243) v=(2.49361,-4.40773,1.33936)
 energy: 42.532
-momentum: (-8.49433,-1.14339,-13.7927)
+momentum: (7.73018,-13.664,4.152)
 
-time of event: 69.4373
+time of event: 123.21
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.42182,4.9561,-5.55563) v=(2.08532,-4.77976,0.49527)
+tennisball m=3.1 R=1.2 p=(1.36201,-8.65547,-2.83757) v=(1.28142,3.29565,3.8648)
 energy: 42.532
-momentum: (6.46449,-14.8173,1.53534)
+momentum: (3.97241,10.2165,11.9809)
 
-time of event: 70.9664
+time of event: 125.961
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.23313,-2.35272,-4.79831) v=(2.64613,-4.18892,1.70027)
+tennisball m=3.1 R=1.2 p=(4.88748,0.411585,7.79534) v=(-3.06844,2.92934,-3.07306)
 energy: 42.532
-momentum: (8.20299,-12.9857,5.27084)
+momentum: (-9.51215,9.08095,-9.52647)
 
-time of event: 72.4956
+time of event: 128.712
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(1.81311,-8.75807,-2.19839) v=(1.03246,3.60576,3.65684)
+tennisball m=3.1 R=1.2 p=(-3.55447,8.47084,-0.65932) v=(0.095042,-4.60971,-2.48626)
 energy: 42.532
-momentum: (3.20063,11.1779,11.3362)
+momentum: (0.29463,-14.2901,-7.70741)
 
-time of event: 74.0247
+time of event: 131.464
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.39186,-3.24444,3.39334) v=(0.180661,4.42054,2.80467)
+tennisball m=3.1 R=1.2 p=(-3.29299,-4.2115,-7.49957) v=(3.0258,-0.861476,4.18836)
 energy: 42.532
-momentum: (0.560049,13.7037,8.69448)
+momentum: (9.37999,-2.67058,12.9839)
 
-time of event: 75.5538
+time of event: 134.215
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.66811,3.51508,7.68201) v=(-3.08396,1.29212,-4.03232)
+tennisball m=3.1 R=1.2 p=(5.03166,-6.58161,4.02354) v=(-1.45238,4.99616,0.607413)
 energy: 42.532
-momentum: (-9.56028,4.00556,-12.5002)
+momentum: (-4.50238,15.4881,1.88298)
 
-time of event: 77.0829
+time of event: 136.966
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.04762,5.49088,1.51612) v=(-2.82087,-0.0868105,-4.41307)
+tennisball m=3.1 R=1.2 p=(1.03584,7.16393,5.69466) v=(-2.37428,-1.37974,-4.46084)
 energy: 42.532
-momentum: (-8.7447,-0.269113,-13.6805)
+momentum: (-7.36027,-4.2772,-13.8286)
 
-time of event: 78.612
+time of event: 139.717
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.36106,5.35814,-5.23197) v=(1.95048,-4.85555,0.243391)
+tennisball m=3.1 R=1.2 p=(-5.49633,3.36796,-6.57809) v=(2.51745,-4.37723,1.39367)
 energy: 42.532
-momentum: (6.04647,-15.0522,0.754512)
+momentum: (7.80411,-13.5694,4.32036)
 
-time of event: 80.1411
+time of event: 142.468
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.37856,-2.06657,-4.8598) v=(2.5478,-4.33658,1.46384)
+tennisball m=3.1 R=1.2 p=(1.42974,-8.67476,-2.74381) v=(1.24498,3.34331,3.83566)
 energy: 42.532
-momentum: (7.89819,-13.4434,4.53789)
+momentum: (3.85945,10.3643,11.8905)
 
-time of event: 81.6703
+time of event: 145.22
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(1.51733,-8.6977,-2.62142) v=(1.19738,3.40438,3.7969)
+tennisball m=3.1 R=1.2 p=(4.85496,0.523431,7.80893) v=(-3.07594,2.87746,-3.1143)
 energy: 42.532
-momentum: (3.71187,10.5536,11.7704)
+momentum: (-9.53541,8.92012,-9.65432)
 
-time of event: 83.1994
+time of event: 147.971
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.34826,-3.492,3.18448) v=(0.356526,4.28133,2.99718)
+tennisball m=3.1 R=1.2 p=(-3.60762,8.43995,-0.759181) v=(0.134845,-4.63411,-2.43862)
 energy: 42.532
-momentum: (1.10523,13.2721,9.29127)
+momentum: (0.418021,-14.3657,-7.55973)
 
-time of event: 84.7285
+time of event: 150.722
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.89343,3.05464,7.76752) v=(-3.10863,1.56269,-3.91592)
+tennisball m=3.1 R=1.2 p=(-3.23663,-4.30949,-7.46837) v=(3.01545,-0.798655,4.20823)
 energy: 42.532
-momentum: (-9.63675,4.84435,-12.1393)
+momentum: (9.34789,-2.47583,13.0455)
 
-time of event: 86.2576
+time of event: 153.473
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.860024,5.44419,1.77963) v=(-2.89265,0.195492,-4.36284)
+tennisball m=3.1 R=1.2 p=(5.05953,-6.50677,4.1094) v=(-1.48754,4.99237,0.550862)
 energy: 42.532
-momentum: (-8.96722,0.606026,-13.5248)
+momentum: (-4.61137,15.4764,1.70767)
 
-time of event: 87.7867
+time of event: 156.225
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.28322,5.74312,-4.89165) v=(1.80942,-4.91588,-0.0092636)
+tennisball m=3.1 R=1.2 p=(0.966986,7.22835,5.62495) v=(-2.34816,-1.44086,-4.45534)
 energy: 42.532
-momentum: (5.6092,-15.2392,-0.0287172)
+momentum: (-7.27928,-4.46667,-13.8116)
 
-time of event: 89.3158
+time of event: 158.976
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.51641,-1.77384,-4.90582) v=(2.44137,-4.47042,1.22274)
+tennisball m=3.1 R=1.2 p=(-5.49331,3.26422,-6.63268) v=(2.54089,-4.34602,1.44775)
 energy: 42.532
-momentum: (7.56824,-13.8583,3.79049)
+momentum: (7.87677,-13.4727,4.48803)
 
-time of event: 90.845
+time of event: 161.727
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(1.21673,-8.60963,-3.03611) v=(1.35848,3.19216,3.92488)
+tennisball m=3.1 R=1.2 p=(1.49725,-8.69264,-2.6496) v=(1.20834,3.39043,3.8059)
 energy: 42.532
-momentum: (4.21129,9.89569,12.1671)
+momentum: (3.74586,10.5103,11.7983)
 
-time of event: 92.3741
+time of event: 164.478
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.294,-3.72845,2.96548) v=(0.531257,4.12848,3.18015)
+tennisball m=3.1 R=1.2 p=(4.82166,0.635191,7.82127) v=(-3.08294,2.82511,-3.15503)
 energy: 42.532
-momentum: (1.6469,12.7983,9.85848)
+momentum: (-9.55712,8.75785,-9.78059)
 
-time of event: 93.9032
+time of event: 167.229
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(4.10635,2.58448,7.82831) v=(-3.1234,1.82829,-3.78704)
+tennisball m=3.1 R=1.2 p=(-3.66019,8.4077,-0.85892) v=(0.174627,-4.65774,-2.39059)
 energy: 42.532
-momentum: (-9.68254,5.66771,-11.7398)
+momentum: (0.541343,-14.439,-7.41083)
 
-time of event: 95.4323
+time of event: 169.981
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.669688,5.38016,2.03748) v=(-2.95522,0.477173,-4.29872)
+tennisball m=3.1 R=1.2 p=(-3.17975,-4.40678,-7.43596) v=(3.00461,-0.735705,4.22742)
 energy: 42.532
-momentum: (-9.16119,1.47924,-13.326)
+momentum: (9.31428,-2.28069,13.105)
 
-time of event: 96.9614
+time of event: 172.732
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.18857,6.10981,-4.53576) v=(1.6626,-4.96056,-0.261889)
+tennisball m=3.1 R=1.2 p=(5.08658,-6.43087,4.1946) v=(-1.52246,4.98777,0.494222)
 energy: 42.532
-momentum: (5.15407,-15.3777,-0.811855)
+momentum: (-4.71961,15.4621,1.53209)
 
-time of event: 98.4905
+time of event: 175.483
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.64625,-1.47546,-4.93622) v=(2.32716,-4.59003,0.977747)
+tennisball m=3.1 R=1.2 p=(0.89797,7.29159,5.55432) v=(-2.32165,-1.50175,-4.44912)
 energy: 42.532
-momentum: (7.21419,-14.2291,3.03102)
+momentum: (-7.19712,-4.65542,-13.7923)
 
-time of event: 100.02
+time of event: 178.234
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.912245,-8.49415,-3.44113) v=(1.51526,2.96977,4.04035)
+tennisball m=3.1 R=1.2 p=(-5.4894,3.15995,-6.6862) v=(2.56392,-4.31411,1.5016)
 energy: 42.532
-momentum: (4.69731,9.20628,12.5251)
+momentum: (7.94815,-13.3737,4.65496)
 
-time of event: 101.549
+time of event: 180.986
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.22925,-3.95303,2.73704) v=(0.704296,3.96249,3.353)
+tennisball m=3.1 R=1.2 p=(1.56451,-8.70911,-2.55497) v=(1.17151,3.437,3.77552)
 energy: 42.532
-momentum: (2.18332,12.2837,10.3943)
+momentum: (3.63167,10.6547,11.7041)
 
-time of event: 103.078
+time of event: 183.737
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(4.3062,2.10609,7.86417) v=(-3.12823,2.08807,-3.64611)
+tennisball m=3.1 R=1.2 p=(4.78758,0.746849,7.83233) v=(-3.08944,2.77231,-3.19525)
 energy: 42.532
-momentum: (-9.69751,6.47303,-11.3029)
+momentum: (-9.57728,8.59415,-9.90529)
 
-time of event: 104.607
+time of event: 186.488
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.47722,5.299,2.28884) v=(-3.00838,0.757334,-4.22091)
+tennisball m=3.1 R=1.2 p=(-3.71216,8.37408,-0.958519) v=(0.21438,-4.68063,-2.34217)
 energy: 42.532
-momentum: (-9.32599,2.34774,-13.0848)
+momentum: (0.664578,-14.5099,-7.26073)
 
-time of event: 106.136
+time of event: 189.239
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-5.07739,6.45705,-4.16542) v=(1.51049,-4.98944,-0.51368)
+tennisball m=3.1 R=1.2 p=(-3.12235,-4.50336,-7.40235) v=(2.99328,-0.672635,4.24592)
 energy: 42.532
-momentum: (4.68253,-15.4673,-1.59241)
+momentum: (9.27915,-2.08517,13.1624)
 
-time of event: 107.665
+time of event: 191.99
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.76767,-1.17239,-4.9509) v=(2.20554,-4.69502,0.729643)
+tennisball m=3.1 R=1.2 p=(5.11281,-6.35393,4.27912) v=(-1.55713,4.98236,0.437502)
 energy: 42.532
-momentum: (6.83717,-14.5546,2.26189)
+momentum: (-4.82709,15.4453,1.35626)
 
-time of event: 109.194
+time of event: 194.742
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.60486,-8.35162,-3.83519) v=(1.66721,2.73793,4.14297)
+tennisball m=3.1 R=1.2 p=(0.828809,7.35365,5.48279) v=(-2.29477,-1.56239,-4.44218)
 energy: 42.532
-momentum: (5.16836,8.48757,12.8432)
+momentum: (-7.11378,-4.84342,-13.7708)
 
-time of event: 110.723
+time of event: 197.493
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.15422,-4.16501,2.49988) v=(0.875092,3.78389,3.51517)
+tennisball m=3.1 R=1.2 p=(-5.4846,3.05517,-6.73863) v=(2.58653,-4.28149,1.55521)
 energy: 42.532
-momentum: (2.71278,11.7301,10.897)
-
-time of event: 112.253
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(4.49234,1.62099,7.87498) v=(-3.12309,2.34121,-3.49357)
-energy: 42.532
-momentum: (-9.68159,7.25774,-10.8301)
-
-time of event: 113.782
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.283232,5.20097,2.53291) v=(-3.05197,1.03508,-4.12966)
-energy: 42.532
-momentum: (-9.46109,3.20876,-12.802)
-
-time of event: 115.311
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-4.95004,6.78373,-3.78183) v=(1.35357,-5.00244,-0.763835)
-energy: 42.532
-momentum: (4.19608,-15.5076,-2.36789)
-
-time of event: 116.84
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.88027,-0.865581,-4.94982) v=(2.0769,-4.78506,0.479216)
-energy: 42.532
-momentum: (6.43839,-14.8337,1.48557)
-
-time of event: 118.369
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.295549,-8.1825,-4.21704) v=(1.81386,2.49736,4.23239)
-energy: 42.532
-momentum: (5.62296,7.74183,13.1204)
-
-time of event: 119.898
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.06915,-4.36374,2.25477) v=(1.0431,3.59323,3.66614)
-energy: 42.532
-momentum: (3.23362,11.139,11.365)
-
-time of event: 121.427
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(4.66417,1.13073,7.86073) v=(-3.10802,2.58688,-3.32991)
-energy: 42.532
-momentum: (-9.63485,8.01933,-10.3227)
-
-time of event: 122.956
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.088343,5.08637,2.76891) v=(-3.08583,1.30954,-4.02527)
-energy: 42.532
-momentum: (-9.56607,4.05957,-12.4783)
-
-time of event: 124.486
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-4.80694,7.08881,-3.38619) v=(1.19235,-4.99951,-1.01156)
-energy: 42.532
-momentum: (3.69627,-15.4985,-3.13583)
-
-time of event: 126.015
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.9837,-0.556016,-4.93298) v=(1.94164,-4.85987,0.227263)
-energy: 42.532
-momentum: (6.0191,-15.0656,0.704514)
-
-time of event: 127.544
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.0147026,-7.98733,-4.58547) v=(1.95473,2.24885,4.30833)
-energy: 42.532
-momentum: (6.05966,6.97144,13.3558)
-
-time of event: 129.073
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.97431,-4.54857,2.00247) v=(1.20779,3.39114,3.80545)
-energy: 42.532
-momentum: (3.74415,10.5125,11.7969)
-
-time of event: 130.602
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(4.82116,0.636871,7.82144) v=(-3.08304,2.82432,-3.15564)
-energy: 42.532
-momentum: (-9.55743,8.7554,-9.78248)
-
-time of event: 132.131
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.106828,4.95559,2.9961) v=(-3.10987,1.57982,-3.90805)
-energy: 42.532
-momentum: (-9.6406,4.89745,-12.115)
-
-time of event: 133.66
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-4.64852,7.37132,-2.97976) v=(1.02732,-4.98066,-1.25606)
-energy: 42.532
-momentum: (3.18469,-15.44,-3.89379)
-
-time of event: 135.189
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.07763,-0.244682,-4.90043) v=(1.80021,-4.91921,-0.0254141)
-energy: 42.532
-momentum: (5.58064,-15.2495,-0.0787837)
-
-time of event: 136.718
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.324908,-7.76672,-4.93929) v=(2.08938,1.99318,4.37055)
-energy: 42.532
-momentum: (6.47706,6.17885,13.5487)
-
-time of event: 138.248
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.86999,-4.71892,1.7438) v=(1.36863,3.17824,3.93263)
-energy: 42.532
-momentum: (4.24276,9.85256,12.1912)
-
-time of event: 139.777
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(4.96279,0.140984,7.75725) v=(-3.04825,3.05277,-2.97132)
-energy: 42.532
-momentum: (-9.44958,9.46358,-9.2111)
-
-time of event: 141.306
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.301658,4.80902,3.21375) v=(-3.12401,1.84508,-3.7784)
-energy: 42.532
-momentum: (-9.68442,5.71974,-11.713)
-
-time of event: 142.835
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-4.47531,7.63036,-2.56385) v=(0.859022,-4.94595,-1.49656)
-energy: 42.532
-momentum: (2.66297,-15.3324,-4.63935)
-
-time of event: 144.364
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.16177,0.0674318,-4.85227) v=(1.65304,-4.96288,-0.27801)
-energy: 42.532
-momentum: (5.12442,-15.3849,-0.861831)
-
-time of event: 145.893
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.634079,-7.52139,-5.27738) v=(2.21737,1.73116,4.41886)
-energy: 42.532
-momentum: (6.87384,5.36659,13.6985)
-
-time of event: 147.422
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.75654,-4.87424,1.47957) v=(1.52512,2.95523,4.0473)
-energy: 42.532
-momentum: (4.72787,9.16122,12.5466)
-
-time of event: 148.951
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(5.08862,-0.355353,7.66836) v=(-3.00376,3.2715,-2.77755)
-energy: 42.532
-momentum: (-9.31164,10.1416,-8.6104)
-
-time of event: 150.48
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.495528,4.64714,3.42117) v=(-3.1282,2.10446,-3.63671)
-energy: 42.532
-momentum: (-9.69741,6.52381,-11.2738)
-
-time of event: 152.01
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-4.28785,7.8651,-2.13978) v=(0.68799,-4.89549,-1.7323)
-energy: 42.532
-momentum: (2.13277,-15.176,-5.37014)
-
-time of event: 153.539
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.23583,0.379331,-4.78867) v=(1.50061,-4.99075,-0.52972)
-energy: 42.532
-momentum: (4.65188,-15.4713,-1.64213)
-
-time of event: 155.068
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-0.94123,-7.2521,-5.59868) v=(2.3383,1.46363,4.4531)
-energy: 42.532
-momentum: (7.24874,4.53724,13.8046)
-
-time of event: 156.597
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.63431,-5.01405,1.21064) v=(1.67675,2.72281,4.14908)
-energy: 42.532
-momentum: (5.19792,8.44071,12.8621)
-
-time of event: 158.126
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(5.19825,-0.850558,7.55506) v=(-2.94969,3.47981,-2.57493)
-energy: 42.532
-momentum: (-9.14405,10.7874,-7.98228)
-
-time of event: 159.655
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.687821,4.47047,3.61769) v=(-3.12243,2.35713,-3.48344)
-energy: 42.532
-momentum: (-9.67953,7.30711,-10.7987)
-
-time of event: 161.184
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-4.08673,8.0748,-1.70889) v=(0.514767,-4.82944,-1.96252)
-energy: 42.532
-momentum: (1.59578,-14.9713,-6.08383)
-
-time of event: 162.713
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.29959,0.690022,-4.70982) v=(1.3434,-5.00273,-0.779744)
-energy: 42.532
-momentum: (4.16453,-15.5085,-2.41721)
-
-time of event: 164.243
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.24539,-6.95973,-5.90214) v=(2.45179,1.19144,4.47317)
-energy: 42.532
-momentum: (7.60055,3.69345,13.8668)
-
-time of event: 165.772
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.50369,-5.13789,0.937847) v=(1.82304,2.48172,4.23764)
-energy: 42.532
-momentum: (5.65142,7.69332,13.1367)
-
-time of event: 167.301
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(5.29132,-1.34305,7.4177) v=(-2.88624,3.67704,-2.36411)
-energy: 42.532
-momentum: (-8.94735,11.3988,-7.32874)
-
-time of event: 168.83
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(0.877923,4.27956,3.8027) v=(-3.10672,2.60231,-3.31908)
-energy: 42.532
-momentum: (-9.63082,8.06715,-10.2892)
-
-time of event: 170.359
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.87261,8.25879,-1.27257) v=(0.339906,-4.74802,-2.1865)
-energy: 42.532
-momentum: (1.05371,-14.7189,-6.77815)
-
-time of event: 171.888
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.35285,0.998516,-4.61598) v=(1.18191,-4.99878,-1.02729)
-energy: 42.532
-momentum: (3.66392,-15.4962,-3.18458)
-
-time of event: 173.417
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.54557,-6.6452,-6.18682) v=(2.55747,0.91545,4.47898)
-energy: 42.532
-momentum: (7.92816,2.83789,13.8848)
-
-time of event: 174.946
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.3651,-5.24537,0.66207) v=(1.96352,2.23272,4.31272)
-energy: 42.532
-momentum: (6.08692,6.92144,13.3694)
-
-time of event: 176.475
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(5.36755,-1.83128,7.25672) v=(-2.8136,3.86256,-2.14576)
-energy: 42.532
-momentum: (-8.72216,11.9739,-6.65187)
-
-time of event: 178.005
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(1.06523,4.07502,3.97559) v=(-3.08111,2.83919,-3.14416)
-energy: 42.532
-momentum: (-9.55145,8.8015,-9.74689)
-
-time of event: 179.534
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.64615,8.41648,-0.832187) v=(0.163962,-4.65148,-2.40351)
-energy: 42.532
-momentum: (0.508281,-14.4196,-7.45088)
-
-time of event: 181.063
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.39543,1.30383,-4.50743) v=(1.01666,-4.97891,-1.27156)
-energy: 42.532
-momentum: (3.15164,-15.4346,-3.94182)
-
-time of event: 182.592
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-1.84084,-6.3095,-6.45179) v=(2.65501,0.636549,4.47054)
-energy: 42.532
-momentum: (8.23053,1.9733,13.8587)
-
-time of event: 184.121
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.21897,-5.33614,0.384186) v=(2.09776,1.97662,4.37406)
-energy: 42.532
-momentum: (6.50305,6.12752,13.5596)
-
-time of event: 185.65
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(5.42669,-2.31367,7.07263) v=(-2.732,4.03578,-1.92059)
-energy: 42.532
-momentum: (-8.4692,12.5109,-5.95381)
-
-time of event: 187.179
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(1.24915,3.85751,4.13583) v=(-3.0457,3.06704,-2.95922)
-energy: 42.532
-momentum: (-9.44166,9.50783,-9.17358)
-
-time of event: 188.708
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.40808,8.54738,-0.389158) v=(-0.0125045,-4.54013,-2.61287)
-energy: 42.532
-momentum: (-0.0387639,-14.0744,-8.09989)
-
-time of event: 190.238
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.4272,1.60499,-4.38454) v=(0.848171,-4.94319,-1.51178)
-energy: 42.532
-momentum: (2.62933,-15.3239,-4.68651)
-
-time of event: 191.767
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-2.13025,-5.95372,-6.69622) v=(2.74409,0.355622,4.44786)
-energy: 42.532
-momentum: (8.50669,1.10243,13.7884)
-
-time of event: 193.296
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(2.06579,-5.40993,0.105078) v=(2.22531,1.71422,4.42147)
-energy: 42.532
-momentum: (6.89846,5.31409,13.7066)
-
-time of event: 194.825
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(5.46855,-2.78869,6.86603) v=(-2.6417,4.19616,-1.68929)
-energy: 42.532
-momentum: (-8.18927,13.0081,-5.23681)
-
-time of event: 196.354
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(1.42908,3.62772,4.2829) v=(-3.00059,3.28512,-2.76486)
-energy: 42.532
-momentum: (-9.30182,10.1839,-8.57107)
-
-time of event: 197.883
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.15916,8.65106,0.0551103) v=(-0.188931,-4.41432,-2.81391)
-energy: 42.532
-momentum: (-0.585685,-13.6844,-8.72311)
-
-time of event: 199.412
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.44806,1.90105,-4.24768) v=(0.676982,-4.89173,-1.74719)
-energy: 42.532
-momentum: (2.09864,-15.1644,-5.41627)
+momentum: (8.01825,-13.2726,4.82114)
 
