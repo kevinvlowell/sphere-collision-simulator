@@ -43,13 +43,16 @@ class Event:
     def __init__(self, event_time, event_type, sphere_a, sphere_b, all_spheres, energy, momentum):
 
         self.sphere_names_involved = [sphere_a.name]
-        self.new_sphere_statuses = all_spheres #can (hopefully) index this list to get saved attributes of all spheres at the time of the event
+        self.sphere_status_logs = []
 
         self.timestamp = float(event_time)
         self.type = event_type
 
         if self.type == "colliding":
             self.sphere_names_involved.append(sphere_b.name)
+
+        for sphere in all_spheres:
+            self.sphere_status_logs.append(f"{sphere.name} m={sphere.mass:g} R={sphere.radius:g} p=({sphere.pos_x:g},{sphere.pos_y:g},{sphere.pos_z:g}) v=({sphere.vel_x:g},{sphere.vel_y:g},{sphere.vel_z:g})")
 
         self.energy = energy
         self.momentum = momentum
@@ -108,8 +111,6 @@ def compute_reflection_time(sphere, universe_radius):
 
         #sphere is on border but moving away from border (toward origin) after recent reflection
         if sphere.on_border and (sphere.pos_x*sphere.vel_x + sphere.pos_y*sphere.vel_y + sphere.pos_z*sphere.vel_z) < 0:
-
-            print("HERE")
 
             velocity_magnitude = math.sqrt(sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2)
             #time to reach opposite border = (distance to opposite border)/v = (universe_radius-2*sphere.radius)/v
@@ -201,7 +202,7 @@ def compute_reflection(sphere):
 def compute_energy(sphere_list):
     sum_energy = 0
     for sphere in sphere_list:
-        sum_energy += (0.5 * sphere.mass * (sphere.vel_x**2+sphere.vel_y**2+sphere.vel_z**2)**2)
+        sum_energy += (0.5 * sphere.mass * (sphere.vel_x**2+sphere.vel_y**2+sphere.vel_z**2))
     return sum_energy
 
 
@@ -231,13 +232,11 @@ def run_sim(universe_radius, duration):
 
     #print out all initial conditions
     print("\nHere are the initial conditions.")
-    print("universe radius " + str(universe_radius))
-    print("end simulation " + str(int(duration)))
+    print(f"universe radius {universe_radius:g}")
+    print(f"end simulation {duration:g}")
 
     for sphere in sphere_list:
-        print(sphere.name, "m="+str(sphere.mass), "R="+str(sphere.radius),\
-        "p=(" + str(int(sphere.pos_x)) + "," + str(int(sphere.pos_y)) + "," + str(int(sphere.pos_z)) + ")",\
-        "v=(" + str(int(sphere.vel_x)) + "," + str(int(sphere.vel_y)) + "," + str(int(sphere.vel_z)) + ")")
+        print(f"{sphere.name} m={sphere.mass:g} R={sphere.radius:g} p=({sphere.pos_x:g},{sphere.pos_y:g},{sphere.pos_z:g}) v=({sphere.vel_x:g},{sphere.vel_y:g},{sphere.vel_z:g})")
 
     #calculate initial energy and momentum
     energy = compute_energy(sphere_list)
@@ -267,7 +266,7 @@ def run_sim(universe_radius, duration):
                 s2 = sphere_list[j]
 
                 current_event_time = compute_collision_time(s1,s2)
-                print("collision current event time:",current_event_time)
+                #print("collision current event time:",current_event_time)
                 # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
                 if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2:
                     nearest_event_time = current_event_time
@@ -281,9 +280,9 @@ def run_sim(universe_radius, duration):
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
 
-            print("sphere:",sphere.name)
+            #print("sphere:",sphere.name)
             current_event_time = compute_reflection_time(sphere,universe_radius)
-            print("current event time:",current_event_time)
+            #print("current event time:",current_event_time)
             # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
             if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
                 nearest_event_time = current_event_time
@@ -292,10 +291,10 @@ def run_sim(universe_radius, duration):
 
 
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
-        print("\nnearest event time:",nearest_event_time)
-        print("nearest event type:",next_event_type)
+        #print("\nnearest event time:",nearest_event_time)
+        #print("nearest event type:",next_event_type)
         time_elapsed += nearest_event_time
-        print("time of next event:", time_elapsed)
+        #print("time of next event:", time_elapsed)
 
         if time_elapsed < duration:
 
@@ -340,23 +339,34 @@ def run_sim(universe_radius, duration):
             else:
                 raise Exception("Error: no event type specified")
 
-            for sphere in sphere_list:
-                print(sphere.name, \
-                "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
-                "v=(" + str(round(float(sphere.vel_x),4)) + "," + str(round(float(sphere.vel_y),4)) + "," + str(round(float(sphere.vel_z),4)) + ")")
-            print("\n")
+            #for sphere in sphere_list:
+            #    print(sphere.name, \
+            #    "p=(" + str(round(float(sphere.pos_x),4)) + "," + str(round(float(sphere.pos_y),4)) + "," + str(round(float(sphere.pos_z),4)) + ")",\
+            #    "v=(" + str(round(float(sphere.vel_x),4)) + "," + str(round(float(sphere.vel_y),4)) + "," + str(round(float(sphere.vel_z),4)) + ")")
+            #print("\n")
 
-    #sys.exit(0)
-
-    print("\nHere are the events:")
+    print("\nHere are the events.\n")
 
     for event in event_list:
         report_event(event)
 
+    #terminate simulation after successful error report
+    sys.exit(0)
+
 
 def report_event(event):
-    print("event report")
+    print(f"time of event: {event.timestamp:g}")
 
+    if event.type == "colliding":
+        print(event.type, event.sphere_names_involved[0], event.sphere_names_involved[1])
+    else:
+        print(event.type, event.sphere_names_involved[0])
+
+    for log in event.sphere_status_logs:
+        print(log)
+
+    print(f"energy: {event.energy:g}")
+    print(f"momentum: ({event.momentum[0]:g},{event.momentum[1]:g},{event.momentum[2]:g})\n")
 
 ######################################################################################################
 ######################################################################################################
