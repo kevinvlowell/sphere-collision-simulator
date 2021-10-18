@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 100
 end simulation 100
@@ -17,27 +16,15 @@ tennisball m=3.1 R=1.2 p=(-19.4318,93.949,23.6098) v=(0.857048,-4.94545,-1.49934
 energy: 42.532
 momentum: (2.65685,-15.3309,-4.64794)
 
-time of event: 38.2417
+time of event: 57.2682
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-3.46332,1.80581,-4.32569) v=(-0.246801,-4.36989,-2.87804)
+tennisball m=3.1 R=1.2 p=(12.8433,-92.2886,-32.8527) v=(-0.502542,4.82423,1.97846)
 energy: 42.532
-momentum: (-0.765082,-13.5467,-8.92194)
+momentum: (-1.55788,14.9551,6.13322)
 
-time of event: 56.8737
+time of event: 94.9266
 reflecting tennisball
-tennisball m=3.1 R=1.2 p=(-8.06169,-79.6137,-57.9492) v=(0.60661,4.05802,3.25646)
+tennisball m=3.1 R=1.2 p=(-6.08163,89.384,41.6528) v=(0.14126,-4.63797,-2.43091)
 energy: 42.532
-momentum: (1.88049,12.5798,10.095)
-
-time of event: 75.5056
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(3.24062,-4.00503,2.72492) v=(1.63948,2.78151,4.12496)
-energy: 42.532
-momentum: (5.08239,8.62268,12.7874)
-
-time of event: 94.1375
-reflecting tennisball
-tennisball m=3.1 R=1.2 p=(33.7873,47.8198,79.5809) v=(-1.93724,-2.2807,-4.29948)
-energy: 42.532
-momentum: (-6.00546,-7.07017,-13.3284)
+momentum: (0.437907,-14.3777,-7.53581)
 
