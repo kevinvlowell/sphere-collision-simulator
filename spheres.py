@@ -211,12 +211,11 @@ def compute_momentum(sphere_list):
     momentum_z = 0
     for sphere in sphere_list:
         momentum_x += sphere.mass*sphere.vel_x
-        momentum_y += (sphere.mass*sphere.vel_y)
-        momentum_z += (sphere.mass*sphere.vel_z)
+        momentum_y += sphere.mass*sphere.vel_y
+        momentum_z += sphere.mass*sphere.vel_z
 
-    momentum = [momentum_x,momentum_y,momentum_z]
-
-    return momentum
+    moment = [momentum_x,momentum_y,momentum_z]
+    return moment
 
 # Our main
 def run_sim(universe_radius, duration):
@@ -304,12 +303,11 @@ def run_sim(universe_radius, duration):
 
                 compute_reflection(next_reflecting_sphere)
                 next_reflecting_sphere.on_border = True
-
                 updated_energy = compute_energy(sphere_list)
                 updated_momentum = compute_momentum(sphere_list)
 
                 #create an event and append to event list
-                current_event = Event(time_elapsed, next_event_type, next_reflecting_sphere, None, sphere_list, energy, momentum)
+                current_event = Event(time_elapsed, next_event_type, next_reflecting_sphere, None, sphere_list, energy, updated_momentum)
                 event_list.append(current_event)
 
             elif next_event_type == "colliding":
