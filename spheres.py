@@ -324,20 +324,35 @@ def run_sim(universe_radius, duration):
             #print(simul_collisions)
             if len(simul_collisions) > 2:
                 multi_collisions = 1
+
+                primary_sphere_touch_count = 0
+                previous_primary_sphere = "NA"
+
                 for pairs in simul_collisions:
-                    #print(pairs)
+
                     # Compute new velocities, system energy, and system momentum
                     colliding_sphere1 = pairs[0]
                     colliding_sphere2 = pairs[1]
 
-                    compute_collision(colliding_sphere1, colliding_sphere2)
+                    current_primary_sphere = colliding_sphere1.name
 
-                    updated_energy = compute_energy(sphere_list)
-                    updated_momentum = compute_momentum(sphere_list)
+                    if current_primary_sphere == previous_primary_sphere:
+                        primary_sphere_touch_count += 1
+                    else:
+                        primary_sphere_touch_count = 0
 
-                    # create an event and append to event list
-                    current_event = Event(time_elapsed, next_event_type, colliding_sphere1, colliding_sphere2, sphere_list, updated_energy, updated_momentum)
-                    event_list.append(current_event)
+                    if primary_sphere_touch_count < 2:
+                        compute_collision(colliding_sphere1, colliding_sphere2)
+
+                        updated_energy = compute_energy(sphere_list)
+                        updated_momentum = compute_momentum(sphere_list)
+
+                        # create an event and append to event list
+                        current_event = Event(time_elapsed, next_event_type, colliding_sphere1, colliding_sphere2, sphere_list, updated_energy, updated_momentum)
+                        event_list.append(current_event)
+
+                    previous_primary_sphere = current_primary_sphere
+
                 simul_collisions = []
 
             if next_event_type == "reflecting" and multi_collisions == 0:
