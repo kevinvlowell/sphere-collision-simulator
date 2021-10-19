@@ -31,7 +31,6 @@ class Sphere:
             self.vel_z = float(attributes_list[7])
 
             self.name = attributes_list[8]
-            self.on_border = False
 
         else:
             raise Exception("Attributes not properly specified for sphere creation. Please check input and try again.")
@@ -228,11 +227,6 @@ def run_sim(universe_radius, duration):
     for string in sphere_strings:
         sphere_list.append(Sphere(string))
 
-    #check if any spheres are starting touching border
-    for sphere in sphere_list:
-        if (sphere.pos_x**2 + sphere.pos_y**2 + sphere.pos_z**2) == (universe_radius-sphere.radius)**2:
-            sphere.on_border = True
-
     #print out all initial conditions
     print("Here are the initial conditions.")
     print(f"universe radius {universe_radius:g}")
@@ -252,8 +246,6 @@ def run_sim(universe_radius, duration):
 
     #end simulation once the nearest event would occur beyond existence of universe
     while time_elapsed < duration:
-
-        #print("new sim")
 
         simul_collisions=[]
         checked =0
@@ -281,7 +273,8 @@ def run_sim(universe_radius, duration):
                     next_event_type = "colliding"
                     next_colliding_pair_indices = [i, j]
                     simul_collisions = []
-                    simul_collisions.append([sphere_list[i],sphere_list[j]])
+                    simul_collisions.append([s1,s2])
+
                     #print("initial len"+str(len(simul_collisions)))
                     checked = 1
                     
@@ -290,15 +283,17 @@ def run_sim(universe_radius, duration):
                         #print(len(simul_collisions))
                         simul_collisions.append([sphere_list[i],sphere_list[j]])
 
+                if(current_event_time == nearest_event_time and nearest_event_time > 0) and current_event_time != -2 and current_event_time != 0:
+                    if([s1,s2] not in simul_collisions):
+                        #print(len(simul_collisions))
+                        simul_collisions.append([s1,s2])
+
                 # increment j to look at next possible sphere pair
                 j += 1
 
-        
         # check sphere-to-wall collision times
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
-
-            # print("sphere:",sphere.name)
 
             current_event_time = compute_reflection_time(sphere,universe_radius)
 
@@ -307,16 +302,14 @@ def run_sim(universe_radius, duration):
                 nearest_event_time = current_event_time
                 next_reflecting_sphere = sphere
                 next_event_type = "reflecting"
-                next_reflecting_sphere.name
-                simul_reflections = []
-                simul_reflections.append(sphere)
+
                 checked = 1
 
+        ## DEBUG:
+        # print("Collision pairs:")
+        # for pair in simul_collisions:
+        #     print(f"{pair[0].name}, {pair[1].name}")
 
-            if(current_event_time == nearest_event_time and nearest_event_time > 0) and current_event_time != -2 and current_event_time != 0:
-                simul_reflections.append(sphere)
-
-        #print("checked "+str(checked))
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
         #print("\nnearest event time:",nearest_event_time) #DEBUGGER
         #print("nearest event type:",next_event_type) #DEBUGGER
@@ -347,17 +340,9 @@ def run_sim(universe_radius, duration):
                     event_list.append(current_event)
                 simul_collisions = []
 
-                #reset border flags for all moving spheres
-                for sphere in sphere_list:
-
-                    #adjusts the flags for spheres that were on border last iteration but moved away due to reflection; protects spheres that are stationary on border
-                    if sphere.on_border and (sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2) != 0:
-                        sphere.on_border = False
-
             if next_event_type == "reflecting" and multi_collisions == 0:
                 # Compute new velocities, system energy, and system momentum
                 compute_reflection(next_reflecting_sphere)
-                next_reflecting_sphere.on_border = True
                 updated_energy = compute_energy(sphere_list)
                 updated_momentum = compute_momentum(sphere_list)
 
@@ -380,16 +365,9 @@ def run_sim(universe_radius, duration):
                 event_list.append(current_event)
 
 
-                #reset border flags for all moving spheres
-                for sphere in sphere_list:
-
-                    #adjusts the flags for spheres that were on border last iteration but moved away due to reflection; protects spheres that are stationary on border
-                    if sphere.on_border and (sphere.vel_x**2 + sphere.vel_y**2 + sphere.vel_z**2) != 0:
-                        sphere.on_border = False
-
             elif multi_collisions==0 and (next_event_type != "reflecting" or next_event_type != "colliding"):
                 raise Exception("Error: no event type specified")
-            
+
             simul_collisions = []
 
             # #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
