@@ -9,7 +9,6 @@ xmover m=20 R=3 p=(10,0,0) v=(0.5,0,0)
 energy: 65
 momentum: (10,40,30)
 
-
 Here are the events.
 
 time of event: 94

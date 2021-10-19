@@ -14,7 +14,6 @@ orange m=1.47 R=13.8 p=(-98.452,-75.271,75.675) v=(-1.202,-3.301,-3.38)
 energy: 454.425
 momentum: (-13.1479,-79.5297,65.9106)
 
-
 Here are the events.
 
 time of event: 16.9757

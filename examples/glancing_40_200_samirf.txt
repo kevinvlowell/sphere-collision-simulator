@@ -8,7 +8,6 @@ other m=1 R=5 p=(20,10,0) v=(1,0,0)
 energy: 0.5
 momentum: (1,0,0)
 
-
 Here are the events.
 
 time of event: 13.541

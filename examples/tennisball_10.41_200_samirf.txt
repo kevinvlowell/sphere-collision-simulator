@@ -7,7 +7,6 @@ tennisball m=3.1 R=1.2 p=(4.1,-4.1,4) v=(-1.2,5,1)
 energy: 42.532
 momentum: (-3.72,15.5,3.1)
 
-
 Here are the events.
 
 time of event: 2.15622
