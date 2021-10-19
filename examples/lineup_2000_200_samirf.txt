@@ -1,5 +1,6 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
+
 Here are the initial conditions.
 universe radius 2000
 end simulation 200
@@ -80,3 +81,4 @@ six m=7 R=2 p=(10,0,7) v=(0,0,0)
 sev m=8 R=3 p=(10,-100,8) v=(0,0,0)
 energy: 50
 momentum: (0,-10,0)
+

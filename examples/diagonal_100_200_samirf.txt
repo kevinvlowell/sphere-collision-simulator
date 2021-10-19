@@ -1,5 +1,6 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
+
 Here are the initial conditions.
 universe radius 100
 end simulation 200
@@ -401,3 +402,4 @@ pingpong m=1 R=10 p=(-1.90181,-1.90181,-1.90181) v=(-6.90099,-6.90099,-6.90099)
 marble m=100 R=1 p=(4.44905,4.44905,4.44905) v=(1.90099,1.90099,1.90099)
 energy: 613.5
 momentum: (183.198,183.198,183.198)
+

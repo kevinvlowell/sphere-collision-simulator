@@ -269,10 +269,11 @@ def run_sim(universe_radius, duration):
 
             while j < len(sphere_list):
                 s2 = sphere_list[j]
-
                 current_event_time = compute_collision_time(s1,s2)
-                # print("current event time: " + str(current_event_time))
-                # print("nearest event time: " + str(nearest_event_time))
+                print(str(i) + " " + str(j))
+                print(s1.name + " " + s2.name)
+                print("current event time: " + str(current_event_time))
+                print("nearest event time: " + str(nearest_event_time))
 
                 #print("collision current event time:",current_event_time) DEBUGGER
                 # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
@@ -293,7 +294,9 @@ def run_sim(universe_radius, duration):
                 # increment j to look at next possible sphere pair
                 j += 1
 
-        
+        for col in simul_collisions:
+            print(col[0].name + " and " +col[1].name)
+
         # check sphere-to-wall collision times
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
@@ -440,7 +443,7 @@ universe_radius = float(initial_conditions[1])
 sim_duration = float(initial_conditions[2])
 
 print("Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere")
-print("When complete, use EOF / Ctrl-D to stop entering")
+print("When complete, use EOF / Ctrl-D to stop entering\n")
 
 # Take input
 for line in sys.stdin:
