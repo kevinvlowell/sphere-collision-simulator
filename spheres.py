@@ -1,5 +1,3 @@
-
-  
 # Copyright 2021 Samir Farhat Dominguez safarhat@bu.edu
 # Copyright 2021 Fahad Farid fahd@bu.edu
 # Copyright 2021 Kevin Vogt-Lowell kjv@bu.edu
@@ -33,7 +31,7 @@ class Sphere:
             self.name = attributes_list[8]
 
         else:
-            raise Exception("Attributes not properly specified for sphere creation. Please check input and try again.")
+            sys.exit(1)
 
 
 # Event Class
@@ -248,7 +246,6 @@ def run_sim(universe_radius, duration):
     while time_elapsed < duration:
 
         simul_collisions=[]
-        checked =0
         nearest_event_time = -1
         ## determine the time of the first event by evaluating all possible collision times from starting
         # positions, and choosing event that happens soonest
@@ -263,10 +260,7 @@ def run_sim(universe_radius, duration):
                 s2 = sphere_list[j]
 
                 current_event_time = compute_collision_time(s1,s2)
-                # print("current event time: " + str(current_event_time))
-                # print("nearest event time: " + str(nearest_event_time))
 
-                #print("collision current event time:",current_event_time) DEBUGGER
                 # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
                 if (current_event_time < nearest_event_time or nearest_event_time == -1) and current_event_time != -2 and current_event_time != 0:
                     nearest_event_time = current_event_time
@@ -275,17 +269,14 @@ def run_sim(universe_radius, duration):
                     simul_collisions = []
                     simul_collisions.append([s1,s2])
 
-                    #print("initial len"+str(len(simul_collisions)))
-                    checked = 1
-                    
                 if(current_event_time == nearest_event_time and nearest_event_time > 0) and current_event_time != -2 and current_event_time != 0:
                     if([sphere_list[i],sphere_list[j]] not in simul_collisions):
-                        #print(len(simul_collisions))
+
                         simul_collisions.append([sphere_list[i],sphere_list[j]])
 
                 if(current_event_time == nearest_event_time and nearest_event_time > 0) and current_event_time != -2 and current_event_time != 0:
                     if([s1,s2] not in simul_collisions):
-                        #print(len(simul_collisions))
+
                         simul_collisions.append([s1,s2])
 
                 # increment j to look at next possible sphere pair
@@ -294,7 +285,6 @@ def run_sim(universe_radius, duration):
         # check sphere-to-wall collision times
         for sphere in sphere_list:
             # check when each sphere would next hit the wall if moving and not blocked
-
             current_event_time = compute_reflection_time(sphere,universe_radius)
 
             # compare current event time to value of nearest_event_time to see if this event would happen sooner, and update nearest_event_time if so
@@ -303,25 +293,14 @@ def run_sim(universe_radius, duration):
                 next_reflecting_sphere = sphere
                 next_event_type = "reflecting"
 
-                checked = 1
-
-        ## DEBUG:
-        # print("Collision pairs:")
-        # for pair in simul_collisions:
-        #     print(f"{pair[0].name}, {pair[1].name}")
-
         #make adjustments to sphere velocities based on next occurring event (use nearest_event_time and next_event_type), and add event to event list using event class
-        #print("\nnearest event time:",nearest_event_time) #DEBUGGER
-        #print("nearest event type:",next_event_type) #DEBUGGER
         time_elapsed += nearest_event_time
-        # print("time_elapsed:",time_elapsed)
 
         if time_elapsed < duration:
             #compute new positions for each of the spheres based on event time
             compute_positions(sphere_list, nearest_event_time)
             multi_collisions = 0
-            #print(len(simul_collisions))
-            #print(simul_collisions)
+
             if len(simul_collisions) > 2:
                 multi_collisions = 1
 
@@ -385,12 +364,6 @@ def run_sim(universe_radius, duration):
 
             simul_collisions = []
 
-            # #DEBUGGER: ERASE AFTER 100% SUCCESSFUL TESTING
-            # for sphere in sphere_list:
-            #     print(f"{sphere.name} p=({sphere.pos_x:g},{sphere.pos_y:g},{sphere.pos_z:g}) v=({sphere.vel_x:g},{sphere.vel_y:g},{sphere.vel_z:g})")
-            #
-            # print("\n")
-
     print("\nHere are the events.\n")
 
     for event in event_list:
@@ -427,7 +400,7 @@ simul_reflections =[]
 
 initial_conditions = sys.argv
 if(len(initial_conditions) != 3):
-    raise Exception("Please input initial conditions properly: radius, duration")
+    sys.exit(1)
 
 universe_radius = float(initial_conditions[1])
 sim_duration = float(initial_conditions[2])
