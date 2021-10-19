@@ -1,3 +1,5 @@
+
+  
 # Copyright 2021 Samir Farhat Dominguez safarhat@bu.edu
 # Copyright 2021 Fahad Farid fahd@bu.edu
 # Copyright 2021 Kevin Vogt-Lowell kjv@bu.edu
@@ -226,7 +228,7 @@ def run_sim(universe_radius, duration):
         sphere_list.append(Sphere(string))
 
     #print out all initial conditions
-    print("\nHere are the initial conditions.")
+    print("Here are the initial conditions.")
     print(f"universe radius {universe_radius:g}")
     print(f"end simulation {duration:g}")
 
@@ -272,8 +274,14 @@ def run_sim(universe_radius, duration):
                     next_colliding_pair_indices = [i, j]
                     simul_collisions = []
                     simul_collisions.append([s1,s2])
+
                     #print("initial len"+str(len(simul_collisions)))
                     checked = 1
+                    
+                if(current_event_time == nearest_event_time and nearest_event_time > 0) and current_event_time != -2 and current_event_time != 0:
+                    if([sphere_list[i],sphere_list[j]] not in simul_collisions):
+                        #print(len(simul_collisions))
+                        simul_collisions.append([sphere_list[i],sphere_list[j]])
 
                 if(current_event_time == nearest_event_time and nearest_event_time > 0) and current_event_time != -2 and current_event_time != 0:
                     if([s1,s2] not in simul_collisions):
@@ -282,7 +290,6 @@ def run_sim(universe_radius, duration):
 
                 # increment j to look at next possible sphere pair
                 j += 1
-
 
         # check sphere-to-wall collision times
         for sphere in sphere_list:
@@ -295,6 +302,7 @@ def run_sim(universe_radius, duration):
                 nearest_event_time = current_event_time
                 next_reflecting_sphere = sphere
                 next_event_type = "reflecting"
+
                 checked = 1
 
         ## DEBUG:
@@ -355,6 +363,7 @@ def run_sim(universe_radius, duration):
                 # create an event and append to event list
                 current_event = Event(time_elapsed, next_event_type, colliding_sphere1, colliding_sphere2, sphere_list, updated_energy, updated_momentum)
                 event_list.append(current_event)
+
 
             elif multi_collisions==0 and (next_event_type != "reflecting" or next_event_type != "colliding"):
                 raise Exception("Error: no event type specified")

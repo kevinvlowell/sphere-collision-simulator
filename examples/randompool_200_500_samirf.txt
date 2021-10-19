@@ -1,6 +1,5 @@
 Please enter the mass, radius, x/y/z position, x/y/z velocity and name of each sphere
 When complete, use EOF / Ctrl-D to stop entering
-
 Here are the initial conditions.
 universe radius 200
 end simulation 500
@@ -1225,4 +1224,3 @@ cyan m=6.34 R=18.2 p=(-96.5566,-94.9406,41.4368) v=(-1.48295,3.24389,-3.29769)
 orange m=1.47 R=13.8 p=(-38.0715,-69.4459,-161.561) v=(3.30082,4.28392,-1.90539)
 energy: 454.425
 momentum: (-25.8113,16.0566,-68.2834)
-
