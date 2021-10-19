@@ -226,7 +226,7 @@ def run_sim(universe_radius, duration):
         sphere_list.append(Sphere(string))
 
     #print out all initial conditions
-    print("Here are the initial conditions.")
+    print("\nHere are the initial conditions.")
     print(f"universe radius {universe_radius:g}")
     print(f"end simulation {duration:g}")
 
